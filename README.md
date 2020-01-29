@@ -1,2 +1,2 @@
-# turbo-smts-ivpacks
+# Turbo's MTS/IV Packs
 My repository of my MTS/IV packs
