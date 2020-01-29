@@ -1,0 +1,205 @@
+{
+    "definitions" : [
+        {
+            "subName" : "_yellow",
+            "extraMaterials" : ["minecraft:dye:11:2"]
+        },
+        {
+            "subName" : "_black",
+            "extraMaterials" : ["minecraft:dye:0:2"]
+        }
+    ],
+    
+    "general": {
+        "type" : "car",
+        "openTop" : false,
+        "emptyMass" : 9000,
+        "materials" : ["minecraft:iron_ingot:-1:11", "minecraft:iron_bars:-1:10", "minecraft:iron_trapdoor:-1:3", "minecraft:glass_pane:-1:6"]
+    },
+    
+    "motorized" : {
+        "fuelCapacity" : 50000,
+            "hornSound" : "mtsofficialpack:horn_truck",
+        "instruments" : [
+            
+                {
+                    "pos" : [0.85, 1.12, 2.9375],
+                    "rot" : [0, 0, 0],
+                    "hudpos" : [43.5, 63],
+                    "scale" : 0.045,
+                    "hudScale" : 0.9
+                },
+                {
+				"pos" : [0.40, 1.12, 2.9375],
+				"rot" : [0, 0, 0],
+				"hudpos" : [56.5, 63],
+				"scale" : 0.045,
+				"hudScale" : 0.9
+                },
+                {
+				"pos" : [0.15, 1.24, 2.9375],
+				"rot" : [0, 0, 0],
+				"hudpos" : [66.5, 57],
+				"scale" : 0.015,
+				"hudScale" : 0.45
+                },
+                {
+				"pos" : [0.15, 1.00, 2.9375],
+				"rot" : [0, 0, 0],
+				"hudpos" : [66.5, 69],
+				"scale" : 0.015,
+				"hudScale" : 0.45
+                }
+        ],
+        "controls" : []
+    },
+    
+    "car" : {
+        "isBigTruck" : true,
+        "isFrontWheelDrive" : false,
+        "isRearWheelDrive" : true,
+        "axleRatio" : 4,
+        "dragCoefficient" : 0.5
+    },
+    
+    "parts": [
+        {
+            "pos" : [-1.25, 0.0, 4.0],
+            "types" : ["wheel"],
+            "minValue" : 0.9,
+            "maxValue" : 1.1
+        },
+        {
+            "pos" : [1.25, 0.0, 4.0],
+            "types" : ["wheel"],
+            "minValue" : 0.9,
+            "maxValue" : 1.1
+        },
+        {
+            "pos" : [-1.25, 0.0, -1.4375],
+            "types" : ["wheel"],
+            "minValue" : 0.9,
+            "maxValue" : 1.1
+        },
+        {
+            "pos" : [1.25, 0.0, -1.4375],
+            "types" : ["wheel"],
+            "minValue" : 0.9,
+            "maxValue" : 1.1
+        },
+        {
+            "pos" : [-0.65, 0.625, 2.4375],
+            "types" : ["seat"]
+        },
+        {
+            "pos" : [0.65, 0.625, 2.4375],
+            "types" : ["seat"],
+            "isController" : true
+        },
+        {
+            "pos" : [0, 0.5, 4],
+            "types" : ["engine_car"],
+            "minValue" : 1.4,
+            "maxValue" : 1.6
+        }
+    ],
+    
+    "collision": [
+        {
+            "pos" : [0, 0, 0],
+            "width" : 1.5,
+            "height" : 0.7
+        }
+    ],
+    
+    "rendering": {
+        "numberWindows" : 5,
+        "defaultDisplayText" : "FOOD!!!",
+        "hudBackplaneTexturePercentages" : [0.515625, 1, 0, 1],
+        "hudMouldingTexturePErcentages" : [0.515625, 1, 0, 1],
+        "displayTextMaxLenght" : 8,
+        "textMarkings" : [],
+        "rotatableModelObjects" : [
+            {
+                "partName" : "$Door_L",
+                "rotationPoint" : [1.0625, 0, 3.275625],
+                "rotationAxis" : [0, -1, 0],
+                "rotationVariable" : "door"
+            },
+            {
+                "partName" : "$Window_Door_L",
+                "rotationPoint" : [1.0625, 0, 3.275625],
+                "rotationAxis" : [0, -1, 0],
+                "rotationVariable" : "door"
+            },
+            {
+                "partName" : "$Door_R",
+                "rotationPoint" : [-1.0625, 0, 3.275625],
+                "rotationAxis" : [0, -1, 0],
+                "rotationVariable" : "door"
+            },
+            {
+                "partName" : "$Window_Door_R",
+                "rotationPoint" : [-1.0625, 0, 3.275625],
+                "rotationAxis" : [0, -1, 0],
+                "rotationVariable" : "door"
+            },
+            {
+                "partName" : "$Gas",
+                "rotationPoint" : [0, 0.361451, 2.914554],
+                "rotationAxis" : [1, 0, 0],
+                "rotationVariable" : "throttle"
+            },
+            {
+                "partName" : "$Brake",
+                "rotationPoint" : [-0.1, 0, 0.01],
+                "rotationAxis" : [0.05, 0, 0],
+                "rotationVariable" : "brake"
+            },
+            {
+                "partName" : "$Parking_Brake",
+                "rotationPoint" : [0, 0.386498, 2.653041],
+                "rotationAxis" : [-1, 0, 0],
+                "rotationVariable" : "p_brake"
+            },
+            {
+                "partName" : "$Steeting_Wheel",
+                "rotationPoint" : [0.619618, 0.633528, 3.34614],
+                "rotationAxis" : [0, 0.707, -0.707],
+                "rotationVariable" : "steeringwheel"
+            },
+            {
+                "partName" : "$Door_Back",
+                "rotationPoint" : [-1, 0, -3.275625],
+                "rotationAxis" : [0, -1, 0],
+                "rotationVariable" : "door"
+            },
+            
+            {
+                "partName" : "$Window_Door_Back",
+                "rotationPoint" : [-1, 0, -3.275625],
+                "rotationAxis" : [0, -1, 0],
+                "rotationVariable" : "door"
+            },
+            {
+                "partName" : "$Display_Tray",
+                "rotationPoint" : [-1.0625, 3, 2],
+                "rotationAxis" : [0, 0, -1],
+                "rotationVariable" : "door"
+            },
+            {
+                "partName" : "$Service_Shade",
+                "rotationPoint" : [-1.0625, 10, 2],
+                "rotationAxis" : [0, -1, 0],
+                "rotationVariable" : "door"
+            },
+            {
+                "partName" : "$Clutch",
+                "rotationPoint" : [-0.3, 0, 0.1],
+                "rotationAxis" : [0, -1, 0],
+                "rotationVariable" : "brake"
+            }
+        ]
+    }
+    
+}
