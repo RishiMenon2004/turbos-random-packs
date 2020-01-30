@@ -64,40 +64,40 @@
     
     "parts": [
         {
-            "pos" : [-1.25, 0.0, 4.0],
+            "pos" : [-0.825, 0.125, 4.15],
             "types" : ["wheel"],
             "minValue" : 0.9,
             "maxValue" : 1.1
         },
         {
-            "pos" : [1.25, 0.0, 4.0],
+            "pos" : [0.825, 0.125, 4.15],
             "types" : ["wheel"],
             "minValue" : 0.9,
             "maxValue" : 1.1
         },
         {
-            "pos" : [-1.25, 0.0, -1.4375],
+            "pos" : [-0.825, 0.125, 0.55],
             "types" : ["wheel"],
             "minValue" : 0.9,
             "maxValue" : 1.1
         },
         {
-            "pos" : [1.25, 0.0, -1.4375],
+            "pos" : [0.825, 0.125, 0.55],
             "types" : ["wheel"],
             "minValue" : 0.9,
             "maxValue" : 1.1
         },
         {
-            "pos" : [-0.65, 0.625, 2.4375],
+            "pos" : [-0.635, 0.25, 3],
             "types" : ["seat"]
         },
         {
-            "pos" : [0.65, 0.625, 2.4375],
+            "pos" : [-0.635, 0.25, 3],
             "types" : ["seat"],
             "isController" : true
         },
         {
-            "pos" : [0, 0.5, 4],
+            "pos" : [0, 0.4, 4.7825],
             "types" : ["engine_car"],
             "minValue" : 1.4,
             "maxValue" : 1.6
@@ -122,80 +122,80 @@
         "rotatableModelObjects" : [
             {
                 "partName" : "$Door_L",
-                "rotationPoint" : [1.0625, 0, 3.275625],
+                "rotationPoint" : [1.1065, 0.75, 3.8919],
                 "rotationAxis" : [0, -1, 0],
                 "rotationVariable" : "door"
             },
             {
                 "partName" : "$Window_Door_L",
-                "rotationPoint" : [1.0625, 0, 3.275625],
+                "rotationPoint" : [1.10625, 0.75, 3.8919],
                 "rotationAxis" : [0, -1, 0],
                 "rotationVariable" : "door"
             },
             {
                 "partName" : "$Door_R",
-                "rotationPoint" : [-1.0625, 0, 3.275625],
+                "rotationPoint" : [-1.10625, 0.75, 3.8919],
                 "rotationAxis" : [0, -1, 0],
                 "rotationVariable" : "door"
             },
             {
                 "partName" : "$Window_Door_R",
-                "rotationPoint" : [-1.0625, 0, 3.275625],
+                "rotationPoint" : [-1.10625, 0.75, 3.8919],
                 "rotationAxis" : [0, -1, 0],
                 "rotationVariable" : "door"
             },
             {
                 "partName" : "$Gas",
-                "rotationPoint" : [0, 0.361451, 2.914554],
+                "rotationPoint" : [0.4, 0.20695, 3.7217],
                 "rotationAxis" : [1, 0, 0],
                 "rotationVariable" : "throttle"
             },
             {
                 "partName" : "$Brake",
-                "rotationPoint" : [-0.1, 0, 0.01],
+                "rotationPoint" : [0.61875, 0.20695, 3.7217],
                 "rotationAxis" : [0.05, 0, 0],
                 "rotationVariable" : "brake"
             },
             {
                 "partName" : "$Parking_Brake",
-                "rotationPoint" : [0, 0.386498, 2.653041],
+                "rotationPoint" : [0, 0.54294, 2.5755],
                 "rotationAxis" : [-1, 0, 0],
                 "rotationVariable" : "p_brake"
             },
             {
                 "partName" : "$Steeting_Wheel",
-                "rotationPoint" : [0.619618, 0.633528, 3.34614],
+                "rotationPoint" : [0.72388, 0.88109, 3.6757],
                 "rotationAxis" : [0, 0.707, -0.707],
                 "rotationVariable" : "steeringwheel"
             },
             {
                 "partName" : "$Door_Back",
-                "rotationPoint" : [-1, 0, -3.275625],
-                "rotationAxis" : [0, -1, 0],
+                "rotationPoint" : [-0.525, 1.4625, 1.3688],
+                "rotationAxis" : [0, 1, 0],
                 "rotationVariable" : "door"
             },
             
             {
                 "partName" : "$Window_Door_Back",
-                "rotationPoint" : [-1, 0, -3.275625],
-                "rotationAxis" : [0, -1, 0],
+                "rotationPoint" : [-0.525, 1.4625, 1.3688],
+                "rotationAxis" : [0, 1, 0],
                 "rotationVariable" : "door"
             },
             {
                 "partName" : "$Display_Tray",
-                "rotationPoint" : [-1.0625, 3, 2],
-                "rotationAxis" : [0, 0, -1],
+                "rotationPoint" : [1.0688, 0.90951, 0.55782],
+                "rotationAxis" : [0, 0, 1],
                 "rotationVariable" : "door"
             },
             {
                 "partName" : "$Service_Shade",
-                "rotationPoint" : [-1.0625, 10, 2],
-                "rotationAxis" : [0, -1, 0],
+                "rotationPoint" : [1.1077, 2.141, 0.56378],
+                "rotationAxis" : [0, 0, -1],
                 "rotationVariable" : "door"
             },
             {
                 "partName" : "$Clutch",
-                "rotationPoint" : [-0.3, 0, 0.1],
+                "rotationPoint" : [0.825, 0.20694, 3.7217],
                 "rotationAxis" : [0, -1, 0],
                 "rotationVariable" : "brake"
             }
