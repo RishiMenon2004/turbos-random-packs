@@ -38,7 +38,7 @@ public class MTSPackLoader{
 	//The ID for your pack.  Must be unique to every mod and pack in the world!
 	public static final String MODID="turbosfoodtruckselections";
 	//Short title for your pack.
-	public static final String MODNAME="Turbo Defender's Selctions of Foodtrucks";
+	public static final String MODNAME="Turbo Defender's Selection of Foodtrucks";
 	//Pack version.  May be linked to from other packs to force specific versions.  Otherwise unused.
 	public static final String MODVER="1.0.0";
 	//Mods/packs and the versions needed to run this pack.  Put whatever you want, but always leave MTS in here to ensure players have it loaded.

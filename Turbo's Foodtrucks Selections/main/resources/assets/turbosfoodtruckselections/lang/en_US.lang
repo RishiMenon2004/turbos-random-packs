@@ -1,5 +1,6 @@
 itemGroup.turbosfoodtruckselections=Turbo's Foodtruck Selections
 
-item.turbosfoodtruckselections.foodtruck_yellow=Miner's Foodtruck
-item.turbosfoodtruckselections.foodtruck_black=Gobblr Foodtruck
+item.turbosfoodtruckselections.foodtruck_yellow.name=Miner's Foodtruck
+item.turbosfoodtruckselections.foodtruck_black.name=Gobblr Foodtruck
+
 description.turbosfoodtruckselections.foodtruck=This is a generic model of a foodtruck, it has many variants of famous fastfood companies of the minecraft world, such as Miner's and Gobblr. It is sure to grab attention at any street and you'll be making bucks in no time.
