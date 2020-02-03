@@ -19,7 +19,7 @@
     
     "motorized" : {
         "fuelCapacity" : 50000,
-            "hornSound" : "mtsofficialpack:horn_truck",
+        "hornSound" : "mtsofficialpack:horn_truck",
         "instruments" : [
             
                 {
@@ -51,32 +51,32 @@
         "isBigTruck" : true,
         "isFrontWheelDrive" : false,
         "isRearWheelDrive" : true,
-        "axleRatio" : 4,
+        "axleRatio" : 3,
         "dragCoefficient" : 0.5
     },
     
     "parts": [
         {
-            "pos" : [-0.825, 0.125, 4.15],
+            "pos" : [-0.825, 0.13201, -4.15],
             "types" : ["wheel"],
             "minValue" : 0.9,
             "maxValue" : 1.1
         },
         {
-            "pos" : [0.825, 0.125, 4.15],
+            "pos" : [0.825, 0.13201, -4.15],
             "types" : ["wheel"],
             "minValue" : 0.9,
             "maxValue" : 1.1
         },
         {
-            "pos" : [-0.825, 0.125, 0.55],
+            "pos" : [-0.825, 0.13201, 0.55],
             "types" : ["wheel"],
             "minValue" : 0.9,
             "maxValue" : 1.1,
             "turnWithSteer" : true
         },
         {
-            "pos" : [0.825, 0.125, 0.55],
+            "pos" : [0.825, 0.13201, 0.55],
             "types" : ["wheel"],
             "minValue" : 0.9,
             "maxValue" : 1.1,
@@ -87,7 +87,7 @@
             "types" : ["seat"]
         },
         {
-            "pos" : [-0.635, 0.25, 3],
+            "pos" : [0.635, 0.25, 3],
             "types" : ["seat"],
             "isController" : true
         },
@@ -101,19 +101,48 @@
     
     "collision": [
         {
-            "pos" : [0, 0, 0],
-            "width" : 1.5,
-            "height" : 0.7
-        }
+            "pos" : [0, 1.21365, -0.29735],
+            "width" : 0.599,
+            "height" : 0.6775
+        },
+	{
+            "pos" : [0, 1.21365, 2.09665],
+            "width" : 0.599,
+            "height" : 0.6775
+        },
+	{
+            "pos" : [0, 1.91441, 2.88869],
+            "width" : 0.599,
+            "height" : 0.328
+        },
+	{
+            "pos" : [0, 0.55920, 4.00166],
+            "width" : 0.599,
+            "height" : 0.349
+        },
+
     ],
     
     "rendering": {
-        "numberWindows" : 5,
+        "numberWindows" : 6,
         "defaultDisplayText" : "FOOD!!!",
-        "hudBackplaneTexturePercentages" : [0.515625, 1, 0],
-        "hudMouldingTexturePErcentages" : [0.515625, 1, 0],
+        "hudBackplaneTexturePercentages" : [0.5, 0.6171875, 0.25, 0.3671875],
+        "hudMouldingTexturePErcentages" : [0.5, 0.6171875, 0, 0.1171875],
         "displayTextMaxLenght" : 8,
-        "textMarkings" : [{}],
+        "textMarkings" : [
+            {
+				"pos" : [0, 0.003885, 5.18308],
+				"rot" : [0, 0, 0],
+				"scale" : 0.20,
+				"color" : "#000000"
+			},
+            {
+				"pos" : [0, 0.003885, -1.4912],
+				"rot" : [0, 180, 0],
+				"scale" : 0.20,
+				"color" : "#000000"
+			}
+        ],
         "rotatableModelObjects" : [
             {
                 "partName" : "$Door_L",
@@ -122,7 +151,7 @@
                 "rotationVariable" : "door"
             },
             {
-                "partName" : "$Window_Door_L",
+                "partName" : "$window_Door_L",
                 "rotationPoint" : [1.10625, 0.75, 3.8919],
                 "rotationAxis" : [0, -1, 0],
                 "rotationVariable" : "door"
@@ -134,7 +163,7 @@
                 "rotationVariable" : "door"
             },
             {
-                "partName" : "$Window_Door_R",
+                "partName" : "$window_Door_R",
                 "rotationPoint" : [-1.10625, 0.75, 3.8919],
                 "rotationAxis" : [0, -1, 0],
                 "rotationVariable" : "door"
@@ -170,7 +199,7 @@
                 "rotationVariable" : "door"
             },
             {
-                "partName" : "$Window_Door_Back",
+                "partName" : "$window_Door_Back",
                 "rotationPoint" : [-0.525, 1.4625, 1.3688],
                 "rotationAxis" : [0, 1, 0],
                 "rotationVariable" : "door"
@@ -190,7 +219,13 @@
             {
                 "partName" : "$Clutch",
                 "rotationPoint" : [0.825, 0.20694, 3.7217],
-                "rotationAxis" : [0, -1, 0],
+                "rotationAxis" : [1, 0, 0],
+                "rotationVariable" : "brake"
+            },
+            {
+                "partName" : "$Gearshift",
+                "rotationPoint" : [0.259663, 0.95761, 3.75929],
+                "rotationAxis" : [1, 0, 0],
                 "rotationVariable" : "brake"
             }
         ]
