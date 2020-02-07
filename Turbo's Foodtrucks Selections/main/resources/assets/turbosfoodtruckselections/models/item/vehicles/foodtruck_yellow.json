@@ -1,5 +1,5 @@
 {
-"parent": "mts:item/basic", 
+"parent": "turbosfoodtruckselections:item/vehicles/foodtruck_item", 
     "textures": {
-        "layer0": "turbosfoodtruckselections:items/vehicles/foodtruck_yellow" }
+        "0": "turbosfoodtruckselections:vehicles/foodtruck_yellow" }
 }

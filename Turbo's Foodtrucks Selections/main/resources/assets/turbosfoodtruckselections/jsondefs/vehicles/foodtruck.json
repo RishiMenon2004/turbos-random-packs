@@ -1,16 +1,19 @@
 {
     "definitions" : [
         {
+            "name" : "Miner's Foodtruck",
             "subName" : "_yellow",
             "extraMaterials" : ["minecraft:dye:11:2"]
         },
         {
+            "name" : "Gobblr Foodtruck",
             "subName" : "_black",
             "extraMaterials" : ["minecraft:dye:0:2"]
         }
     ],
     
     "general": {
+        "description" : "This is a generic model of a foodtruck, it has many variants of famous fastfood companies of the minecraft world, like Miner's and Gobblr. It is sure to grab attention at any street and you'll be making bucks in no time.",
         "type" : "car",
         "openTop" : false,
         "emptyMass" : 9000,
@@ -18,30 +21,30 @@
     },
     
     "motorized" : {
-        "fuelCapacity" : 50000,
+        "fuelCapacity" : 35000,
         "hornSound" : "mtsofficialpack:horn_truck",
         "instruments" : [
             
                 {
-                "pos" : [0.82820, 3.88879, 1.08892],
-                "rot" : [-1, 0, 0],
-                "hudpos" : [43.5, 63],
-                "scale" : 0.015,
-                "hudScale" : 0.45
+                    "pos" : [0.838202, 1.22342, 3.88863],
+                    "rot" : [53.5, 0, 0],
+                    "hudpos" : [40, 63],
+                    "scale" : 0.011,
+                    "hudScale" : 0.55
                 },
                 {
-				"pos" : [0.71879, 3.88879, 1.08892],
-				"rot" : [-35, 0, 0],
-				"hudpos" : [56.5, 63],
-				"scale" : 0.045,
-				"hudScale" : 0.9
+                    "pos" : [0.718787, 1.22342, 3.88863],
+                    "rot" : [53.5, 0, 0],
+                    "hudpos" : [50, 63],
+                    "scale" : 0.015,
+                    "hudScale" : 0.65
                 },
                 {
-				"pos" : [0.59708, 3.88879, 1.08892],
-				"rot" : [-35, 0, 0],
-				"hudpos" : [66.5, 57],
-				"scale" : 0.015,
-				"hudScale" : 0.45
+                    "pos" : [0.597075, 1.22342, 3.88863],
+                    "rot" : [53.5, 0, 0],
+                    "hudpos" : [60, 63],
+                    "scale" : 0.011,
+                    "hudScale" : 0.55
                 }
         ],
         "controls" : []
@@ -57,42 +60,42 @@
     
     "parts": [
         {
-            "pos" : [-0.825, 0.13201, -4.15],
+            "pos" : [-0.825, 0.08201, 4.15],
             "types" : ["wheel"],
-            "minValue" : 0.9,
-            "maxValue" : 1.1
+			"minValue" : 0.6,
+			"maxValue" : 0.8,
+			"turnsWithSteer" : true
+        },
+		{
+            "pos" : [0.825, 0.08201, 4.15],
+            "types" : ["wheel"],
+			"minValue" : 0.6,
+			"maxValue" : 0.8,
+			"turnsWithSteer" : true
+		}, 
+        {
+            "pos" : [-0.825, 0.08201, -0.85],
+            "types" : ["wheel"],
+            "minValue" : 0.6,
+            "maxValue" : 0.8
         },
         {
-            "pos" : [0.825, 0.13201, -4.15],
+            "pos" : [0.825, 0.08201, -0.85],
             "types" : ["wheel"],
-            "minValue" : 0.9,
-            "maxValue" : 1.1
+            "minValue" : 0.6,
+            "maxValue" : 0.8
         },
         {
-            "pos" : [-0.825, 0.13201, 0.55],
-            "types" : ["wheel"],
-            "minValue" : 0.9,
-            "maxValue" : 1.1,
-            "turnWithSteer" : true
-        },
-        {
-            "pos" : [0.825, 0.13201, 0.55],
-            "types" : ["wheel"],
-            "minValue" : 0.9,
-            "maxValue" : 1.1,
-            "turnWithSteer" : true
-        },
-        {
-            "pos" : [-0.635, 0.25, 3],
+            "pos" : [-0.635, 0.7, 2.7],
             "types" : ["seat"]
         },
         {
-            "pos" : [0.635, 0.25, 3],
+            "pos" : [0.635, 0.7, 2.7],
             "types" : ["seat"],
             "isController" : true
         },
         {
-            "pos" : [0, 0.4, 4.7825],
+            "pos" : [0, 0.4, 4.6525],
             "types" : ["engine_car"],
             "minValue" : 1.4,
             "maxValue" : 1.6
@@ -100,44 +103,44 @@
     ],
     
     "collision": [
-        {
+    {
             "pos" : [0, 1.21365, -0.29735],
-            "width" : 0.599,
-            "height" : 0.6775
-        },
+            "width" : 1.2,
+            "height" : 1.355
+    },
 	{
             "pos" : [0, 1.21365, 2.09665],
-            "width" : 0.599,
-            "height" : 0.6775
-        },
+            "width" : 1.2,
+            "height" : 1.355
+    },
 	{
             "pos" : [0, 1.91441, 2.88869],
-            "width" : 0.599,
-            "height" : 0.328
-        },
+            "width" : 1.2,
+            "height" : 0.656
+    },
 	{
             "pos" : [0, 0.55920, 4.00166],
-            "width" : 0.599,
-            "height" : 0.349
-        }
+            "width" : 1.2,
+            "height" : 0.698
+    }
 
     ],
     
     "rendering": {
         "numberWindows" : 6,
         "defaultDisplayText" : "FOOD!!!",
-        "hudBackplaneTexturePercentages" : [0.5, 0.6171875, 0.25, 0.3671875],
-        "hudMouldingTexturePErcentages" : [0.5, 0.6171875, 0, 0.1171875],
-        "displayTextMaxLenght" : 8,
+        "hudBackplaneTexturePercentages" : [0.25, 0.5, 0.21875, 0.47070312],
+		"hudMouldingTexturePercentages" : [0.53125, 1, 0, 0.25],
+        "displayTextMaxLength" : 8,
         "textMarkings" : [
             {
-				"pos" : [0, 0.003885, 5.18308],
+				"pos" : [0, 0.043885, 5.18318],
 				"rot" : [0, 0, 0],
 				"scale" : 0.20,
 				"color" : "#000000"
 			},
             {
-				"pos" : [0, 0.003885, -1.4912],
+				"pos" : [0, 0.043885, -1.7922],
 				"rot" : [0, 180, 0],
 				"scale" : 0.20,
 				"color" : "#000000"
@@ -151,7 +154,7 @@
                 "rotationVariable" : "door"
             },
             {
-                "partName" : "$window_Door_L",
+                "partName" : "$Window_Door_L",
                 "rotationPoint" : [1.10625, 0.75, 3.8919],
                 "rotationAxis" : [0, -1, 0],
                 "rotationVariable" : "door"
@@ -159,74 +162,68 @@
             {
                 "partName" : "$Door_R",
                 "rotationPoint" : [-1.10625, 0.75, 3.8919],
-                "rotationAxis" : [0, -1, 0],
+                "rotationAxis" : [0, 1, 0],
                 "rotationVariable" : "door"
             },
             {
-                "partName" : "$window_Door_R",
+                "partName" : "$Window_Door_R",
                 "rotationPoint" : [-1.10625, 0.75, 3.8919],
-                "rotationAxis" : [0, -1, 0],
+                "rotationAxis" : [0, 1, 0],
                 "rotationVariable" : "door"
             },
             {
                 "partName" : "$Gas",
-                "rotationPoint" : [0.4, 0.20695, 3.7217],
-                "rotationAxis" : [1, 0, 0],
+                "rotationPoint" : [0.404134, 0.535195, 3.72654],
+                "rotationAxis" : [-1, 0, 0],
                 "rotationVariable" : "throttle"
             },
             {
                 "partName" : "$Brake",
-                "rotationPoint" : [0.61875, 0.20695, 3.7217],
-                "rotationAxis" : [0.05, 0, 0],
+                "rotationPoint" : [0.680499, 0.536636, 3.72848],
+                "rotationAxis" : [-1, 0, 0],
                 "rotationVariable" : "brake"
             },
             {
                 "partName" : "$Parking_Brake",
-                "rotationPoint" : [0, 0.54294, 2.5755],
-                "rotationAxis" : [-1, 0, 0],
+                "rotationPoint" : [0, 0.542944, 2.47553],
+                "rotationAxis" : [-0.35, 0, 0],
                 "rotationVariable" : "p_brake"
             },
             {
                 "partName" : "$Steering_Wheel",
-                "rotationPoint" : [0.72388, 0.88109, 3.6757],
+                "rotationPoint" : [0.72388, 0.996085, 3.67573],
                 "rotationAxis" : [0, 0.707, -0.707],
                 "rotationVariable" : "steeringwheel"
             },
             {
                 "partName" : "$Door_Back",
-                "rotationPoint" : [-0.525, 1.4625, 1.3688],
+                "rotationPoint" : [-0.510001, 1.0219, -1.66875],
                 "rotationAxis" : [0, 1, 0],
                 "rotationVariable" : "door"
             },
             {
-                "partName" : "$window_Door_Back",
-                "rotationPoint" : [-0.525, 1.4625, 1.3688],
+                "partName" : "$Window_Door_Back",
+                "rotationPoint" : [-0.510001, 1.0219, -1.66875],
                 "rotationAxis" : [0, 1, 0],
                 "rotationVariable" : "door"
             },
             {
                 "partName" : "$Display_Tray",
-                "rotationPoint" : [1.0688, 0.90951, 0.55782],
-                "rotationAxis" : [0, 0, 1],
+                "rotationPoint" : [1.0688, 0.90951, 0.25782],
+                "rotationAxis" : [0, 0, -1.5],
                 "rotationVariable" : "door"
             },
             {
                 "partName" : "$Service_Shade",
-                "rotationPoint" : [1.1077, 2.141, 0.56378],
-                "rotationAxis" : [0, 0, -1],
+                "rotationPoint" : [1.1077, 2.141, 0.26378],
+                "rotationAxis" : [0, 0, 1.5],
                 "rotationVariable" : "door"
             },
             {
-                "partName" : "$Clutch",
-                "rotationPoint" : [0.825, 0.20694, 3.7217],
-                "rotationAxis" : [1, 0, 0],
-                "rotationVariable" : "brake"
-            },
-            {
                 "partName" : "$Gearshift",
-                "rotationPoint" : [0.259663, 0.95761, 3.75929],
-                "rotationAxis" : [1, 0, 0],
-                "rotationVariable" : "brake"
+                "rotationPoint" : [0.259663, 1.07261, 3.75929],
+                "rotationAxis" : [0.2, 0, 0],
+                "rotationVariable" : "gearshift_hvertical"
             }
         ]
     }
