@@ -1,4 +1,4 @@
 # Turbo's MTS/IV Packs
 My repository of my MTS/IV packs
 
-# Note: The jar file for the Foodtrucks pack does not work currently.
+# Note: TFTS is WIP, so expect many changes to come including name changes.
