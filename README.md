@@ -2,6 +2,5 @@
 My repository of my MTS/IV packs.
 
 Now compatible with v16 of MTS/IV!!
-Available to use with FVTM too!!
 
-# Note: TFTS is WIP, so expect many changes to come including name changes.
+# Note: TFTS is WIP, so expect many changes, including the name.
