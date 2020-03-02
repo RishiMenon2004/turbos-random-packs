@@ -1,0 +1,140 @@
+{
+    "definitions" : [
+        {
+            "name" : "Patty Wagon",
+            "subName" : "",
+            "extraMaterials" : []
+        }
+    ],
+    
+    "general": {
+        "description" : "From the world of SpongeBob Sqaurepants I bring you the Patty Wagon",
+        "type" : "car",
+        "openTop" : false,
+        "emptyMass" : 4000,
+        "materials" : ["minecraft:glass_pane:-1:1", "minecraft:bread:0:2"]
+    },
+    
+    "motorized" : {
+        "fuelCapacity" : 35000,
+        "hornSound" : "mtsofficialpack:horn_truck",
+        "instruments" : [],
+        "controls" : []
+    },
+    
+    "car" : {
+        "isBigTruck" : false,
+        "isFrontWheelDrive" : true,
+        "isRearWheelDrive" : true,
+        "axleRatio" : 3.55,
+        "dragCoefficient" : 2
+    },
+    
+    "parts": [
+        {
+            "pos" : [-1.77875, 0.018495, 1.47319],
+            "types" : ["wheel"],
+			"minValue" : 0.35,
+			"maxValue" : 0.65,
+			"turnsWithSteer" : true
+        },
+		{
+            "pos" : [1.77875, 0.018495, 1.47319],
+            "types" : ["wheel"],
+			"minValue" : 0.35,
+			"maxValue" : 0.65,
+			"turnsWithSteer" : true
+		}, 
+        {
+            "pos" : [-1.77875, 0.018495, -0.688044],
+            "types" : ["wheel"],
+            "minValue" : 0.35,
+            "maxValue" : 0.65
+        },
+        {
+            "pos" : [1.77875, 0.018495, -0.688044],
+            "types" : ["wheel"],
+            "minValue" : 0.35,
+            "maxValue" : 0.65
+        },
+        {
+            "pos" : [0.670642, 1.5564, 0.474619],
+            "types" : ["seat"],
+            "isController" : true
+        },
+        {
+            "pos" : [0, 0.4, 1],
+            "types" : ["engine_car"],
+            "minValue" : 0,
+            "maxValue" : 1.25
+        }
+    ],
+    
+    "collision": [
+        {
+            "pos" : [0, 0.16081, 0.25383],
+            "width" : 2.847,
+            "height" : 0.54
+        },
+        {
+            "pos" : [0, 0.607405, 0.25383],
+            "width" : 2.655,
+            "height" : 0.4
+        },
+        {
+            "pos" : [0, 1.007405, 0.25383],
+            "width" : 2.655,
+            "height" : 0.4
+        }
+        
+    ],
+    
+    "rendering": {
+        "numberWindows" : 0,
+        "defaultDisplayText" : "2 GO",
+        "displayTextMaxLength" : 4,
+        "hudBackplaneTexturePercentages" : [0.3, 0.4, 0.03, 0.15],
+		"hudMouldingTexturePercentages" : [0.5, 0.7, 0.03, 0.15],
+        "textMarkings" : [
+            {
+				"pos" : [0, 0.089454, 2.55117],
+				"rot" : [0, 0, 0],
+				"scale" : 0.40,
+				"color" : "#000000"
+			}
+        ],
+        "rotatableModelObjects" : [
+            {
+                "partName" : "$Gear_Shift",
+                "rotationPoint" : [-0.059999, 1.59259, 1.2363],
+                "rotationAxis" : [0.5, 0, 0],
+                "rotationVariable" : "gearshift_hvertical"
+            },
+            {
+                "partName" : "$Steering_Wheel",
+                "rotationPoint" : [0.397408, 1.42129, 1.98554],
+                "rotationAxis" : [0, 0.7, 0],
+                "rotationVariable" : "steeringwheel"
+            },
+            {
+                "partName" : "$Gas",
+                "rotationPoint" : [0.479474, 1.55082, 1.45511],
+                "rotationAxis" : [-0.8, 0, 0],
+                "rotationVariable" : "throttle"
+            },
+            {
+                "partName" : "$Brake",
+                "rotationPoint" : [0.326199, 1.55082, 1.45511],
+                "rotationAxis" : [-0.8, 0, 0],
+                "rotationVariable" : "brake"
+            },
+            {
+                "partName" : "$Parking_Brake",
+                "rotationPoint" : [0.056885, 1.62703, 1.10315],
+                "rotationAxis" : [-0.5, 0, 0],
+                "rotationVariable" : "p_brake"
+            }
+        ]
+    }
+    
+}

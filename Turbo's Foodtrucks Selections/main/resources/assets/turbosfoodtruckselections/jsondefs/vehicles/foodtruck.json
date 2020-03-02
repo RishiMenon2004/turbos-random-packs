@@ -9,6 +9,11 @@
             "name" : "Gobblr Foodtruck",
             "subName" : "_black",
             "extraMaterials" : ["minecraft:dye:0:2"]
+        },
+        {
+            "name" : "Foodtruck Base",
+            "subName" : "_base",
+            "extraMaterials" : []
         }
     ],
     
@@ -54,8 +59,8 @@
         "isBigTruck" : true,
         "isFrontWheelDrive" : false,
         "isRearWheelDrive" : true,
-        "axleRatio" : 3,
-        "dragCoefficient" : 0.5
+        "axleRatio" : 3.55,
+        "dragCoefficient" : 0.45
     },
     
     "parts": [
@@ -97,31 +102,41 @@
         {
             "pos" : [0, 0.4, 4.6525],
             "types" : ["engine_car"],
-            "minValue" : 1.4,
-            "maxValue" : 1.6
+            "minValue" : 1,
+            "maxValue" : 100
+        },
+        {
+            "pos" : [0, 0, 0],
+            "type" : ["custom"],
+            "customType" : ["ftpntminers"]
+        },
+        {
+            "pos" : [-0.70171, 0.796975, -0.960216],
+            "type" : ["custom"],
+            "customType" : ["ft_sink"]
         }
     ],
     
     "collision": [
     {
             "pos" : [0, 1.21365, -0.29735],
-            "width" : 1.2,
-            "height" : 1.355
+            "width" : 2.4,
+            "height" : 2.710
     },
 	{
             "pos" : [0, 1.21365, 2.09665],
-            "width" : 1.2,
-            "height" : 1.355
+            "width" : 2.4,
+            "height" : 2.710
     },
 	{
             "pos" : [0, 1.91441, 2.88869],
-            "width" : 1.2,
-            "height" : 0.656
+            "width" : 2.4,
+            "height" : 1.312
     },
 	{
             "pos" : [0, 0.55920, 4.00166],
-            "width" : 1.2,
-            "height" : 0.698
+            "width" : 2.4,
+            "height" : 1.396
     }
 
     ],
