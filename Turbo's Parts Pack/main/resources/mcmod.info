@@ -1,0 +1,11 @@
+[
+    {
+        "modid": "turbosparts",
+        "name": "Turbo's Parts Pack",
+        "description": "Turbo's pack for parts to use with TFTS",
+        "credits": "Turbo Defender",
+        "logoFile": "vingette.png",
+        "url": "github.com",
+        "updateUrl": ""
+    }
+]

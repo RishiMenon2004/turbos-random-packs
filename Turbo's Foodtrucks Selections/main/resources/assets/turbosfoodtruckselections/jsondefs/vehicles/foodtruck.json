@@ -59,7 +59,7 @@
         "isBigTruck" : true,
         "isFrontWheelDrive" : false,
         "isRearWheelDrive" : true,
-        "axleRatio" : 3.55,
+        "axleRatio" : 1,
         "dragCoefficient" : 0.45
     },
     
@@ -67,27 +67,27 @@
         {
             "pos" : [-0.825, 0.08201, 4.15],
             "types" : ["wheel"],
-			"minValue" : 0.6,
+			"minValue" : 0.7,
 			"maxValue" : 0.8,
 			"turnsWithSteer" : true
         },
 		{
             "pos" : [0.825, 0.08201, 4.15],
             "types" : ["wheel"],
-			"minValue" : 0.6,
+			"minValue" : 0.7,
 			"maxValue" : 0.8,
 			"turnsWithSteer" : true
 		}, 
         {
             "pos" : [-0.825, 0.08201, -0.85],
             "types" : ["wheel"],
-            "minValue" : 0.6,
+            "minValue" : 0.7,
             "maxValue" : 0.8
         },
         {
             "pos" : [0.825, 0.08201, -0.85],
             "types" : ["wheel"],
-            "minValue" : 0.6,
+            "minValue" : 0.7,
             "maxValue" : 0.8
         },
         {
@@ -107,36 +107,90 @@
         },
         {
             "pos" : [0, 0, 0],
-            "type" : ["custom"],
-            "customType" : ["ftpntminers"]
+            "types" : ["custom"],
+            "customTypes" : ["ftpntminers", "ftpntgobblr"],
+            "minValue" : 0,
+            "maxValue" : 7
         },
         {
             "pos" : [-0.70171, 0.796975, -0.960216],
-            "type" : ["custom"],
-            "customType" : ["ft_sink"]
+            "types" : ["custom"],
+            "customTypes" : ["ft_sink"],
+            "minValue" : 0,
+            "maxValue" : 2
         }
     ],
     
     "collision": [
     {
-            "pos" : [0, 1.21365, -0.29735],
+            "pos" : [0, 2.32365, -0.29735],
             "width" : 2.4,
-            "height" : 2.710
+            "height" : 0.5
+    },
+    {
+            "pos" : [0, 2.32365, 1.29735],
+            "width" : 2.4,
+            "height" : 0.5
     },
 	{
-            "pos" : [0, 1.21365, 2.09665],
+            "pos" : [0, 1.21365, 3.09665],
             "width" : 2.4,
             "height" : 2.710
-    },
-	{
-            "pos" : [0, 1.91441, 2.88869],
-            "width" : 2.4,
-            "height" : 1.312
     },
 	{
             "pos" : [0, 0.55920, 4.00166],
             "width" : 2.4,
             "height" : 1.396
+    },
+    {
+            "pos" : [0, 0, -0.29735],
+            "width" : 2.4,
+            "height" : 0.1
+    },
+    {
+            "pos" : [0, 0, 1.49735],
+            "width" : 2.4,
+            "height" : 0.1
+    },
+    {
+            "pos" : [0.8, 0.45, -0.29735],
+            "width" : 0.8,
+            "height" : 0.8
+    },
+    {
+            "pos" : [0.8, 0.45, 0.49735],
+            "width" : 0.8,
+            "height" : 0.8
+    },
+    {
+            "pos" : [0.8, 0.45, 1.29735],
+            "width" : 0.8,
+            "height" : 0.8
+    },
+    {
+            "pos" : [0.8, 0.45, -1.09735],
+            "width" : 0.8,
+            "height" : 0.8
+    },
+    {
+            "pos" : [-0.85, 1.055, -0.29735],
+            "width" : 0.8,
+            "height" : 2.01
+    },
+    {
+            "pos" : [-0.85, 1.055, 0.49735],
+            "width" : 0.8,
+            "height" : 2.01
+    },
+    {
+            "pos" : [-0.85, 1.055, 1.29735],
+            "width" : 0.8,
+            "height" : 2.01
+    },
+    {
+            "pos" : [-0.85, 1.055, -1.09735],
+            "width" : 0.8,
+            "height" : 2.01
     }
 
     ],

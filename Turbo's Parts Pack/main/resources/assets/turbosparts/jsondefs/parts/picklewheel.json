@@ -1,0 +1,13 @@
+{
+  "general": {
+	"name" : "Pickle Wheel",
+    "type" : "wheel",
+		"materials" : ["minecraft:carrot:0:1"]
+  },
+	
+	"wheel" : {
+    "diameter" : 0.65,
+		"motiveFriction" : 0.7,
+		"lateralFriction" : 0.5
+	}
+}
