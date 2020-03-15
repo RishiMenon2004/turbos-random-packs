@@ -1,0 +1,6 @@
+{
+"parent": "turbosparts:item/foodcrate_item", 
+    "textures": {
+        "0": "turbosparts:parts/foodcrate_red"
+    }
+}

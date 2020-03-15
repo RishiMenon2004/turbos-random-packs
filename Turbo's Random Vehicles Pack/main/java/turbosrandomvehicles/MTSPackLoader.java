@@ -1,4 +1,4 @@
-package turbosfoodtruckselections;
+package turbosrandomvehicles;
 
 import java.io.InputStreamReader;
 import java.lang.reflect.Method;
@@ -36,13 +36,13 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 @Mod(modid=MTSPackLoader.MODID, name=MTSPackLoader.MODNAME, version=MTSPackLoader.MODVER, dependencies=MTSPackLoader.DEPS, acceptedMinecraftVersions=MTSPackLoader.MCVERS)
 public class MTSPackLoader{
 	//The ID for your pack.  Must be unique to every mod and pack in the world!
-	public static final String MODID="turbosfoodtruckselections";
+	public static final String MODID="turbosrandomvehicles";
 	//Short title for your pack.
-	public static final String MODNAME="Turbo Defender's Selection of Foodtrucks";
+	public static final String MODNAME="Turbo's Random Vehilces Pack";
 	//Pack version.  May be linked to from other packs to force specific versions.  Otherwise unused.
-	public static final String MODVER="1.0.0";
+	public static final String MODVER="1.0.2";
 	//Mods/packs and the versions needed to run this pack.  Put whatever you want, but always leave MTS in here to ensure players have it loaded.
-	public static final String DEPS="required-after:mts@[15.0.0,);required-after:mtsofficialpack@[1.0.0,);";
+	public static final String DEPS="required-after:mts@[15.0.0,);required-after:mtsofficialpack@[13.0.0,);required-after:turbosparts@[1.0.0,)";
 	//What MC versions this pack supports.  If you're using an older MTSPackLoader file and older JSON you can support 1.10.2-1.12.2.
 	public static final String MCVERS="[1.12.2,]";
 	

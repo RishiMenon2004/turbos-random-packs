@@ -1,5 +1,0 @@
-{
-"parent": "turbosfoodtruckselections:item/vehicles/foodtruck_item", 
-    "textures": {
-        "0": "turbosfoodtruckselections:vehicles/foodtruck_base" }
-}

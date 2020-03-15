@@ -1,9 +1,9 @@
 {
 	"credit": "Turbo Defender",
+    "ambientocclusion": true,
 	"textures": {
 		"0": "turbosparts:items/bucket_yellow",
-		"1": "turbosparts:parts/ftpntminers",
-		"particle": "turbosparts:items/bucket_yellow"
+		"1": "turbosparts:parts/ftpntminers"
 	},
 	"elements": [
 		{
