@@ -3,4 +3,4 @@ My repository of my MTS/IV packs.
 
 Now compatible with v16 of MTS/IV!!
 
-# Note: TFTS is WIP, so expect many changes, including the name.
+# Note: TRVP is WIP, so expect many changes.
