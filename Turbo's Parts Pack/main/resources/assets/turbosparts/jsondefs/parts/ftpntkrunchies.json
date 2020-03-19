@@ -1,9 +1,9 @@
 {
     "general" : {
-        "name" : "Gobblr BodyPaint",
+        "name" : "Krunchies BodyPaint",
         "type": "custom",
         "customType" : "ftbodypaint",
-        "materials" : ["minecraft:bucket:0:1","minecraft:dye:11:4"],
+        "materials" : ["minecraft:bucket:0:1","minecraft:dye:11:12"],
         "modelName" : "ftbodypaint"
     },
     

@@ -1,16 +1,6 @@
 {
     "definitions" : [
         {
-            "name" : "Miner's Foodtruck",
-            "subName" : "_yellow",
-            "extraMaterials" : ["minecraft:dye:11:2"]
-        },
-        {
-            "name" : "Gobblr Foodtruck",
-            "subName" : "_black",
-            "extraMaterials" : ["minecraft:dye:0:2"]
-        },
-        {
             "name" : "Foodtruck Base",
             "subName" : "_base",
             "extraMaterials" : []
@@ -18,7 +8,7 @@
     ],
     
     "general": {
-        "description" : "This is a generic model of a foodtruck, it has many variants of famous fastfood companies of the minecraft world, like Miner's and Gobblr. It is sure to grab attention at any street and you'll be making bucks in no time.",
+        "description" : "This is a generic model of a foodtruck, you can add body paints of famous fastfood companies in the minecraft world, like Miner's, Gobblr and many more to come. It is sure to grab attention at any street and you'll be making bucks in no time.",
         "type" : "car",
         "openTop" : false,
         "emptyMass" : 9000,
@@ -108,9 +98,9 @@
         {
             "pos" : [0, 0, 0],
             "types" : ["custom"],
-            "customTypes" : ["ftpntminers", "ftpntgobblr"],
+            "customTypes" : ["ftbodypaint"],
             "minValue" : 0,
-            "maxValue" : 7
+            "maxValue" : 3
         },
         {
             "pos" : [-0.70171, 0.796975, -0.960216],

@@ -1,0 +1,7 @@
+{
+"parent": "turbosparts:item/paint_bucket", 
+    "textures": {
+        "0": "turbosparts:items/bucket_red",
+        "1": "turbosparts:parts/ftpntsb"
+    }
+}

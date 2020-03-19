@@ -1,11 +1,11 @@
 [
     {
         "modid": "turbosrandomvehicles",
-        "name": "Turbo's Random Vehicles Pack”,
-        "description": "Turbo's pack of random vehicles.”,
+        "name": "Turbo's Random Vehicles Pack",
+        "description": "Turbo's pack of random vehicles",
         "credits": "Turbo Defender",
         "logoFile": "icon.png",
-        "url": "https://github.com/RishiMenon2004/turbos-mts-iv-packs/tree/master/Turbo's%20Foodtrucks%20Selections",
+        "url": "https://github.com/RishiMenon2004/turbos-mts-iv-packs/tree/master/Turbo's%20Random%20Vehicles%20Pack",
         "updateUrl": ""
     }
 ]

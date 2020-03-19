@@ -2,14 +2,14 @@
     "general" : {
         "name" : "Miner's BodyPaint",
         "type": "custom",
-        "customType" : "ftpntminers",
+        "customType" : "ftbodypaint",
         "materials" : ["minecraft:bucket:0:1","minecraft:dye:0:4"],
         "modelName" : "ftbodypaint"
     },
     
     "custom": {
         "width" : 2.78,
-        "height" : 5.54
+        "height" : 2.77
     },
     
     "rendering": {
