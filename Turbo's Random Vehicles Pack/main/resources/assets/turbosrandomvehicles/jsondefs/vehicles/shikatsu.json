@@ -1,0 +1,485 @@
+{
+	"definitions": [
+        {
+		  "name": "Shikatsu - Matte Black and Sky Blue",
+		  "subName": "_matteblue",
+		  "extraMaterials": ["minecraft:dye:16:4", "minecraft:dye:18:2"]
+        },
+        {
+		  "name": "Shikatsu - Matte Black and Crimson Red",
+		  "subName": "_mattered",
+		  "extraMaterials": ["minecraft:dye:16:4", "minecraft:dye:1:2"]
+        },
+        {
+		  "name": "Shikatsu - Matte Black and Dandelion Yellow",
+		  "subName": "_matteyellow",
+		  "extraMaterials": ["minecraft:dye:16:4", "minecraft:dye:11:2"]
+        },
+        {
+		  "name": "Shikatsu - Matte Black and Emerald Green",
+		  "subName": "_mattegreen",
+		  "extraMaterials": ["minecraft:dye:16:4", "minecraft:dye:10:2"]
+        },
+        {
+		  "name": "Shikatsu - Matte Black and Bright Orange",
+		  "subName": "_matteorange",
+		  "extraMaterials": ["minecraft:dye:16:4", "minecraft:dye:18:1", "minecraft:dye:11:1"]
+        }
+    ],
+
+	"general": {
+		"description": "Shikatsu, a kei car, was orginally sold in the Japanese Domestic Market, which then later expanded it's market to the USA, Europe and rest of Asia. This particular version off the car was sold in Asia with a focus to attract new drivers and teens, with a sport edition was also being sold a yew years later.",
+		"type": "car",
+		"openTop": false,
+		"emptyMass": 950,
+		"materials": ["minecraft:iron_ingots:0:5", "minecraft:glass_pane:0:6"]
+	},
+
+	"motorized": {
+		"fuelCapacity": 35000,
+		"hornSound": "mtsofficialpack:horn_car",
+		"isTrailer": false,
+		"instruments": [
+          {
+            "pos": [
+              -0.403125,
+              0.904375,
+              1.854699
+            ],
+            "rot": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": 0.015,
+            "hudX": 150,
+            "hudY": 38,
+            "hudScale": 0.5,
+            "optionalPartNumber": 0
+          },
+          {
+            "pos": [
+              -0.503125,
+              0.919375,
+              1.854699
+            ],
+            "rot": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": 0.01,
+            "hudX": 200,
+            "hudY": 25,
+            "hudScale": 0.3,
+            "optionalPartNumber": 0
+          },
+          {
+            "pos": [
+              -0.603125,
+              0.904375,
+              1.854699
+            ],
+            "rot": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": 0.015,
+            "hudX": 250,
+            "hudY": 38,
+            "hudScale": 0.5,
+            "optionalPartNumber": 0
+          }
+        ]
+	},
+
+	"car": {
+		"isBigTruck": false,
+		"isFrontWheelDrive": true,
+		"isRearWheelDrive": false,
+		"axleRatio": 2.66,
+		"dragCoefficient": 2
+	},
+
+	"parts": [
+        {
+            "translationPosition" : [0, -1, 0],
+            "translationVariable" : "inertia",
+            "translationClampMin" : 0,
+            "translationClampMax" : 1,
+			"pos": [-0.893751, 0.0, 2.28125],
+			"types": ["wheel"],
+			"minValue": 0.5,
+			"maxValue": 0.625,
+			"turnsWithSteer": true
+		},
+		{   
+            "translationPosition" : [0, -1, 0],
+            "translationVariable" : "inertia",
+            "translationClampMin" : 0,
+            "translationClampMax" : 1,
+			"pos": [0.893751, 0.0, 2.28125],
+			"types": ["wheel"],
+			"minValue": 0.5,
+			"maxValue": 0.625,
+			"turnsWithSteer": true
+		},
+		{   
+            "translationPosition" : [0, 1, 0],
+            "translationVariable" : "inertia",
+            "translationClampMin" : 1,
+            "translationClampMax" : 0,
+			"pos": [-0.893751, 0, 0],
+			"types": ["wheel"],
+			"minValue": 0.5,
+			"maxValue": 0.625
+		},
+		{   
+            "translationPosition" : [0, 1, 0],
+            "translationVariable" : "inertia",
+            "translationClampMin" : 1,
+            "translationClampMax" : 0,
+			"pos": [0.893751, 0, 0],
+			"types": ["wheel"],
+			"minValue": 0.5,
+			"maxValue": 0.625
+		},
+		{
+			"pos": [0.503125, 0.4064, 1.074619],
+			"types": ["seat"],
+            "dismountPos": [1, 0.4064, 1.074619]
+		},
+		{
+			"pos": [-0.503125, 0.4064, 1.074619],
+			"types": ["seat"],
+            "dismountPos": [-1, 0.4064, 1.074619],
+			"isController": true
+		},
+		{
+			"pos": [0.503125, 0.5064, 0.074619],
+			"types": ["seat"],
+            "dismountPos": [1, 0.5064, 0.074619]
+		},
+		{
+			"pos": [-0.503125, 0.5064, 0.074619],
+			"types": ["seat"],
+            "dismountPos": [-1, 0.5064, 0.074619]
+		},
+		{
+			"pos": [0.312501, 0.273438, 2.43359],
+            "rot": [0, 90, 0],
+			"types": ["engine_car"],
+			"minValue": 0.25,
+			"maxValue": 0.35
+		}
+	],
+
+	"collision": [
+        {
+          "pos": [
+            0.53125,
+            0.62081,
+            2.5
+          ],
+          "width": 1.0625,
+          "height": 0.1,
+          "isInterior": false,
+          "collidesWithLiquids": false
+        },
+        {
+          "pos": [
+            -0.53125,
+            0.62081,
+            2.5
+          ],
+          "width": 1.0625,
+          "height": 0.1,
+          "isInterior": false,
+          "collidesWithLiquids": false
+        },
+        {
+          "pos": [
+            0.0,
+            1.8,
+            0.8
+          ],
+          "width": 2.125,
+          "height": 0.1,
+          "isInterior": false,
+          "collidesWithLiquids": false
+        },
+        {
+          "pos": [
+            0.0,
+            1.55,
+            0.0
+          ],
+          "width": 1.0625,
+          "height": 0.1,
+          "isInterior": false,
+          "collidesWithLiquids": false
+        },
+        {
+          "pos": [
+            0.0,
+            1.5,
+            1.06125
+          ],
+          "width": 1.0625,
+          "height": 0.1,
+          "isInterior": false,
+          "collidesWithLiquids": false
+        }
+    ],
+
+	"rendering": {
+		"numberWindows": 0,
+		"defaultDisplayText": "Shikatsu",
+		"panelTexture" : "turbosparts:textures/guis/car_panel.png",
+        "hudTexture" : "turbosparts:textures/guis/car_hud.png",
+        "panelTextColor" : "#00DEDE",
+        "panelLitTextColor" : "#00FFFF",
+		"displayTextMaxLength": 10,
+		"textMarkings": [
+      {
+        "pos": [
+          0.0,
+          0.295685,
+          -0.737452
+        ],
+        "rot": [
+          -2.25,
+          180.0,
+          0.0
+        ],
+        "scale": 0.15,
+        "color": "#000000"
+      },
+      {
+        "pos": [
+          0.0,
+          0.300813,
+          3.07531
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": 0.15,
+        "color": "#000000"
+      }
+    ],
+		"rotatableModelObjects": [
+            {
+				"partName": "%$Gearshift",
+				"rotationPoint": [-0.101562, 0.66324, 1.846411],
+				"rotationAxis": [-1, 0, 0],
+				"rotationVariable": "engine_gearshift_1"
+			},
+			{
+				"partName": "%$Gearshift",
+				"rotationPoint": [-0.101562, 0.66324, 1.846411],
+				"rotationAxis": [300, 0, 0],
+				"rotationVariable": "p_brake",
+				"rotationClampMin": 0.0,
+				"rotationClampMax": 20
+			},
+			{
+				"partName": "$Steering_Wheel",
+				"rotationPoint": [-0.5, 0.818314, 1.70177],
+				"rotationAxis": [0, 0.25, -1],
+				"rotationVariable": "steering_wheel",
+				"rotationClampMin": -30.0,
+				"rotationClampMax": 30.0
+			},
+			{
+				"partName": "$Hood",
+				"rotationPoint": [0, 0.885944, 2.15792],
+				"rotationAxis": [-60, 0, 0],
+				"rotationVariable": "hood",
+				"rotationClampMin": 0.0,
+				"rotationClampMax": 0.0
+			},
+			{
+				"partName": "$Hood",
+				"rotationPoint": [0, 0.885944, 2.15792],
+				"rotationAxis": [-60, 0, 0],
+				"rotationVariable": "door",
+				"rotationClampMin": 0.0,
+				"rotationClampMax": 60.0
+			},
+			{
+				"partName": "$Trunk",
+				"rotationPoint": [0, 1.87931, -0.219932],
+				"rotationAxis": [90, 0, 0],
+				"rotationVariable": "door",
+				"rotationClampMin": 0.0,
+				"rotationClampMax": 0.0
+			},
+			{
+				"partName": "$Window_Trunk",
+				"rotationPoint": [0, 1.87931, -0.219932],
+				"rotationAxis": [90, 0, 0],
+				"rotationVariable": "door",
+				"rotationClampMin": 0.0,
+				"rotationClampMax": 0.0
+			},
+			{
+				"partName": "$Door_FR",
+				"rotationPoint": [-0.976074, 0.859376, 2.0957],
+				"rotationAxis": [0, 60, 0],
+				"rotationVariable": "door",
+				"rotationClampMin": 0.0,
+				"rotationClampMax": 0.0
+			},
+			{
+				"partName": "$Door_FL",
+				"rotationPoint": [0.976074, 0.859376, 2.0957],
+				"rotationAxis": [0, -60, 0],
+				"rotationVariable": "door",
+				"rotationClampMin": 0.0,
+				"rotationClampMax": 0.0
+			},
+			{
+				"partName": "$Door_BR",
+				"rotationPoint": [-0.970703, 0.857422, 0.902344],
+				"rotationAxis": [0, 60, 0],
+				"rotationVariable": "door",
+				"rotationClampMin": 0.0,
+				"rotationClampMax": 0.0
+			},
+			{
+				"partName": "$Door_BL",
+				"rotationPoint": [0.970703, 0.857422, 0.902344],
+				"rotationAxis": [0, -60, 0],
+				"rotationVariable": "door",
+				"rotationClampMin": 0.0,
+				"rotationClampMax": 0.0
+			},
+			{
+				"partName": "$Window_Door_FR",
+				"rotationPoint": [-0.976074, 0.859376, 2.0957],
+				"rotationAxis": [0, 60, 0],
+				"rotationVariable": "door",
+				"rotationClampMin": 0.0,
+				"rotationClampMax": 0.0
+			},
+			{
+				"partName": "$Window_Door_FL",
+				"rotationPoint": [0.976074, 0.859376, 2.0957],
+				"rotationAxis": [0, -60, 0],
+				"rotationVariable": "door",
+				"rotationClampMin": 0.0,
+				"rotationClampMax": 0.0
+			},
+			{
+				"partName": "$Window_Door_BR",
+				"rotationPoint": [-0.970703, 0.857422, 0.902344],
+				"rotationAxis": [0, 60, 0],
+				"rotationVariable": "door",
+				"rotationClampMin": 0.0,
+				"rotationClampMax": 0.0
+			},
+			{
+				"partName": "$Window_Door_BL",
+				"rotationPoint": [0.970703, 0.857422, 0.902344],
+				"rotationAxis": [0, -60, 0],
+				"rotationVariable": "door",
+				"rotationClampMin": 0.0,
+				"rotationClampMax": 0.0
+			},
+			{
+				"partName": "$Hubs_B",
+				"rotationPoint": [0, 0, 0],
+				"rotationAxis": [1, 0, 0],
+				"rotationVariable": "engine_driveshaft_rotation_1",
+				"rotationClampMin": 0.0,
+				"rotationClampMax": 0.0
+			},
+			{
+				"partName": "$Hubs_FL",
+				"rotationPoint": [0.893751, 0, 2.28125],
+				"rotationAxis": [0, 1, 0],
+				"rotationVariable": "steering_wheel",
+				"rotationClampMin": 0.0,
+				"rotationClampMax": 0.0
+			},
+			{
+				"partName": "$Hubs_FR",
+				"rotationPoint": [-0.893751, 0, 2.28125],
+				"rotationAxis": [0, 1, 0],
+				"rotationVariable": "steering_wheel",
+				"rotationClampMin": 0.0,
+				"rotationClampMax": 0.0
+			},
+			{
+				"partName": "$Hubs_FL",
+				"rotationPoint": [0, 0, 2.28125],
+				"rotationAxis": [1, 0, 0],
+				"rotationVariable": "engine_driveshaft_rotation_1",
+				"rotationClampMin": 0.0,
+				"rotationClampMax": 0.0
+			},
+			{
+				"partName": "$Hubs_FR",
+				"rotationPoint": [0, 0, 2.28125],
+				"rotationAxis": [1, 0, 0],
+				"rotationVariable": "engine_driveshaft_rotation_1",
+				"rotationClampMin": 0.0,
+				"rotationClampMax": 0.0
+			},
+			{
+				"partName": "$TurnRight",
+				"rotationPoint": [-0.568337, 0.824218, 1.73481],
+				"rotationAxis": [0, 0, 10],
+				"rotationVariable": "Rightturnlight",
+				"rotationClampMin": 0.0,
+				"rotationClampMax": 0.0
+			},
+			{
+				"partName": "$TurnRight",
+				"rotationPoint": [-0.431661, 0.824218, 1.73481],
+				"rotationAxis": [0, 0, -10],
+				"rotationVariable": "Leftturnlight",
+				"rotationClampMin": 0.0,
+				"rotationClampMax": 0.0
+			},
+			{
+				"partName": "$TurnLeft",
+				"rotationPoint": [-0.431661, 0.824218, 1.73481],
+				"rotationAxis": [0, 0, -10],
+				"rotationVariable": "Headlight",
+				"rotationClampMin": 0.0,
+				"rotationClampMax": 0.0
+			},
+			{
+				"partName": "$Gas",
+				"rotationPoint": [-0.640625, 0.484375, 2.05469],
+				"rotationAxis": [-30, 0, 0],
+				"rotationVariable": "throttle",
+				"rotationClampMin": 0.0,
+				"rotationClampMax": 0.0
+			},
+			{
+				"partName": "$Brake",
+				"rotationPoint": [-0.453125, 0.484375, 2.05469],
+				"rotationAxis": [-30, 0, 0],
+				"rotationVariable": "brake",
+				"rotationClampMin": 0.0,
+                "rotationClampMax": 0.0
+			}
+		],
+		"translatableModelObjects": [
+            {
+                "partName": "%$Gearshift",
+                "translationAxis": [0, 100, 0],
+                "translationVariable": "p_brake",
+                "translationClampMin": 0.0,
+                "translationClampMax": 0.005
+            }
+        ]
+	}
+
+}

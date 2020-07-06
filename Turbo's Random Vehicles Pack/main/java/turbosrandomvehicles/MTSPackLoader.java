@@ -42,7 +42,7 @@ public class MTSPackLoader{
 	//Pack version.  May be linked to from other packs to force specific versions.  Otherwise unused.
 	public static final String MODVER="1.0.2";
 	//Mods/packs and the versions needed to run this pack.  Put whatever you want, but always leave MTS in here to ensure players have it loaded.
-	public static final String DEPS="required-after:mts@[15.0.0,);required-after:mtsofficialpack@[13.0.0,);required-after:turbosparts@[1.0.0,)";
+	public static final String DEPS="required-after:mts@[18.1.4,);required-after:mtsofficialpack@[16.0.0,);required-after:turbosparts@[1.2.0,);required-after:unuparts@[3.4.1,)";
 	//What MC versions this pack supports.  If you're using an older MTSPackLoader file and older JSON you can support 1.10.2-1.12.2.
 	public static final String MCVERS="[1.12.2,]";
 	

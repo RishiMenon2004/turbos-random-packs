@@ -1,0 +1,5 @@
+{
+"parent": "mts:item/basic",
+    "textures": {
+        "layer0": "turbosrandomvehicles:items/vehicles/shikatsu_matteorange" }
+}

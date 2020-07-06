@@ -78,6 +78,7 @@
         "isBigTruck" : true,
         "isFrontWheelDrive" : false,
         "isRearWheelDrive" : true,
+        "hasCruiseControl" : true,
         "axleRatio" : 1,
         "dragCoefficient" : 0.45
     },
@@ -112,13 +113,15 @@
         {
             "pos" : [-0.635, 0.7, 2.7],
             "rot" : [0, 0, 0],
-            "types" : ["seat"]
+            "types" : ["seat"],
+            "dismountPos": [-1.635, 0.7, 2.7]
         },
         {
             "pos" : [0.635, 0.7, 2.7],
             "rot" : [0, 0, 0],
             "types" : ["seat"],
-            "isController" : true
+            "isController" : true,
+            "dismountPos": [1.635, 0.7, 2.7]
         },
         {
             "pos" : [0, 0.4, 4.6525],
@@ -142,7 +145,7 @@
         },
         {
             "pos" : [-0.758032, 0.046877, 1.80008],
-            "rot" : [0, 90, 0],
+            "rot" : [0, -90, 0],
             "types" : ["furnace"],
             "customTypes" : ["ft_oven"],
             "minValue" : 0,
@@ -227,8 +230,6 @@
     "rendering": {
         "defaultDisplayText" : "FOOD!!!",
         "displayTextMaxLength" : 8,
-        "hudBackplaneTexturePercentages" : [0.25, 0.5, 0.21875, 0.47070312],
-		"hudMouldingTexturePercentages" : [0.53125, 1, 0, 0.25],
 		"panelTexture" : "turbosparts:textures/guis/foodtruck_panel.png",
         "textMarkings" : [
             {
