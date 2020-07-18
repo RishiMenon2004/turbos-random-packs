@@ -469,6 +469,38 @@
 				"rotationVariable": "brake",
 				"rotationClampMin": 0.0,
                 "rotationClampMax": 0.0
+			},
+			{
+				"partName": "$Axle_FL",
+				"rotationPoint": [0.488282, 0.108399, 2.28125],
+				"rotationAxis": [1, 0, -0.29],
+				"rotationVariable": "engine_driveshaft_rotation_1",
+				"rotationClampMin": 0.0,
+				"rotationClampMax": 0.0
+			},
+			{
+				"partName": "$Axle_FR",
+				"rotationPoint": [0.171876, 0.118165, 2.28125],
+				"rotationAxis": [1, 0, -0.11],
+				"rotationVariable": "engine_driveshaft_rotation_1",
+				"rotationClampMin": 0.0,
+				"rotationClampMax": 0.0
+			},
+			{
+				"partName": "$Axle_BL",
+				"rotationPoint": [0.111328, 0.085937, 0],
+				"rotationAxis": [1, 0, -0.11],
+				"rotationVariable": "engine_driveshaft_rotation_1",
+				"rotationClampMin": 0.0,
+				"rotationClampMax": 0.0
+			},
+			{
+				"partName": "$Axle_BR",
+				"rotationPoint": [-0.105469, 0.085938, 0],
+				"rotationAxis": [1, 0, -0.11],
+				"rotationVariable": "engine_driveshaft_rotation_1",
+				"rotationClampMin": 0.0,
+				"rotationClampMax": 0.0
 			}
 		],
 		"translatableModelObjects": [
