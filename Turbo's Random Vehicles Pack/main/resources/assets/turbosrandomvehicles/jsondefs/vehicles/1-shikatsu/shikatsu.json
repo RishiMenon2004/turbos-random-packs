@@ -1,29 +1,29 @@
 {
 	"definitions": [
         {
-		  "name": "Shikatsu - Matte Black and Sky Blue",
+		  "name": "Shikatsu - §8Matte Black §rand §bSky Blue",
 		  "subName": "_matteblue",
-		  "extraMaterials": ["minecraft:dye:16:4", "minecraft:dye:18:2"]
+		  "extraMaterials": ["minecraft:dye:0:4", "minecraft:dye:12:2"]
         },
         {
-		  "name": "Shikatsu - Matte Black and Crimson Red",
+		  "name": "Shikatsu - §8Matte Black §rand §cCrimson Red",
 		  "subName": "_mattered",
-		  "extraMaterials": ["minecraft:dye:16:4", "minecraft:dye:1:2"]
+		  "extraMaterials": ["minecraft:dye:0:4", "minecraft:dye:1:2"]
         },
         {
-		  "name": "Shikatsu - Matte Black and Dandelion Yellow",
+		  "name": "Shikatsu - §8Matte Black §rand §eDandelion Yellow",
 		  "subName": "_matteyellow",
-		  "extraMaterials": ["minecraft:dye:16:4", "minecraft:dye:11:2"]
+		  "extraMaterials": ["minecraft:dye:0:4", "minecraft:dye:11:2"]
         },
         {
-		  "name": "Shikatsu - Matte Black and Emerald Green",
+		  "name": "Shikatsu - §8Matte Black §rand §aEmerald Green",
 		  "subName": "_mattegreen",
-		  "extraMaterials": ["minecraft:dye:16:4", "minecraft:dye:10:2"]
+		  "extraMaterials": ["minecraft:dye:0:4", "minecraft:dye:10:2"]
         },
         {
-		  "name": "Shikatsu - Matte Black and Bright Orange",
+		  "name": "Shikatsu - §8Matte Black §rand §9Bright Orange",
 		  "subName": "_matteorange",
-		  "extraMaterials": ["minecraft:dye:16:4", "minecraft:dye:18:1", "minecraft:dye:11:1"]
+		  "extraMaterials": ["minecraft:dye:0:4", "minecraft:dye:14:2"]
         }
     ],
 
@@ -106,8 +106,8 @@
         {
             "translationPosition" : [0, -1, 0],
             "translationVariable" : "inertia",
-            "translationClampMin" : 0,
-            "translationClampMax" : 1,
+            "translationClampMin" : 0.1,
+            "translationClampMax" : 0.1,
 			"pos": [-0.893751, 0.0, 2.28125],
 			"types": ["wheel"],
 			"minValue": 0.5,
@@ -117,8 +117,8 @@
 		{   
             "translationPosition" : [0, -1, 0],
             "translationVariable" : "inertia",
-            "translationClampMin" : 0,
-            "translationClampMax" : 1,
+            "translationClampMin" : 0.1,
+            "translationClampMax" : 0.1,
 			"pos": [0.893751, 0.0, 2.28125],
 			"types": ["wheel"],
 			"minValue": 0.5,
@@ -128,8 +128,8 @@
 		{   
             "translationPosition" : [0, 1, 0],
             "translationVariable" : "inertia",
-            "translationClampMin" : 1,
-            "translationClampMax" : 0,
+            "translationClampMin" : 0.1,
+            "translationClampMax" : 0.1,
 			"pos": [-0.893751, 0, 0],
 			"types": ["wheel"],
 			"minValue": 0.5,
@@ -138,8 +138,8 @@
 		{   
             "translationPosition" : [0, 1, 0],
             "translationVariable" : "inertia",
-            "translationClampMin" : 1,
-            "translationClampMax" : 0,
+            "translationClampMin" : 0.1,
+            "translationClampMax" : 0.1,
 			"pos": [0.893751, 0, 0],
 			"types": ["wheel"],
 			"minValue": 0.5,
@@ -148,23 +148,23 @@
 		{
 			"pos": [0.503125, 0.4064, 1.074619],
 			"types": ["seat"],
-            "dismountPos": [1, 0.4064, 1.074619]
+            "dismountPos": [1.5, 0.4064, 1.074619]
 		},
 		{
 			"pos": [-0.503125, 0.4064, 1.074619],
 			"types": ["seat"],
-            "dismountPos": [-1, 0.4064, 1.074619],
+            "dismountPos": [-1.5, 0.4064, 1.074619],
 			"isController": true
 		},
 		{
 			"pos": [0.503125, 0.5064, 0.074619],
 			"types": ["seat"],
-            "dismountPos": [1, 0.5064, 0.074619]
+            "dismountPos": [1.5, 0.5064, 0.074619]
 		},
 		{
 			"pos": [-0.503125, 0.5064, 0.074619],
 			"types": ["seat"],
-            "dismountPos": [-1, 0.5064, 0.074619]
+            "dismountPos": [-1.5, 0.5064, 0.074619]
 		},
 		{
 			"pos": [0.312501, 0.273438, 2.43359],
@@ -172,7 +172,22 @@
 			"types": ["engine_car"],
 			"minValue": 0.25,
 			"maxValue": 0.35
-		}
+		},
+        {
+            "pos": [0, 1.1507, 1.14775],
+            "types": ["custom"],
+            "customTypes": ["shikatsu_decal_stripe"]
+        },
+        {
+            "pos": [0.55, 1.1507, 1.14775],
+            "types": ["custom"],
+            "customTypes": ["shikatsu_decal_stripe"]
+        },
+        {
+            "pos": [-0.55, 1.1507, 1.14775],
+            "types": ["custom"],
+            "customTypes": ["shikatsu_decal_stripe"]
+        }
 	],
 
 	"collision": [
@@ -236,8 +251,9 @@
 	"rendering": {
 		"numberWindows": 0,
 		"defaultDisplayText": "Shikatsu",
-		"panelTexture" : "turbosparts:textures/guis/car_panel.png",
+        "textLighted" : true,
         "hudTexture" : "turbosparts:textures/guis/car_hud.png",
+		"panelTexture" : "turbosparts:textures/guis/car_panel.png",
         "panelTextColor" : "#00DEDE",
         "panelLitTextColor" : "#00FFFF",
 		"displayTextMaxLength": 10,
@@ -473,7 +489,7 @@
 			{
 				"partName": "$Axle_FL",
 				"rotationPoint": [0.488282, 0.108399, 2.28125],
-				"rotationAxis": [1, 0, -0.29],
+				"rotationAxis": [1, 0, 0],//[1, 0, 0.29],
 				"rotationVariable": "engine_driveshaft_rotation_1",
 				"rotationClampMin": 0.0,
 				"rotationClampMax": 0.0
@@ -481,7 +497,7 @@
 			{
 				"partName": "$Axle_FR",
 				"rotationPoint": [0.171876, 0.118165, 2.28125],
-				"rotationAxis": [1, 0, -0.11],
+				"rotationAxis": [1, 0, 0],//[1, 0, 0.11],
 				"rotationVariable": "engine_driveshaft_rotation_1",
 				"rotationClampMin": 0.0,
 				"rotationClampMax": 0.0
@@ -489,7 +505,7 @@
 			{
 				"partName": "$Axle_BL",
 				"rotationPoint": [0.111328, 0.085937, 0],
-				"rotationAxis": [1, 0, -0.11],
+				"rotationAxis": [1, 0, 0],//[1, 0, 0.11],
 				"rotationVariable": "engine_driveshaft_rotation_1",
 				"rotationClampMin": 0.0,
 				"rotationClampMax": 0.0
@@ -497,7 +513,7 @@
 			{
 				"partName": "$Axle_BR",
 				"rotationPoint": [-0.105469, 0.085938, 0],
-				"rotationAxis": [1, 0, -0.11],
+				"rotationAxis": [1, 0, 0],//[1, 0, 0.11],
 				"rotationVariable": "engine_driveshaft_rotation_1",
 				"rotationClampMin": 0.0,
 				"rotationClampMax": 0.0

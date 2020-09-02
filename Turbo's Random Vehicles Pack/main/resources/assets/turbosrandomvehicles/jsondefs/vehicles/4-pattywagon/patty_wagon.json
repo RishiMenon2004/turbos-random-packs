@@ -121,28 +121,32 @@
         {
             "pos" : [-1.77875, 0.018495, 1.47319],
             "types" : ["wheel"],
+            "customTypes": ["pickle_wheel"],
 			"minValue" : 0.35,
-			"maxValue" : 0.65,
+			"maxValue" : 0.6,
 			"turnsWithSteer" : true
         },
 		{
             "pos" : [1.77875, 0.018495, 1.47319],
             "types" : ["wheel"],
+            "customTypes": ["pickle_wheel"],
 			"minValue" : 0.35,
-			"maxValue" : 0.65,
+			"maxValue" : 0.6,
 			"turnsWithSteer" : true
 		}, 
         {
             "pos" : [-1.77875, 0.018495, -0.688044],
             "types" : ["wheel"],
+            "customTypes": ["pickle_wheel"],
             "minValue" : 0.35,
-            "maxValue" : 0.65
+            "maxValue" : 0.6
         },
         {
             "pos" : [1.77875, 0.018495, -0.688044],
             "types" : ["wheel"],
+            "customTypes": ["pickle_wheel"],
             "minValue" : 0.35,
-            "maxValue" : 0.65
+            "maxValue" : 0.6
         },
         {
             "pos" : [0.397408, 1.5564, 0.474619],
