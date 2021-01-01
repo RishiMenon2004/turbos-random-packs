@@ -1,0 +1,241 @@
+{
+    "general": {
+        "name": "Chevron Removeable Roof",
+        "type": "generic_chevron_roof",
+        "materials": ["minecraft:glass_pane:0:2"],
+        "modelName": "chevron_roof"
+    },
+    
+    "definitions": [
+        {
+            "name": "Chevron Removeable Roof - White",
+            "subName": "_white",
+            "extraMaterials": ["minecraft:wool:0:2"]
+        },
+        
+        {
+            "name": "Chevron Removeable Roof - Black",
+            "subName": "_black",
+            "extraMaterials": ["minecraft:wool:15:2"]
+        }
+    ],
+    
+    "generic": {
+        "width" : 1,
+        "height" : 0.25
+    },
+    
+    "collision": [
+        {
+            "pos": [-0.75,0.575,0.75],
+            "width": 0.25,
+            "height": 0.125
+        },
+        {
+            "pos": [-0.5,0.575,0.75],
+            "width": 0.25,
+            "height": 0.125
+        },
+        {
+            "pos": [-0.25,0.575,0.75],
+            "width": 0.25,
+            "height": 0.125
+        },
+        {
+            "pos": [0,0.575,0.75],
+            "width": 0.25,
+            "height": 0.125
+        },
+        {
+            "pos": [0.25,0.575,0.75],
+            "width": 0.25,
+            "height": 0.125
+        },
+        {
+            "pos": [0.5,0.575,0.75],
+            "width": 0.25,
+            "height": 0.125
+        },
+        {
+            "pos": [0.75,0.575,0.75],
+            "width": 0.25,
+            "height": 0.125
+        },
+        
+        {
+            "pos": [-0.75,0.575,1],
+            "width": 0.25,
+            "height": 0.125
+        },
+        {
+            "pos": [-0.5,0.575,1],
+            "width": 0.25,
+            "height": 0.125
+        },
+        {
+            "pos": [-0.25,0.575,1],
+            "width": 0.25,
+            "height": 0.125
+        },
+        {
+            "pos": [0,0.575,1],
+            "width": 0.25,
+            "height": 0.125
+        },
+        {
+            "pos": [0.25,0.575,1],
+            "width": 0.25,
+            "height": 0.125
+        },
+        {
+            "pos": [0.5,0.575,1],
+            "width": 0.25,
+            "height": 0.125
+        },
+        {
+            "pos": [0.75,0.575,1],
+            "width": 0.25,
+            "height": 0.125
+        },
+        
+        {
+            "pos": [-0.75,0.575,1.25],
+            "width": 0.25,
+            "height": 0.125
+        },
+        {
+            "pos": [-0.5,0.575,1.25],
+            "width": 0.25,
+            "height": 0.125
+        },
+        {
+            "pos": [-0.25,0.575,1.25],
+            "width": 0.25,
+            "height": 0.125
+        },
+        {
+            "pos": [0,0.575,1.25],
+            "width": 0.25,
+            "height": 0.125
+        },
+        {
+            "pos": [0.25,0.575,1.25],
+            "width": 0.25,
+            "height": 0.125
+        },
+        {
+            "pos": [0.5,0.575,1.25],
+            "width": 0.25,
+            "height": 0.125
+        },
+        {
+            "pos": [0.75,0.575,1.25],
+            "width": 0.25,
+            "height": 0.125
+        },
+        
+        {
+            "pos": [-0.75,0.575,1.5],
+            "width": 0.25,
+            "height": 0.125
+        },
+        {
+            "pos": [-0.5,0.575,1.5],
+            "width": 0.25,
+            "height": 0.125
+        },
+        {
+            "pos": [-0.25,0.575,1.5],
+            "width": 0.25,
+            "height": 0.125
+        },
+        {
+            "pos": [0,0.575,1.5],
+            "width": 0.25,
+            "height": 0.125
+        },
+        {
+            "pos": [0.25,0.575,1.5],
+            "width": 0.25,
+            "height": 0.125
+        },
+        {
+            "pos": [0.5,0.575,1.5],
+            "width": 0.25,
+            "height": 0.125
+        },
+        {
+            "pos": [0.75,0.575,1.5],
+            "width": 0.25,
+            "height": 0.125
+        }
+    ],
+    
+    "rendering": {
+        "rotatableModelObjects" : [
+            {
+                "partName" : "%$Roof",
+                "rotationPoint": [0, 0, 0],
+                "rotationAxis": [45, 0 , 0],
+                "rotationVariable": "door"
+            },
+            {
+                "partName" : "%$Roof_R",
+                "rotationPoint": [0, 0, 0],
+                "rotationAxis": [45, 0 , 0],
+                "rotationVariable": "door"
+            },
+            {
+                "partName" : "%$Roof_L",
+                "rotationPoint": [0, 0, 0],
+                "rotationAxis": [45, 0 , 0],
+                "rotationVariable": "door"
+            },
+            {
+                "partName" : "%$Roof_R",
+                "rotationPoint": [-0.859016, 0.195195, 0.542574],
+                "rotationAxis": [-33.5, 110 , -50],
+                "rotationVariable": "door"
+            },
+            {
+                "partName" : "%$Roof_L",
+                "rotationPoint": [0.859016, 0.195195, 0.542574],
+                "rotationAxis": [-33.5, -110 , 50],
+                "rotationVariable": "door"
+            }
+        ],
+        
+        "translatableModelObjects" : [
+            {
+                "partName" : "%Roof_1",
+                "translationAxis" : [0, -0.670787, -0.417868],
+                "translationVariable" : "door"
+            },
+            {
+                "partName" : "%Roof_2",
+                "translationAxis" : [0, -0.670787, -0.884175],
+                "translationVariable" : "door"
+            },
+            {
+                "partName" : "%Roof_3",
+                "translationAxis" : [0, -0.670787, -1.2002],
+                "translationVariable" : "door"
+            },
+            {
+                "partName" : "%Roof",
+                "translationAxis" : [0, -0.1, 0],
+                "translationVariable" : "door"
+            },
+            {
+                "partName" : "%Roof_R",
+                "translationAxis" : [0, -0.1, 0],
+                "translationVariable" : "door"
+            },
+            {
+                "partName" : "%Roof_L",
+                "translationAxis" : [0, -0.1, 0],
+                "translationVariable" : "door"
+            }
+        ]
+    }
+}

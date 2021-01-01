@@ -1,0 +1,40 @@
+{
+    "general" : {
+        "name" : "Racing Stripe",
+        "description" : "Vehicle: The Shikatsu\n Colour: White",
+        "type" : "generic_shikatsu_decal_stripe",
+        "materials" : ["minecraft:leather","minecraft:dye:15:1"]
+    },
+    "generic" : {
+        "width" : 0.1875,
+        "height" : 1
+    },
+    "rendering": {
+        "rotatableModelObjects" : [
+            {
+				"partName": "$stripe_hood",
+				"rotationPoint": [0, -0.264754, 1.01017],
+				"rotationAxis": [-60, 0, 0],
+				"rotationVariable": "hood",
+				"rotationClampMin": 0.0,
+				"rotationClampMax": 0.0
+			},
+            {
+				"partName": "$stripe_hood",
+				"rotationPoint": [0, -0.264754, 1.01017],
+				"rotationAxis": [-60, 0, 0],
+				"rotationVariable": "door",
+				"rotationClampMin": 0.0,
+				"rotationClampMax": 60.0
+			},
+			{
+				"partName": "$stripe_trunk",
+				"rotationPoint": [0, 0.728611, -1.36769],
+				"rotationAxis": [90, 0, 0],
+				"rotationVariable": "door",
+				"rotationClampMin": 0.0,
+				"rotationClampMax": 0.0
+			}
+        ]
+    }
+}

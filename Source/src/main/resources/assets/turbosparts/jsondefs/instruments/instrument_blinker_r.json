@@ -1,0 +1,18 @@
+{
+    "general": {
+        "name": "Right Blinker",
+        "description": "Right Blinker",
+        "materials": ["minecraft:redstone_dust:0:1", "minecraft:dye:10:1"]
+    },
+    
+    "components": [
+        {
+            "textureXCenter": 192,
+            "textureYCenter": 64,
+            "textureWidth": 128,
+            "textureHeight": 128,
+            "translationVariable": "rightturnlight",
+            "translationFactor": 128
+        }
+    ]
+}

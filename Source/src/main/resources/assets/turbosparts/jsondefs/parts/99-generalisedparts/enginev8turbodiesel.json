@@ -1,0 +1,54 @@
+{
+    "general": {
+        "name" : "V8 Diesel Turbo Engine",
+        "type" : "engine_car",
+        "materials" : ["minecraft:piston:0:8", "minecraft:obsidian:0:8", "minecraft:iron_ingot:0:2"]
+  },
+	
+    "engine" : {
+        "isAutomatic" : true,
+        "flamesOnStartup": true,
+        "starterPower" : 30,
+        "maxRPM" : 7500,
+        "fuelConsumption" : 0.75,
+        "fuelType" : "diesel",
+        "gearRatios" : [-3, 0.0, 5, 4, 3, 2, 1.5, 1],
+        "customSoundset" :[
+            {
+                "soundName" : "turbosparts:diesel_v8_idle",
+                "pitchIdle" : 1,
+                "pitchMax" : 6,
+                "volumeIdle" : 1,
+                "volumeMax" : -4.05
+            },
+            {
+                "soundName" : "turbosparts:diesel_v8_low",
+                "pitchIdle" : -0.5,
+                "pitchMax" : 4,
+                "volumeIdle" : 6,
+                "volumeMax" : -5.3
+            },
+            {
+                "soundName" : "turbosparts:turbo_whine",
+                "pitchIdle" : -1,
+                "pitchMax" : 4,
+                "volumeIdle" : 0.7,
+                "volumeMax" : 1
+            },
+            {
+                "soundName" : "turbosparts:diesel_v8_force",
+                "pitchIdle" : -0.5,
+                "pitchMax" : 4,
+                "volumeIdle" : -0.3,
+                "volumeMax" : 0.5
+            },
+            {
+                "soundName" : "turbosparts:diesel_v8_high",
+                "pitchIdle" : 0,
+                "pitchMax" : 2.1,
+                "volumeIdle" : -0.6,
+                "volumeMax" : 0.7
+            }
+	   ]
+	}
+}

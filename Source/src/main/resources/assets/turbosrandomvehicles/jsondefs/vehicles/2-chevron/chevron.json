@@ -1,0 +1,959 @@
+{
+	"definitions": [
+       	{
+            "name": "Chevron - §bLeMans Blue",
+            "subName": "_blue",
+            "extraMaterials": ["minecraft:dye:4:4"]
+        },
+        
+        {
+            "name": "Chevron - §cMaonza Red",
+            "subName": "_red",
+            "extraMaterials": ["minecraft:dye:1:4"]
+        },
+        
+        {
+            "name": "Chevron - §eDaytona Yellow",
+            "subName": "_yellow",
+            "extraMaterials": ["minecraft:dye:11:4"]
+        },
+        
+        {
+            "name": "Chevron - §6Monaco Orange",
+            "subName": "_orange",
+            "extraMaterials": ["minecraft:dye:14:4"]
+        },
+        
+        {
+            "name": "Chevron - §8Tuxedo Black",
+            "subName": "_black",
+            "extraMaterials": ["minecraft:dye:0:4"]
+        },
+        
+        {
+            "name": "Chevron - §fCan-Am White",
+            "subName": "_white",
+            "extraMaterials": ["minecraft:dye:15:4"]
+        },
+        
+        {
+            "name": "Chevron - §6Riverside Gold",
+            "subName": "_gold",
+            "extraMaterials": ["minecraft:dye:11:1", "minecraft:dye:4:2", "minecraft:dye:1:1"]
+        },
+        
+        {
+            "name": "Chevron - §6G§ful§6f §rWrap",
+            "subName": "_gulf",
+            "extraMaterials": ["turbosparts:wrap_gulf:-1:1"]
+        },
+        
+        {
+            "name": "Chevron - §6Random's §rRacing §cWrap",
+            "subName": "_trvp_racing",
+            "extraMaterials": ["turbosparts:wrap_trvp_racing:-1:1"]
+        }
+    ],
+
+	"general": {
+        "description": "Chevron, a roadster/sports/muscle car, was manufactured in the USA. The 1969 edition was one of the earlier versions in their third generation. The Gen-3 Cevron had a removeable roof, that came in 2 colours, but had to be installed and unistalled manually. The car itself had 8 different variants, to name a few LeMans Blue, Monza Red, Riverside Gold and Daytona Yellow",
+        
+		"type": "car",
+        
+		"openTop": true,
+        
+		"emptyMass": 3541,
+        
+		"materials": ["minecraft:iron_block:0:5", "minecraft:iron_ingots:0:10", "minecraft:glass_pane:0:4", "minecraft:wool:8:5"]
+	},
+
+	"motorized": {
+        
+		"isRearWheelDrive": true,
+        
+        "hasCruiseControl": true,
+        
+		"fuelCapacity": 45000,
+        
+        "axleRatio": 3.36,
+        
+        "dragCoefficient": 0.443,
+        
+		"hornSound": "mtsofficialpack:horn_car",
+        
+		"instruments": [
+            {
+                "pos": [0.670412, 0.568462, 2.10425],
+                "rot": [0.0, 0.0, 0.0],
+                "scale": 0.02,
+                "hudX": 150,
+                "hudY": 38,
+                "hudScale": 0.5
+            },
+              
+            {
+                "pos": [0.35269, 0.568462, 2.10425],
+                "rot": [0.0, 0.0, 0.0],
+                "scale": 0.02,
+                "hudX": 250,
+                "hudY": 38,
+                "hudScale": 0.5
+            },
+              
+            {
+                "pos": [0.050133, 0.536949, 2.06277],
+                "rot": [20.3152, 0.0, 0.0],
+                "scale": 0.0075,
+                "hudX": 200,
+                "hudY": 25,
+                "hudScale": 0.3
+            },
+              
+            {
+                "pos": [-0.049997, 0.536673, 2.0627],
+                "rot": [20.3152, 0.0, 0.0],
+                "scale": 0.0075,
+                "hudX": 125,
+                "hudY": 100,
+                "hudScale": 0.3
+            },
+              
+            {
+                "pos": [0.099994, 0.480822, 2.04346],
+                "rot": [20.3152, 0.0, 0.0],
+                "scale": 0.0075,
+                "hudX": 175,
+                "hudY": 100,
+                "hudScale": 0.3
+            },
+              
+            {
+                "pos": [0.0, 0.480545, 2.0424],
+                "rot": [20.3152, 0.0, 0.0],
+                "scale": 0.0075,
+                "hudX": 225,
+                "hudY": 100,
+                "hudScale": 0.3
+            },
+            
+            {
+                "pos": [-0.099994, 0.480269, 2.04133],
+                "rot": [20.3152, 0.0, 0.0],
+                "scale": 0.0075,
+                "hudX": 275,
+                "hudY": 100,
+                "hudScale": 0.3
+            },
+            
+            {
+                "pos": [0.570412, 0.568462, 2.10425],
+                "rot": [0.0, 0.0, 0.0],
+                "scale": 0  ,
+                "hudX": 100,
+                "hudY": 38,
+                "hudScale": 0.125
+            },
+              
+            {
+                "pos": [0.25269, 0.568462, 2.10425],
+                "rot": [0.0, 0.0, 0.0],
+                "scale": 0.0,
+                "hudX": 300,
+                "hudY": 38,
+                "hudScale": 0.125
+            }
+        ]
+	},
+
+	"parts": [
+        
+        {
+			"pos": [1.2, 0.0, 3.30081],
+			"types": ["ground_wheel"],
+			"minValue": 0.7,
+			"maxValue": 0.9,
+			"turnsWithSteer": true,
+            "animations": [
+                {
+                    "animationType": "rotation",
+                    "centerPoint": [-0.08275, 0.0, 0.0],
+                    "axis": [0.0, -1, 0.0],
+                    "variable": "rudder"
+                },
+                {
+                    "animationType": "rotation",
+                    "centerPoint": [0.0, 0.0, 0.0],
+                    "axis": [0.0, 1, 0.0],
+                    "variable": "rudder"
+                }
+            ]
+		},
+        
+		{
+			"pos": [-1.2, 0.0, 3.30081],
+			"types": ["ground_wheel"],
+			"minValue": 0.7,
+			"maxValue": 0.9,
+			"turnsWithSteer": true,
+            "animations": [
+                {
+                    "animationType": "rotation",
+                    "centerPoint": [0.08275, 0.0, 0.0],
+                    "axis": [0.0, -1, 0.0],
+                    "variable": "rudder"
+                },
+                {
+                    "animationType": "rotation",
+                    "centerPoint": [0.0, 0.0, 0.0],
+                    "axis": [0.0, 1, 0.0],
+                    "variable": "rudder"
+                }
+            ]
+		},
+        
+		{
+			"pos": [1.2, 0.0, 0],
+			"types": ["ground_wheel"],
+			"minValue": 0.7,
+			"maxValue": 0.9
+		},
+        
+		{
+			"pos": [-1.2, 0.0, 0],
+			"types": ["ground_wheel"],
+			"minValue": 0.7,
+			"maxValue": 0.9
+		},
+        
+		{
+			"pos": [0.509444, 0.124, 1.11741],
+			"types": ["seat"],
+            "dismountPos": [1.7, 1, 1],
+			"isController": true,
+            "linkedDoor": "door_fl"
+		},
+        
+		{
+			"pos": [-0.509444, 0.124, 1.11741],
+			"types": ["seat"],
+            "dismountPos": [-1.7, 1, 1],
+            "linkedDoor": "door_fr"
+		},
+        
+		{
+			"pos": [0.0, 0.090681, 2.50496],
+			"types": ["engine_car"],
+			"minValue": 0.55,
+			"maxValue": 0.65,
+            "linkedDoor": "door_hood",
+            "particleObjects": [
+                {
+                    "pos": [1.0745500326156616, -0.32840099930763245, 0.7812830209732056],
+                    "velocityVector": [0.9602065682411194,  0.0,-0.27929067611694336],
+                    "type": "smoke",
+                    "scale": 1.0,
+                    "toScale": 0.25,
+                    "color": "#d9d9d9"
+                },
+                {
+                    "pos": [-1.0745500326156616,-0.32840099930763245,0.7812830209732056],
+                    "velocityVector": [-0.9602065682411194, 0.0, -0.27929067611694336],
+                    "type": "smoke",
+                    "scale": 1.0,
+                    "toScale": 0.25,
+                    "color": "#d9d9d9"
+                },
+                {
+                    "pos": [1.0745500326156616, -0.32840099930763245, 0.7812830209732056],
+                    "velocityVector": [0.9602065682411194,  0.0,-0.27929067611694336],
+                    "type": "smoke",
+                    "scale": 1.0,
+                    "toScale": 0.25,
+                    "color": "#d9d9d9"
+                },
+                {
+                    "pos": [-1.0745500326156616,-0.32840099930763245,0.7812830209732056],
+                    "velocityVector": [-0.9602065682411194, 0.0, -0.27929067611694336],
+                    "type": "smoke",
+                    "scale": 1.0,
+                    "toScale": 0.25,
+                    "color": "#d9d9d9"
+                }
+            ]
+		},
+        
+        {
+            "pos": [0.0, 0.820339, -0.190798],
+            "types": ["generic_chevron_roof"],
+            "defaultPart": "turbosparts:chevron_roof_white"
+        },
+        
+        {
+            "pos": [0.661361, 0.054449, -1.1581],
+            "rot": [-24, 0 ,0],
+            "types": ["generic"],
+            "customTypes": ["bumpersticker"]
+        },
+        
+        {
+            "pos": [-0.661361, 0.054449, -1.1581],
+            "rot": [-24, 0 ,0],
+            "types": ["generic"],
+            "customTypes": ["bumpersticker"]
+        },
+        
+        {
+            "pos": [0.661361, -0.130097, -1.07593],
+            "rot": [-24, 0 ,0],
+            "types": ["generic"],
+            "customTypes": ["bumpersticker"]
+        },
+        
+        {
+            "pos": [-0.661361, -0.130097, -1.07593],
+            "rot": [-24, 0 ,0],
+            "types": ["generic"],
+            "customTypes": ["bumpersticker"]
+        },
+        
+        {
+            "pos": [0.0, 0.205371, 0.037568],
+            "types": ["crate"],
+            "customTypes": ["luggage"],
+            "minValue": 1,
+            "maxValue": 1,
+            "linkedDoor": "door_trunk"
+       	},
+        
+        {
+            "pos": [0.45, 0.205371, 0.037568],
+            "types": ["crate"],
+            "customTypes": ["luggage"],
+            "minValue": 1,
+            "maxValue": 1,
+            "linkedDoor": "door_trunk"
+        },
+        
+        {
+            "pos": [-0.45, 0.205371, 0.037568],
+            "types": ["crate"],
+            "customTypes": ["luggage"],
+            "minValue": 1,
+            "maxValue": 1,
+            "linkedDoor": "door_trunk"
+        }
+	],
+
+	"collision": [
+        {
+          "pos": [
+            0.0,
+            0.62081,
+            3.25
+          ],
+          "width": 2.125,
+          "height": 0.1
+        },
+
+        {
+          "pos": [
+            0.0,
+            0.75,
+            -0.25
+          ],
+          "width": 1.875,
+          "height": 0.1
+        }
+    ],
+    
+    "doors": [
+        {
+            "name": "door_fl",
+            "closedPos": [1.12405, 0.310631, 1.17786],
+            "openPos": [1.93524, 0.310631, 1.5588],
+            "width": 0.5,
+            "height": 0.7
+        },
+        
+        {
+            "name": "door_fr",
+            "closedPos": [-1.12405, 0.310631, 1.17786],
+            "openPos": [-1.93524, 0.310631, 1.5588],
+            "width": 0.5,
+            "height": 0.7
+        },
+        
+        {
+            "name": "door_hood",
+            "closedPos": [0.0, 0.732395, 3.09836],
+            "openPos": [0.0, 1.26033, 3.57369],
+            "width": 1,
+            "height": 0.5
+        },
+        
+        {
+            "name": "door_trunk",
+            "closedPos": [0.0, 0.783919, 0.029027],
+            "openPos": [0.0, 0.983919, 0.029027],
+            "width": 0.75,
+            "height": 0.375
+        }
+        
+    ],
+
+	"rendering": {
+        
+        "hudTexture" : "turbosparts:textures/guis/car_hud.png",
+        
+		"panelTexture" : "turbosparts:textures/guis/car_panel.png",
+        
+        "panelTextColor" : "#4D4D4D",
+        
+        "panelLitTextColor" : "#FFE2A8",
+        
+		"textObjects": [
+            
+            {
+                "pos": [0.0, 0.079716, 4.53847],
+                "rot": [32.16255, 0.0, 0.0],
+                "scale": 0.125,
+                "color": "#000000",
+                "fieldName": "License Plate",
+                "defaultText": "Chevron",
+                "maxLength": 10,
+                "renderPosition": 0
+                
+            },
+            
+            {
+                "pos": [0.0, -0.030875, -1.095],
+                "rot": [23.0, 180.0, 0.0],
+                "scale": 0.15,
+                "color": "#000000",
+                "fieldName": "License Plate",
+                "defaultText": "Chevron",
+                "maxLength": 10,
+                "renderPosition": 0
+            }
+        ],
+        
+        "customVariables": ["windows"],
+        
+        "animatedObjects": [
+            
+			{
+				"objectName": "$Steering_Wheel",
+                "animations" : [
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [0.509444, 0.658458, 1.57623],
+				        "axis": [0.0, -0.408, 0.912],
+				        "variable": "rudder",
+				        "clampMin": 0.0,
+				        "clampMax": 0.0
+                    }
+                ]
+			},
+            
+			{
+				"objectName": "$Hood",
+				"animations" : [
+                    {
+                        "animationType": "rotation",   
+				        "centerPoint": [0.0, 0.534714, 3.87983],
+				        "axis": [60, 0.0, 0],
+				        "variable": "door_hood",
+                        "duration": 20,
+				        "clampMin": 0.0,
+				        "clampMax": 0.0
+                    }
+                ]
+            },
+            
+			{
+				"objectName": "$Trunk",
+				"animations" : [
+                    {
+                        "animationType": "rotation",
+				        "centerPoint" : [0.0, 0.727592, -0.284404],
+				        "axis": [-60, 0.0, 0],
+				        "variable": "door_trunk",
+                        "duration": 20,
+				        "clampMin": 0.0,
+				        "clampMax": 0.0
+                    }
+                ]
+			},
+            
+			{
+				"objectName": "$Door_R",
+				"animations" : [
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [-1.19974, 0.403651, 2.07084],
+				        "axis": [0.0, 60, 0],
+				        "variable": "door_fr",
+                        "duration": 20,
+				        "clampMin": 0.0,
+				        "clampMax": 0.0
+                    }
+                ]
+			},
+            
+			{
+				"objectName": "$Door_L",
+				"animations" : [
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [1.19974, 0.403651, 2.07084],
+				        "axis": [0.0, -60, 0],
+				        "variable": "door_fl",
+                        "duration": 20,
+				        "clampMin": 0.0,
+				        "clampMax": 0.0
+                    }
+                ]
+			},
+            
+			{
+				"objectName": "$W_Door_R",
+				"animations" : [
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [-1.19974, 0.403651, 2.07084],
+				        "axis": [0.0, 60, 0],
+				        "variable": "door_fr",
+                        "duration": 20,
+				        "clampMin": 0.0,
+				        "clampMax": 0.0
+                    },
+                    {
+                        "animationType": "translation",
+                        "variable": "windows",
+                        "axis": [-0.2, -0.75, 0.2],
+                        "duration": 30
+                    }
+                ]
+			},
+            
+			{
+				"objectName": "$W_Door_L",
+				"animations" : [
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [1.19974, 0.403651, 2.07084],
+				        "axis": [0.0, -60, 0],
+				        "variable": "door_fl",
+                        "duration": 20,
+				        "clampMin": 0.0,
+				        "clampMax": 0.0
+                    },
+                    {
+                        "animationType": "translation",
+                        "variable": "windows",
+                        "axis": [0.2, -0.75, 0.2],
+                        "duration": 30
+                    }
+                ]
+			},
+            
+			{
+				"objectName": "$Hub_B",
+				"animations" : [{
+                    "animationType": "rotation",
+				    "centerPoint": [0.0, 0.0, 0],
+				    "axis": [1, 0.0, 0],
+				    "variable": "engine_driveshaft_rotation_1",
+				    "clampMin": 0.0,
+				    "clampMax": 0.0}]
+			},
+            
+            {
+				"objectName": "$Wheel_Hub_FR",
+				"animations" : [{
+                    "animationType": "rotation",
+				    "centerPoint": [-0.947261, 0.0, 3.30081],
+				    "axis": [0.0, -1, 0],
+				    "variable": "rudder",
+				    "clampMin": 0.0,
+				    "clampMax": 0.0}]
+			},
+            
+            {
+				"objectName": "$Wheel_Hub_FL",
+				"animations" : [{
+                    "animationType": "rotation",
+				    "centerPoint": [0.947261, 0.0, 3.30081],
+				    "axis": [0.0, -1, 0],
+				    "variable": "rudder",
+				    "clampMin": 0.0,
+				    "clampMax": 0.0}]
+			},
+            
+			{
+				"objectName": "$Hub_FR",
+				"animations" : [
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [-0.947261, 0.0, 3.30081],
+				        "axis": [0.0, -1, 0],
+				        "variable": "rudder",
+				        "clampMin": 0.0,
+				        "clampMax": 0.0
+                    },
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [-0.94726, 0.0, 3.30081],
+				        "axis": [1, 0.0, 0],
+				        "variable": "engine_driveshaft_rotation_1",
+				        "clampMin": 0.0,
+				        "clampMax": 0.0
+                    }
+                ]
+			},
+            
+			{
+				"objectName": "$Hub_FL",
+				"animations" : [
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [0.947261, 0.0, 3.30081],
+				        "axis": [0.0, -1, 0],
+				        "variable": "rudder",
+				        "clampMin": 0.0,
+				        "clampMax": 0.0
+                    },
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [0.94726, 0.0, 3.30081],
+				        "axis": [1, 0.0, 0],
+				        "variable": "engine_driveshaft_rotation_1",
+				        "clampMin": 0.0,
+				        "clampMax": 0.0
+                    }
+                ]
+			},
+            
+            {
+                "objectName": "$Flap_headlight_R",
+                "animations" : [
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [-0.515749, 0.461041, 4.11357],
+                        "axis": [-55.65, 0.0, -18],
+                        "variable": "headlight",
+                        "duration": 5,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0
+                    }
+                ]
+            },
+            
+            {
+                "objectName": "$Flap_headlight_L",
+                "animations" : [
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [0.515749, 0.461041, 4.11357],
+                        "axis": [-55.65, 0.0, 18],
+                        "variable": "headlight",
+                        "duration": 5,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0
+                    }
+                ]
+            },
+            
+            {
+                "objectName": "$Right&RunningLights_FFFFFF_FFFFF_010",
+                "animations" : [
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [-0.515749, 0.461041, 4.11357],
+                        "axis": [-55.65, 0.0, -18],
+                        "variable": "headlight",
+                        "duration": 5,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0
+                    },
+                    {
+                    	"animationType": "visibility",
+                    	"variable": "headlight",
+                    	"forwardsDelay": 5,
+                    	"clampMin": 1,
+                    	"clampMax": 1
+                    }
+                ]
+            },
+            
+            {
+                "objectName": "$Left&RunningLights_FFFFFF_FFFFF_010",
+                "animations" : [
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [0.515749, 0.461041, 4.11357],
+                        "axis": [-55.65, 0.0, 18],
+                        "variable": "headlight",
+                        "duration": 5,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0
+                    },
+                    {
+                    	"animationType": "visibility",
+                    	"variable": "headlight",
+                    	"forwardsDelay": 5,
+                    	"clampMin": 1,
+                    	"clampMax": 1
+                    }
+                ]
+            },
+            
+            {
+                "objectName": "$Right&HeadLight_FFFFFF_FFFFF_100",
+                "animations" : [
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [-0.515749, 0.461041, 4.11357],
+                        "axis": [-55.65, 0.0, -18],
+                        "variable": "headlight",
+                        "duration": 5,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0
+                    },
+                    {
+                    	"animationType": "visibility",
+                    	"variable": "headlight",
+                    	"forwardsDelay": 5,
+                    	"clampMin": 1,
+                    	"clampMax": 1
+                    }
+                ]
+            },
+            
+            {
+                "objectName": "$Left&HeadLight_FFFFFF_FFFFF_100",
+                "animations" : [
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [0.515749, 0.461041, 4.11357],
+                        "axis": [-55.65, 0.0, 18],
+                        "variable": "headlight",
+                        "duration": 5,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0
+                    },
+                    {
+                    	"animationType": "visibility",
+                    	"variable": "headlight",
+                    	"forwardsDelay": 5,
+                    	"clampMin": 1,
+                    	"clampMax": 1
+                    }
+                ]
+            },
+            
+            {
+                "objectName": "$Window_HeadlightCover_R",
+                "animations" : [
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [-0.515749, 0.461041, 4.11357],
+                        "axis": [-55.65, 0.0, -18],
+                        "variable": "headlight",
+                        "duration": 5,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0
+                    },
+                    {
+                    	"animationType": "visibility",
+                    	"variable": "headlight",
+                    	"forwardsDelay": 5,
+                    	"clampMin": 1,
+                    	"clampMax": 1
+                    }
+                ]
+            },
+            
+            {
+                "objectName": "$Window_HeadlightCover_L",
+                "animations" : [
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [0.515749, 0.461041, 4.11357],
+                        "axis": [-55.65, 0.0, 18],
+                        "variable": "headlight",
+                        "duration": 5,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0
+                    },
+                    {
+                    	"animationType": "visibility",
+                    	"variable": "headlight",
+                    	"forwardsDelay": 5,
+                    	"clampMin": 1,
+                    	"clampMax": 1
+                    }
+                ]
+            },
+            
+			{
+				"objectName": "$Turn_Right",
+				"animations" : [
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [0.564293, 0.605313, 1.71395],
+				        "axis": [0.0, 0.0, 10],
+				        "variable": "rightturnlight",
+                        "duration": 1,
+				        "clampMin": 0.0,
+				        "clampMax": 0.0
+                    },
+                    {
+                        "animationType": "rotation",
+                        "centerPoint": [0.564293, 0.605313, 1.71395],
+                        "axis": [0.0, 0.0, -20],
+                        "variable": "leftturnlight",
+                        "duration": 1,
+                        "clampMin": 0.0,
+                        "clampMax": 20
+				    }
+                ]
+			},
+            
+			{
+				"objectName": "$Turn_Left",
+				"animations" : [
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [0.564293, 0.584765, 1.77041],
+				        "axis": [0.0, 0.0, -10],
+				        "variable": "headlight",
+                        "duration": 1,
+				        "clampMin": 0.0,
+				        "clampMax": 0.0
+				    }
+                ]
+			},
+            
+			{
+				"objectName": "$Gas",
+				"animations" : [
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [0.335174, 0.334505, 2.07882],
+				        "axis": [-30, 0.0, 0],
+				        "variable": "throttle",
+				        "duration": 3,
+				        "clampMin": 0.0,
+				        "clampMax": 0.0
+				    }
+                ]
+			},
+            
+			{
+				"objectName": "$Brake",
+				"animations" : [
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [0.568372, 0.334505, 2.07882],
+				        "axis": [-30, 0.0, 0],
+				        "variable": "brake",
+				        "duration": 3,
+				        "clampMin": 0.0,
+                        "clampMax": 0.0
+                    }
+                ]
+			},
+            
+            {
+                "objectName": "%$P_Brake",
+                "animations" : [
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [0.0, 0.294707, 1.11106],
+                        "axis": [-30, 0.0, 0],
+                        "variable": "p_brake",
+                        "duration": 10,
+				        "clampMin": 0.0,
+                        "clampMax": 0.0
+                    },
+                    {
+                        "animationType": "translation",
+                        "axis": [0.0, 0.0, -0.12],
+                        "variable": "p_brake",
+                        "duration": 10,
+                        "clampMin": 0.0,
+                        "clampMax": 0.0
+                    }
+                ]
+            },
+            
+            {
+                "objectName": "$Gear_Stick",
+                "animations" : [
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [0.059639, 0.289776, 1.62902],
+                        "axis": [1, 0.0, 0],
+                        "variable": "engine_gearshift_1",
+				        "clampMin": 0.0,
+                        "clampMax": 0.0
+                    }
+                ]
+            },
+            
+            {
+                "objectName": "%Steer_axle",
+                "animations" : [
+                    {
+                        "animationType": "translation",
+                        "axis": [0.005, 0.0, 0],
+                        "variable": "rudder",
+                        "clampMin": 0.0,
+                        "clampMax": 0.0
+                    },
+                    {
+                        "animationType": "translation",
+                        "axis": [0.0, 0.0, -0.0015],
+                        "variable": "rudder",
+                        "clampMin": 0.0,
+                        "clampMax": 0.0,
+                        "absolute": true
+                    }
+                ]
+            }
+        ],
+        
+        "cameraObjects": [
+            {
+                "pos": [0.0, 0.5, -3.75],
+                "rot": [0.0, 0.0, 0],
+                "animations": [
+                    {
+                        "animationType": "translation",
+                        "variable": "speed",
+                        "axis": [0.0, 0.0, -0.25],
+                        "clampMax": 2.5
+                    },
+                    {
+                        "animationType": "rotation",
+                        "variable": "speed",
+                        "centerPoint": [0.0, 0.0, 0],
+                        "axis": [1.5, 0.0, 0]
+                    }
+                ]
+            },
+            {
+                "pos": [-2, -1, 1.75 ],
+                "rot": [0.0, 20, 0],
+                "animations": []
+            },
+            {
+                "pos": [1, -0.5, 0],
+                "rot": [0.0, 180, 0],
+                "animations": []
+            }
+        ]
+	}
+
+}

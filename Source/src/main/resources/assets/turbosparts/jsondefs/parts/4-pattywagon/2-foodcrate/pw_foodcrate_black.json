@@ -1,0 +1,35 @@
+{
+    "general": {
+        "name" : "Food-Container Black",
+        "type" : "crate",
+        "customType" : "foodcrate",
+        "materials" : ["mtsofficialpack:nuts:0:4", "minecraft:dye:0:3", "minecraft:dye:15:1", "minecraft:stick:0:3"],
+        "modelName" : "foodcrate"
+    },
+    "crate" : {
+        "rows" : 2
+    },
+    
+    "rendering": {
+        "rotatableModelObjects" : [
+            {
+                "partName" : "$Lid",
+                "rotationPoint" : [0, 0.646552, -0.364051],
+                "rotationAxis" : [-67.5, 0, 0],
+                "rotationVariable" : "door"
+            },
+            {
+                "partName" : "$Handle_R",
+                "rotationPoint" : [0.25, 0.575, 0],
+                "rotationAxis" : [0, 0, -142.5],
+                "rotationVariable" : "door"
+            },
+            {
+                "partName" : "$Handle_L",
+                "rotationPoint" : [-0.25, 0.575, 0],
+                "rotationAxis" : [0, 0, 142.5],
+                "rotationVariable" : "door"
+            }
+        ]
+    }
+}

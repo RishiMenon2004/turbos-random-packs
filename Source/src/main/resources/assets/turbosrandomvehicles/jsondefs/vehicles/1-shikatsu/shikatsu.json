@@ -1,0 +1,761 @@
+{
+	"definitions": [
+        
+        {
+		  "name": "Shikatsu - §8Matte Black §rand §bSky Blue",
+		  "subName": "_matteblue",
+		  "extraMaterials": ["minecraft:dye:0:4", "minecraft:dye:12:2"]
+        },
+        
+        {
+		  "name": "Shikatsu - §8Matte Black §rand §cCrimson Red",
+		  "subName": "_mattered",
+		  "extraMaterials": ["minecraft:dye:0:4", "minecraft:dye:1:2"]
+        },
+        
+        {
+		  "name": "Shikatsu - §8Matte Black §rand §eDandelion Yellow",
+		  "subName": "_matteyellow",
+		  "extraMaterials": ["minecraft:dye:0:4", "minecraft:dye:11:2"]
+        },
+        
+        {
+		  "name": "Shikatsu - §8Matte Black §rand §aEmerald Green",
+		  "subName": "_mattegreen",
+		  "extraMaterials": ["minecraft:dye:0:4", "minecraft:dye:10:2"]
+        },
+        
+        {
+		  "name": "Shikatsu - §8Matte Black §rand §9Bright Orange",
+		  "subName": "_matteorange",
+		  "extraMaterials": ["minecraft:dye:0:4", "minecraft:dye:14:2"]
+        }
+        
+    ],
+
+	"general": {
+		"description": "Shikatsu, a kei car, was orginally sold in the Japanese Domestic Market, which then later expanded it's market to the USA, Europe and rest of Asia. This particular version off the car was sold in Asia with a focus to attract new drivers and teens, with a sport edition was also being sold a yew years later.",
+        
+		"type": "car",
+        
+		"emptyMass": 950,
+        
+		"materials": ["minecraft:iron_ingots:0:5", "minecraft:glass_pane:0:6"]
+	},
+
+	"motorized": {
+        
+        "isFrontWheelDrive": true,
+        
+        "hasCruiseControl": true,
+        
+		"fuelCapacity": 35000,
+        
+        "axleRatio": 2.66,
+        
+		"dragCoefficient": 2,
+        
+		"hornSound": "mtsofficialpack:horn_car",
+        
+		"instruments": [
+            {
+                "pos": [-0.403125, 0.904375, 1.854699],
+                "rot": [0.0, 0.0, 0.0],
+                "scale": 0.015,
+                "hudX": 150,
+                "hudY": 38,
+                "hudScale": 0.5
+            },
+            {
+                "pos": [-0.503125, 0.919375, 1.854699],
+                "rot": [0.0, 0.0, 0.0],
+                "scale": 0.01,
+                "hudX": 200,
+                "hudY": 25,
+                "hudScale": 0.3
+            },
+            {
+                "pos": [-0.603125, 0.904375, 1.854699],
+                "rot": [0.0, 0.0, 0.0],
+                "scale": 0.015,
+                "hudX": 250,
+                "hudY": 38,
+                "hudScale": 0.5
+            }
+        ]
+	},
+    
+	"parts": [
+       	//front right wheel
+        {
+			"pos": [-0.89375, 0.0, 2.28125],
+			"types": ["ground_wheel"],
+			"minValue": 0.5,
+			"maxValue": 0.625,
+			"turnsWithSteer": true,
+            "animations": [
+                {
+                    "animationType": "rotation",
+                    "centerPoint": [0.03125, 0.0, 0.0],
+                    "axis": [0.0, -1, 0.0],
+                    "variable": "rudder"
+                },
+                {
+                    "animationType": "rotation",
+                    "centerPoint": [0.0, 0.0, 0.0],
+                    "axis": [0.0, 1, 0.0],
+                    "variable": "rudder"
+                }
+            ]
+		},
+        //front left wheel
+		{
+			"pos": [0.89375, 0.0, 2.28125],
+			"types": ["ground_wheel"],
+			"minValue": 0.5,
+			"maxValue": 0.625,
+			"turnsWithSteer": true,
+            "animations": [
+                {
+                    "animationType": "rotation",
+                    "centerPoint": [-0.03125, 0.0, 0.0],
+                    "axis": [0.0, -1, 0.0],
+                    "variable": "rudder"
+                },
+                {
+                    "animationType": "rotation",
+                    "centerPoint": [0.0, 0.0, 0.0],
+                    "axis": [0.0, 1, 0.0],
+                    "variable": "rudder"
+                }
+            ]
+		},
+        //rear right wheel
+		{   
+			"pos": [-0.89375, 0.0, 0.0],
+			"types": ["ground_wheel"],
+			"minValue": 0.5,
+			"maxValue": 0.625
+		},
+        //rear left wheel
+		{   
+			"pos": [0.89375, 0.0, 0.0],
+			"types": ["ground_wheel"],
+			"minValue": 0.5,
+			"maxValue": 0.625
+		},
+        //front left seat
+		{
+			"pos": [0.503125, 0.4064, 1.074619],
+			"types": ["seat"],
+            "dismountPos": [1.5, 0.4064, 1.074619],
+            "linkedDoor": "door_fl"
+		},
+        //front right seat
+		{
+			"pos": [-0.503125, 0.4064, 1.074619],
+			"types": ["seat"],
+            "dismountPos": [-1.5, 0.4064, 1.074619],
+            "linkedDoor": "door_fr",
+			"isController": true
+		},
+        //back left seat
+		{
+			"pos": [0.503125, 0.5064, 0.074619],
+			"types": ["seat"],
+            "dismountPos": [1.5, 0.5064, 0.074619],
+            "linkedDoor": "door_bl"
+		},
+        //back right seat
+		{
+			"pos": [-0.503125, 0.5064, 0.074619],
+			"types": ["seat"],
+            "dismountPos": [-1.5, 0.5064, 0.074619],
+            "linkedDoor": "door_br"
+		},
+        //engine
+		{
+			"pos": [0.312501, 0.273438, 2.43359],
+            "rot": [0.0, -90, 0.0],
+			"types": ["engine_car"],
+			"minValue": 0.25,
+			"maxValue": 0.35,
+            "pasrticleObjects": [
+                {
+                    "pos": [-0.65625, 0.052971, -0.8131],
+                    "velocityVector": [0.0, 0.0, -1],
+                    "type": "smoke",
+                    "scale": 1,
+                    "toScale": 0.25,
+                    "color": "#d9d9d9"
+                },
+                {
+                    "pos": [-0.65625, 0.052971, -0.8131],
+                    "velocityVector": [0.0, 0.0, -1],
+                    "type": "smoke",
+                    "scale": 1,
+                    "toScale": 0.25,
+                    "color": "#d9d9d9"
+                }
+            ]
+		},
+        //decal center
+        {
+            "pos": [0.0, 1.1507, 1.14775],
+            "types": ["generic_shikatsu_decal_stripe"]
+        },
+        //decal left
+        {
+            "pos": [0.55, 1.1507, 1.14775],
+            "types": ["generic_shikatsu_decal_stripe"]
+        },
+        //decal right
+        {
+            "pos": [-0.55, 1.1507, 1.14775],
+            "types": ["generic_shikatsu_decal_stripe"]
+        }
+	],
+
+	"collision": [
+        {
+			//roof
+			"pos": [0.0, 1.8, 0.8],
+			"width": 2.125,
+			"height": 0.1      
+		}
+	],
+    
+    "doors": [
+    	//front left door
+        {
+            "name": "door_fl",
+            "closedPos": [1.03284, 0.570446, 1.23153],
+            "openPos": [1.75285, 0.570446, 1.71278],
+            "width": 0.5,
+            "height": 0.7
+        },
+        {
+            "name": "door_fl",
+            "closedPos": [1.03284, 0.570446, 1.73153],
+            "openPos": [1.31984, 0.570446, 1.96278],
+            "width": 0.5,
+            "height": 0.7
+        },
+        //front right door
+        {
+            "name": "door_fr",
+            "closedPos": [-1.03284, 0.570446, 1.23153],
+            "openPos": [-1.75285, 0.570446, 1.71278],
+            "width": 0.5,
+            "height": 0.7
+        },
+        {
+            "name": "door_fr",
+            "closedPos": [-1.03284, 0.570446, 1.73153],
+            "openPos": [-1.31984, 0.570446, 1.96278],
+            "width": 0.5,
+            "height": 0.7
+        },
+        //rear left door
+        {
+            "name": "door_bl",
+            "closedPos": [1.03284, 0.823029, 0.116833],
+            "openPos": [1.68204, 0.823029, 0.563401],
+            "width": 0.5,
+            "height": 0.7
+        },
+        {
+            "name": "door_bl",
+            "closedPos": [1.03284, 0.723029, 0.616833],
+            "openPos": [1.24903, 0.723029, 0.813402],
+            "width": 0.5,
+            "height": 0.7
+        },
+        //rear right door
+        {
+            "name": "door_br",
+            "closedPos": [-1.03284, 0.823029, 0.116833],
+            "openPos": [-1.68204, 0.823029, 0.563401],
+            "width": 0.5,
+            "height": 0.7
+        },
+        {
+            "name": "door_br",
+            "closedPos": [-1.03284, 0.723029, 0.616833],
+            "openPos": [-1.24903, 0.723029, 0.813402],
+            "width": 0.5,
+            "height": 0.7
+        },
+        //hood/bonnet
+        {
+            "name": "door_hood",
+            "closedPos": [0.5, 0.85, 2.6],
+            "openPos": [0.5, 1.25082, 2.41009],
+            "width": 1,
+            "height": 0.2
+        },
+        {
+            "name": "door_hood",
+            "closedPos": [-0.5, 0.85, 2.6],
+            "openPos": [-0.5, 1.25082, 2.41009],
+            "width": 1,
+            "height": 0.2
+        },
+        //trunk/boot
+        {
+      "name": "door_trunk",
+      "closedPos": [0.75,0.7,-0.625],
+      "openPos": [0.75,2.44045,-1.44378],
+      "width": 0.25,
+      "height": 0.5
+    },
+    {
+      "name": "door_trunk",
+      "closedPos": [0.5,0.7,-0.625],
+      "openPos": [0.5,2.44045,-1.44378],
+      "width": 0.25,
+      "height": 0.5
+    },
+    {
+      "name": "door_trunk",
+      "closedPos": [0.25,0.7,-0.625],
+      "openPos": [0.25,2.44045,-1.44378],
+      "width": 0.25,
+      "height": 0.5
+    },
+    {
+      "name": "door_trunk",
+      "closedPos": [0.0,0.7,-0.625],
+      "openPos": [0.0,2.44045,-1.44378],
+      "width": 0.25,
+      "height": 0.5
+    },
+    {
+      "name": "door_trunk",
+      "closedPos": [-0.25,0.7,-0.625],
+      "openPos": [-0.25,2.44045,-1.44378],
+      "width": 0.25,
+      "height": 0.5
+    },
+    {
+      "name": "door_trunk",
+      "closedPos": [-0.5,0.7,-0.625],
+      "openPos": [-0.5,2.44045,-1.44378],
+      "width": 0.25,
+      "height": 0.5
+    },
+    {
+      "name": "door_trunk",
+      "closedPos": [-0.75,0.7,-0.625],
+      "openPos": [-0.75,2.44045,-1.44378],
+      "width": 0.25,
+      "height": 0.5
+    }/* ,
+        {
+        	"name": "radio_dial_a",
+        	"closedPos": [""]
+        } */
+    ],
+
+	"rendering": {
+	
+        "hudTexture" : "turbosparts:textures/guis/car_hud.png",
+        
+		"panelTexture" : "turbosparts:textures/guis/car_panel.png",
+        
+        "panelTextColor" : "#00DEDE",
+        
+        "panelLitTextColor" : "#00FFFF",
+        
+		"textObjects": [
+            
+            {
+                "pos": [0.0, 0.295685, -0.737452],
+                "rot": [-2.25,180.0,0.0],
+                "scale": 0.15,
+                "color": "#000000",
+                "fieldName": "License Plate",
+                "defaultText": "Shikatsu",
+                "maxLength": 10,
+                "renderPosition": 0
+            },
+            {
+                "pos": [0.0, 0.300813, 3.07531],
+                "rot": [ 0.0,0.0,0.0],
+                "scale": 0.15,
+                "color": "#000000",
+                "fieldName": "License Plate",
+                "defaultText": "Shikatsu",
+                "maxLength": 10,
+                "renderPosition": 0
+            }
+            
+        ],
+        
+        "customVariables": ["windows"],
+        
+		"animatedObjects": [
+            
+            {
+				"objectName": "%$Gearshift",
+				"animations" : [
+                    {
+                    "animationType": "rotation",
+				        "centerPoint": [-0.101562, 0.66324, 1.846411],
+				        "axis": [-1, 0.0, 0.0],
+				        "variable": "engine_gearshift_1"
+                    },
+                    {
+                        "animationType": "translation",
+                        "axis": [0.0, 100, 0.0],
+                        "variable": "p_brake",
+                        "clampMax": 0.005
+                    },
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [-0.101562, 0.66324, 1.846411],
+				        "axis": [300, 0.0, 0.0],
+				        "variable": "p_brake",
+				        "clampMax": 20
+                    }
+                ]
+			},
+            
+			{
+				"objectName": "$Steering_Wheel",
+                "animations" : [
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [-0.5, 0.818314, 1.70177],
+				        "axis": [0.0, -0.25, 1],
+				        "variable": "rudder",
+				        "clampMin": -30.0,
+				        "clampMax": 30.0
+                    }
+                ]
+			},
+            
+			{
+				"objectName": "$Hood",
+                "animations" : [
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [0.0, 0.885944, 2.15792],
+				        "axis": [-60, 0.0, 0.0],
+				        "variable": "door_hood",
+				        "duration": 20
+                    }
+                ]
+			},
+            
+			{
+				"objectName": "$Trunk",
+                "animations" : [
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [0.0, 1.87931, -0.219932],
+				        "axis": [30, 0.0, 0.0],
+				        "variable": "door_trunk",
+				        "duration": 20
+                    }
+                ]
+			},
+            
+			{
+				"objectName": "$Window_Trunk",
+                "animations" : [{
+                    "animationType": "rotation",
+				    "centerPoint": [0.0, 1.87931, -0.219932],
+				    "axis": [90, 0.0, 0.0],
+				    "variable": "door_trunk",
+				    "duration": 20
+                }]
+			},
+            
+			{
+				"objectName": "$Door_FR",
+                "animations" : [{
+                    "animationType": "rotation",
+				    "centerPoint": [-0.976074, 0.859376, 2.0957],
+				    "axis": [0.0, 60, 0.0],
+				    "variable": "door_fr",
+				    "duration": 20
+                }]
+			},
+            
+			{
+				"objectName": "$Door_FL",
+                "animations" : [{
+				        
+                    "animationType": "rotation",
+                    "centerPoint": [0.976074, 0.859376, 2.0957],
+				    "axis": [0.0, -60, 0.0],
+				    "variable": "door_fl",
+				    "duration": 20
+                }]
+			},
+            
+			{
+				"objectName": "$Door_BR",
+                "animations" : [{
+                    "animationType": "rotation",
+				    "centerPoint": [-0.970703, 0.857422, 0.902344],
+				    "axis": [0.0, 60, 0.0],
+				    "variable": "door_br",
+				    "duration": 20
+                }]
+			},
+            
+			{
+				"objectName": "$Door_BL",
+                "animations" : [{
+                    "animationType": "rotation",
+				    "centerPoint": [0.970703, 0.857422, 0.902344],
+				    "axis": [0.0, -60, 0.0],
+				    "variable": "door_bl",
+				    "duration": 20
+                }]
+			},
+            
+			{
+				"objectName": "$Window_Door_FR",
+                "animations" : [
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [-0.976074, 0.859376, 2.0957],
+				        "axis": [0.0, 60, 0.0],
+				        "variable": "door_fr",
+				        "duration": 20
+                    },
+                    {
+                        "animationType": "translation",
+                        "variable": "windows",
+                        "axis": [0.0, -0.75, 0.0],
+                        "duration": 30
+                    }
+                ]
+			},
+            
+			{
+				"objectName": "$Window_Door_FL",
+                "animations" : [
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [0.976074, 0.859376, 2.0957],
+				        "axis": [0.0, -60, 0.0],
+				        "variable": "door_fl",
+				        "duration": 20
+                    },
+                    {
+                        "animationType": "translation",
+                        "variable": "windows",
+                        "axis": [0.0, -0.75, 0.0],
+                        "duration": 30
+                    }
+                ]
+			},
+            
+			{
+				"objectName": "$Window_Door_BR",
+                "animations" : [
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [-0.970703, 0.857422, 0.902344],
+				        "axis": [0.0, 60, 0.0],
+				        "variable": "door_br",
+				        "duration": 20
+                    },
+                    {
+                        "animationType": "translation",
+                        "variable": "windows",
+                        "axis": [0.0, -0.75, 0.0],
+                        "duration": 30
+                    }
+                ]
+			},
+            
+			{
+				"objectName": "$Window_Door_BL",
+                "animations" : [
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [0.970703, 0.857422, 0.902344],
+				        "axis": [0.0, -60, 0.0],
+				        "variable": "door_bl",
+				        "duration": 20
+                    },
+                    {
+                        "animationType": "translation",
+                        "variable": "windows",
+                        "axis": [0.0, -0.75, 0.0],
+                        "duration": 30
+                    }
+                ]
+			},
+            
+			{
+				"objectName": "$Hubs_B",
+                "animations" : [{
+                    "animationType": "rotation",
+				    "centerPoint": [0.0, 0.0, 0.0],
+				    "axis": [1, 0.0, 0.0],
+				    "variable": "engine_driveshaft_rotation_1"
+                }]
+			},
+            
+			{
+				"objectName": "$Hubs_FL",
+                "animations" : [
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [0.862501, 0.0, 2.28125],
+				        "axis": [0.0, -1, 0.0],
+				        "variable": "rudder"
+                    },
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [0.0, 0.0, 2.28125],
+				        "axis": [1, 0.0, 0.0],
+				        "variable": "engine_driveshaft_rotation_1"
+                    }
+                ]
+			},
+            
+			{
+				"objectName": "$Hubs_FR",
+                "animations" : [
+                    {
+                        "animationType": "rotation",
+                        "centerPoint": [-0.862501, 0.0, 2.28125],
+                        "axis": [0.0, -1, 0.0],
+                        "variable": "rudder"
+                    },
+                    {
+                        "animationType": "rotation",
+                        "centerPoint": [0.0, 0.0, 2.28125],
+                        "axis": [1, 0.0, 0.0],
+                        "variable": "engine_driveshaft_rotation_1"
+                    }
+                ]
+			},
+            
+			{
+				"objectName": "$TurnRight",
+                "animations" : [
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [-0.568337, 0.824218, 1.73481],
+				        "axis": [0.0, 0.0, 10],
+				        "variable": "rightturnlight",
+				        "duration": 1
+                    },
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [-0.431661, 0.824218, 1.73481],
+				        "axis": [0.0, 0.0, -20],
+				        "variable": "leftturnlight",
+				        "duration": 1,
+				        "clampMax": 10.0
+                    }
+                ]
+			},
+            
+			{
+				"objectName": "$TurnLeft",
+                "animations" : [
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [-0.431661, 0.824218, 1.73481],
+				        "axis": [0.0, 0.0, -10],
+				        "variable": "headlight",
+				        "duration": 1
+                    }
+                ]
+			},
+            
+			{
+				"objectName": "$Gas",
+                "animations" : [
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [-0.640625, 0.484375, 2.05469],
+				        "axis": [-30, 0.0, 0.0],
+				        "variable": "throttle",
+				        "duration": 3
+                    }
+                ]
+			},
+            
+			{
+				"objectName": "$Brake",
+                "animations" : [
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [-0.453125, 0.484375, 2.05469],
+				        "axis": [-30, 0.0, 0.0],
+				        "variable": "brake",
+				        "duration": 3
+                    }
+                ]
+			},
+            
+			{
+				"objectName": "$Axle_FL",
+                "animations" : [
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [0.488282, 0.108399, 2.28125],
+				        "axis": [0.96, 0.0, -0.28],
+				        "variable": "engine_driveshaft_rotation_1"
+                    }
+                ]
+			},
+            
+			{
+				"objectName": "$Axle_FR",
+                "animations" : [
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [0.171876, 0.118165, 2.28125],
+				        "axis": [0.99, 0.0, 0.11],
+				        "variable": "engine_driveshaft_rotation_1"
+                
+                    }
+                ]
+			},
+            
+			{
+				"objectName": "$Axle_BL",
+                "animations" : [
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [0.105469, 0.085937, 0.0],
+				        "axis": [0.99, 0.0, 0.11],
+				        "variable": "engine_driveshaft_rotation_1"
+                    }
+                ]
+            },
+            
+            {
+                "objectName": "$Axle_BR",
+                "animations": [
+                    {
+                        "animationType": "rotation",
+				        "centerPoint": [-0.105469, 0.085938, 0.0],
+				        "axis": [0.99, 0.0, 0.11],
+				        "variable": "engine_driveshaft_rotation_1"
+                    }
+                ]
+			}
+        ],
+        
+        "cameraObjects": [
+            
+            {
+                "pos": [0.0, 2.5, -1],
+                "animations": []
+            }
+        ]
+	}
+
+}

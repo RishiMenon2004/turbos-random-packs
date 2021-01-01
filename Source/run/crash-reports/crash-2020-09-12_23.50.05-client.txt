@@ -1,0 +1,163 @@
+---- Minecraft Crash Report ----
+// Daisy, daisy...
+
+Time: 9/12/20 11:50 PM
+Description: Rendering entity in world
+
+java.lang.NullPointerException: Rendering entity in world
+	at minecrafttransportsimulator.rendering.components.RenderableModelObject.<init>(RenderableModelObject.java:41)
+	at minecrafttransportsimulator.rendering.instances.RenderVehicle.renderMainModel(RenderVehicle.java:220)
+	at minecrafttransportsimulator.rendering.instances.RenderVehicle.render(RenderVehicle.java:138)
+	at minecrafttransportsimulator.vehicles.main.EntityVehicleF_Physics.render(EntityVehicleF_Physics.java:520)
+	at mcinterface.InterfaceRender$1$1.doRender(InterfaceRender.java:693)
+	at mcinterface.InterfaceRender$1$1.doRender(InterfaceRender.java:670)
+	at net.minecraft.client.renderer.entity.RenderManager.renderEntity(RenderManager.java:390)
+	at net.minecraft.client.renderer.entity.RenderManager.renderEntityStatic(RenderManager.java:374)
+	at net.minecraft.client.renderer.RenderGlobal.renderEntities(RenderGlobal.java:655)
+	at net.minecraft.client.renderer.EntityRenderer.renderWorldPass(EntityRenderer.java:1400)
+	at net.minecraft.client.renderer.EntityRenderer.renderWorld(EntityRenderer.java:1312)
+	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1115)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1209)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:442)
+	at net.minecraft.client.main.Main.main(Main.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:25)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at minecrafttransportsimulator.rendering.components.RenderableModelObject.<init>(RenderableModelObject.java:41)
+	at minecrafttransportsimulator.rendering.instances.RenderVehicle.renderMainModel(RenderVehicle.java:220)
+	at minecrafttransportsimulator.rendering.instances.RenderVehicle.render(RenderVehicle.java:138)
+	at minecrafttransportsimulator.vehicles.main.EntityVehicleF_Physics.render(EntityVehicleF_Physics.java:520)
+	at mcinterface.InterfaceRender$1$1.doRender(InterfaceRender.java:693)
+	at mcinterface.InterfaceRender$1$1.doRender(InterfaceRender.java:670)
+
+-- Entity being rendered --
+Details:
+	Entity Type: mts:mts_entity (mcinterface.BuilderEntity)
+	Entity ID: 27891
+	Entity Name: entity.mts_entity.name
+	Entity's Exact location: 275.00, 3.97, 1344.00
+	Entity's Block location: World: (275,3,1344), Chunk: (at 3,0,0 in 17,84; contains blocks 272,0,1344 to 287,255,1359), Region: (0,2; contains chunks 0,64 to 31,95, blocks 0,0,1024 to 511,255,1535)
+	Entity's Momentum: 0.00, 0.00, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+
+-- Renderer details --
+Details:
+	Assigned renderer: mcinterface.InterfaceRender$1$1@7e6e5d94
+	Location: 0.31,-0.02,-4.70 - World: (0,-1,-5), Chunk: (at 0,-1,11 in 0,-1; contains blocks 0,0,-16 to 15,255,-1), Region: (0,-1; contains chunks 0,-32 to 31,-1, blocks 0,0,-512 to 511,255,-1)
+	Rotation: 97.07556
+	Delta: 0.9400042
+Stacktrace:
+	at net.minecraft.client.renderer.entity.RenderManager.renderEntity(RenderManager.java:390)
+	at net.minecraft.client.renderer.entity.RenderManager.renderEntityStatic(RenderManager.java:374)
+	at net.minecraft.client.renderer.RenderGlobal.renderEntities(RenderGlobal.java:655)
+	at net.minecraft.client.renderer.EntityRenderer.renderWorldPass(EntityRenderer.java:1400)
+	at net.minecraft.client.renderer.EntityRenderer.renderWorld(EntityRenderer.java:1312)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['Player28'/56, l='MpServer', x=274.68, y=4.00, z=1348.71]]
+	Chunk stats: MultiplayerChunkCache: 619, 619
+	Level seed: 0
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (109,4,1337), Chunk: (at 13,0,9 in 6,83; contains blocks 96,0,1328 to 111,255,1343), Region: (0,2; contains chunks 0,64 to 31,95, blocks 0,0,1024 to 511,255,1535)
+	Level time: 13208 game time, 1307 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 6 total; [BuilderEntity['entity.mts_entity.name'/27891, l='MpServer', x=275.00, y=3.97, z=1344.00], EntityPlayerSP['Player28'/56, l='MpServer', x=274.68, y=4.00, z=1348.71], EntityVillager['Villager'/58, l='MpServer', x=349.08, y=4.94, z=1278.81], EntityVillager['Villager'/122, l='MpServer', x=350.60, y=4.94, z=1278.43], EntityVillager['Villager'/123, l='MpServer', x=351.72, y=5.00, z=1276.53], EntityVillager['Villager'/124, l='MpServer', x=349.97, y=4.94, z=1278.36]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:461)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2889)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:463)
+	at net.minecraft.client.main.Main.main(Main.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:25)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Mac OS X (x86_64) version 10.11.6
+	Java Version: 1.8.0_241, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 595443832 bytes (567 MB) / 930611200 bytes (887 MB) up to 1908932608 bytes (1820 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2847 14 mods loaded, 14 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State  | ID                   | Version       | Source                                                  | Signature |
+	|:------ |:-------------------- |:------------- |:------------------------------------------------------- |:--------- |
+	| LCHIJA | minecraft            | 1.12.2        | minecraft.jar                                           | None      |
+	| LCHIJA | mcp                  | 9.42          | minecraft.jar                                           | None      |
+	| LCHIJA | FML                  | 8.0.99.99     | forgeSrc-1.12.2-14.23.5.2847.jar                        | None      |
+	| LCHIJA | forge                | 14.23.5.2847  | forgeSrc-1.12.2-14.23.5.2847.jar                        | None      |
+	| LCHIJA | fcl                  | 1.12.56       | FCL-1.12.2-SNAPSHOT.jar                                 | None      |
+	| LCHIJA | tmt                  | 1.10          | FCL-1.12.2-SNAPSHOT.jar                                 | None      |
+	| LCHIJA | fvtm                 | 3.4.44        | FVTM-1.12.2-SNAPSHOT.jar                                | None      |
+	| LCHIJA | gep                  | 2.1.1         | FVTM-1.12.2-SNAPSHOT.jar                                | None      |
+	| LCHIJA | hcp                  | 2.0.1         | FVTM-1.12.2-SNAPSHOT.jar                                | None      |
+	| LCHIJA | mts                  | 19.0.0-BETA-4 | Immersive_Vehicles-1.12.2-19.0.0-BETA-4.jar             | None      |
+	| LCHIJA | mtsofficialpack      | 16.0.0        | MTS_Official_Pack_V16.jar                               | None      |
+	| LCHIJA | unuparts             | 3.5.0         | UNU+Parts+Pack+[MTS]+1.12.2-18.0.0-3.5.0.jar            | None      |
+	| LCHIJA | turbosparts          | 1.1.0         | Turbo's Accessories and Parts Pack-v1.1.0 mc-1.12.2.jar | None      |
+	| LCHIJA | turbosrandomvehicles | 1.2.2         | Turbo's Random Vehicles Pack-v1.2.2 mc-1.12.2.jar       | None      |
+
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '2.1 NVIDIA-10.0.51 310.90.10.05b12' Renderer: 'NVIDIA GeForce 9400M OpenGL Engine'
+	
+	FVTM Addons: 
+	| fvtm                 | FVTM [Internal Addon]        | 3.4.44 | ...713ae33c1f44b7f9db73748896e9f3af2d957dc/FVTM-1.12.2-SNAPSHOT.jar|
+	| turbosrandomvehicles | Turbo's Random Vehicles Pack | 1.2.0  | ...ild/build/libs/Turbo's Random Vehicles Pack-v1.2.2 mc-1.12.2.jar|
+	| hcp                  | Heavy Cargo Pack             | 2.1.1  | ...713ae33c1f44b7f9db73748896e9f3af2d957dc/FVTM-1.12.2-SNAPSHOT.jar|
+	| gep                  | General Essentials Pack      | 2.1.1  | ...713ae33c1f44b7f9db73748896e9f3af2d957dc/FVTM-1.12.2-SNAPSHOT.jar|
+
+	Launched Version: 1.12.2
+	LWJGL: 2.9.2
+	OpenGL: NVIDIA GeForce 9400M OpenGL Engine GL version 2.1 NVIDIA-10.0.51 310.90.10.05b12, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because ARB_framebuffer_object is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 2x Intel(R) Core(TM)2 Duo CPU P7550 @ 2.26GHz

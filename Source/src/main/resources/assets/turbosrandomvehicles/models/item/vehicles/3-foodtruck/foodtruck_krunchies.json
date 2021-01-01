@@ -1,0 +1,5 @@
+{
+"parent": "turbosrandomvehicles:item/vehicles/3-foodtruck/foodtruck_item", 
+    "textures": {
+        "0": "turbosrandomvehicles:vehicles/3-foodtruck/foodtruck_krunchies" }
+}

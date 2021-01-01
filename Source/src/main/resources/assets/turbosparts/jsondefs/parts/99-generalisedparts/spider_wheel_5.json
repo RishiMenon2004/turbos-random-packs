@@ -1,0 +1,17 @@
+{
+    "general": {
+        "name" : "Wheel",
+        "description": "Vehicle Type: Car\nStyle: Spider",
+        "type" : "ground_wheel",
+        "materials" : ["minecraft:iron_ingots:0:1", "minecraft:leather:0:2"]
+        
+    },
+    
+    "ground": {
+        "isWheel": true,
+        "width" : 0.2,
+        "height" : 0.625,
+		"motiveFriction" : 1,
+		"lateralFriction" : 1
+	}
+}

@@ -1,0 +1,11 @@
+{
+    "general" : {
+        "name" : "A radio",
+        "descriptions" : "A retro styled (USED) radio",
+        "materials" : ["minecraft:iron_ingot:0:2", "minecraft:wool:0:1", "minecraft:redstone_dust:0:2"],
+        "type": "radio",
+        "width" : 1,
+        "height" : 1,
+        "depth" : 0.5
+    }
+}

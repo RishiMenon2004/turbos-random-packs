@@ -1,0 +1,1221 @@
+[10:32:35] [main/INFO]: Extra: []
+[10:32:36] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, /Users/menon/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[10:32:36] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:32:36] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:32:36] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[10:32:36] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:32:36] [main/INFO]: Forge Mod Loader version 14.23.5.2847 for Minecraft 1.12.2 loading
+[10:32:36] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_241, running on Mac OS X:x86_64:10.14.6, installed at /Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre
+[10:32:36] [main/ERROR]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[10:32:36] [main/ERROR]: Full: /Users/menon/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4/maven-artifact-3.5.3.jar
+[10:32:36] [main/ERROR]: Trimmed: /users/menon/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[10:32:36] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[10:32:36] [main/INFO]: Detected deobfuscated environment, loading log configs for colored console logs.
+[10:32:37] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugininecraftFormatting
+[10:32:37] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugininecraftFormatting
+[10:32:37] [main/INFO] [FML]: Searching /Users/menon/Documents/Rishi/MTSStuff/TurbosVehiclesBuild/run/./mods for modsinecraftFormatting
+[10:32:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweakerinecraftFormatting
+[10:32:37] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugininecraftFormatting
+[10:32:37] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugininecraftFormatting
+[10:32:37] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweakerinecraftFormatting
+[10:32:37] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweakerinecraftFormatting
+[10:32:37] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweakerinecraftFormatting
+[10:32:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweakerinecraftFormatting
+[10:32:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweakerinecraftFormatting
+[10:32:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapperinecraftFormatting
+[10:32:44] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thinginecraftFormatting
+[10:32:44] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapperinecraftFormatting
+[10:32:44] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweakerinecraftFormatting
+[10:32:47] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweakerinecraftFormatting
+[10:32:47] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweakerinecraftFormatting
+[10:32:47] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweakerinecraftFormatting
+[10:32:47] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}inecraftFormatting
+[10:32:54] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player78inecraftFormatting
+[10:33:10] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:inecraftFormatting
+[10:33:10] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.2inecraftFormatting
+[10:33:13] [Client thread/INFO] [FML]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Mac OS X (x86_64) version 10.14.6
+	Java Version: 1.8.0_241, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 218296792 bytes (208 MB) / 305135616 bytes (291 MB) up to 1908932608 bytes (1820 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'Intel Inc.' Version: '2.1 INTEL-12.10.17' Renderer: 'Intel HD Graphics 4000 OpenGL Engine'inecraftFormatting
+[10:33:13] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2847 InitializedinecraftFormatting
+[10:33:13] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.inecraftFormatting
+[10:33:13] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...inecraftFormatting
+[10:33:15] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 372735090 nanosinecraftFormatting
+[10:33:15] [Client thread/INFO] [FML]: Replaced 1227 ore ingredientsinecraftFormatting
+[10:33:17] [Client thread/INFO] [FML]: Searching /Users/menon/Documents/Rishi/MTSStuff/TurbosVehiclesBuild/run/./mods for modsinecraftFormatting
+[10:33:31] [Client thread/INFO] [FML]: Forge Mod Loader has identified 9 mods to loadinecraftFormatting
+[10:33:32] [Client thread/INFO] [FML]: FML has found a non-mod file Waywardcraft_Pack_V01.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.inecraftFormatting
+[10:33:33] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, turbosrandomvehicles, turbosparts, mts, mtsofficialpack, unuparts] at CLIENTinecraftFormatting
+[10:33:33] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, turbosrandomvehicles, turbosparts, mts, mtsofficialpack, unuparts] at SERVERinecraftFormatting
+[10:33:39] [Client thread/ERROR] [LaunchWrapper]: The jar file /Users/menon/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secureinecraftFormatting
+[10:33:39] [Client thread/ERROR] [LaunchWrapper]: The jar file /Users/menon/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secureinecraftFormatting
+[10:33:39] [Client thread/ERROR] [LaunchWrapper]: The jar file /Users/menon/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secureinecraftFormatting
+[10:33:39] [Client thread/ERROR] [LaunchWrapper]: The jar file /Users/menon/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secureinecraftFormatting
+[10:33:39] [Client thread/ERROR] [LaunchWrapper]: The jar file /Users/menon/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secureinecraftFormatting
+[10:33:39] [Client thread/ERROR] [LaunchWrapper]: The jar file /Users/menon/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secureinecraftFormatting
+[10:33:39] [Client thread/ERROR] [LaunchWrapper]: The jar file /Users/menon/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secureinecraftFormatting
+[10:33:39] [Client thread/ERROR] [LaunchWrapper]: The jar file /Users/menon/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secureinecraftFormatting
+[10:33:39] [Client thread/ERROR] [LaunchWrapper]: The jar file /Users/menon/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secureinecraftFormatting
+[10:33:39] [Client thread/ERROR] [LaunchWrapper]: The jar file /Users/menon/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secureinecraftFormatting
+[10:33:39] [Client thread/ERROR] [LaunchWrapper]: The jar file /Users/menon/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secureinecraftFormatting
+[10:33:39] [Client thread/ERROR] [LaunchWrapper]: The jar file /Users/menon/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secureinecraftFormatting
+[10:33:39] [Client thread/ERROR] [LaunchWrapper]: The jar file /Users/menon/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secureinecraftFormatting
+[10:33:39] [Client thread/ERROR] [LaunchWrapper]: The jar file /Users/menon/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secureinecraftFormatting
+[10:33:39] [Client thread/ERROR] [LaunchWrapper]: The jar file /Users/menon/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secureinecraftFormatting
+[10:33:39] [Client thread/ERROR] [LaunchWrapper]: The jar file /Users/menon/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secureinecraftFormatting
+[10:33:40] [Client thread/ERROR] [LaunchWrapper]: The jar file /Users/menon/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secureinecraftFormatting
+[10:33:40] [Client thread/ERROR] [LaunchWrapper]: The jar file /Users/menon/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secureinecraftFormatting
+[10:33:40] [Client thread/ERROR] [LaunchWrapper]: The jar file /Users/menon/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secureinecraftFormatting
+[10:33:40] [Client thread/ERROR] [LaunchWrapper]: The jar file /Users/menon/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secureinecraftFormatting
+[10:33:40] [Client thread/ERROR] [LaunchWrapper]: The jar file /Users/menon/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secureinecraftFormatting
+[10:33:40] [Client thread/ERROR] [LaunchWrapper]: The jar file /Users/menon/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secureinecraftFormatting
+[10:33:40] [Client thread/ERROR] [LaunchWrapper]: The jar file /Users/menon/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secureinecraftFormatting
+[10:33:40] [Client thread/ERROR] [LaunchWrapper]: The jar file /Users/menon/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secureinecraftFormatting
+[10:33:40] [Client thread/ERROR] [LaunchWrapper]: The jar file /Users/menon/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secureinecraftFormatting
+[10:33:40] [Client thread/ERROR] [LaunchWrapper]: The jar file /Users/menon/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secureinecraftFormatting
+[10:33:40] [Client thread/ERROR] [LaunchWrapper]: The jar file /Users/menon/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secureinecraftFormatting
+[10:33:40] [Client thread/ERROR] [LaunchWrapper]: The jar file /Users/menon/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secureinecraftFormatting
+[10:33:40] [Client thread/ERROR] [LaunchWrapper]: The jar file /Users/menon/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secureinecraftFormatting
+[10:33:40] [Client thread/ERROR] [LaunchWrapper]: The jar file /Users/menon/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secureinecraftFormatting
+[10:33:40] [Client thread/ERROR] [LaunchWrapper]: The jar file /Users/menon/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secureinecraftFormatting
+[10:33:40] [Client thread/ERROR] [LaunchWrapper]: The jar file /Users/menon/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secureinecraftFormatting
+[10:33:40] [Client thread/ERROR] [LaunchWrapper]: The jar file /Users/menon/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secureinecraftFormatting
+[10:33:40] [Client thread/ERROR] [LaunchWrapper]: The jar file /Users/menon/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secureinecraftFormatting
+[10:33:40] [Client thread/ERROR] [LaunchWrapper]: The jar file /Users/menon/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secureinecraftFormatting
+[10:33:40] [Client thread/ERROR] [LaunchWrapper]: The jar file /Users/menon/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secureinecraftFormatting
+[10:33:41] [Client thread/ERROR] [LaunchWrapper]: The jar file /Users/menon/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secureinecraftFormatting
+[10:33:45] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Turbo's Random Vehicles Pack, FMLFileResourcePack:Turbo's Accessories and Parts Pack, FMLFileResourcePack:Immersive Vehicles (formerly MTS), FMLFileResourcePack:MTS Official Vehicle Pack, FMLFileResourcePack:UNU Parts PackinecraftFormatting
+[10:33:46] [Client thread/INFO] [FML]: Processing ObjectHolder annotationsinecraftFormatting
+[10:33:46] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotationsinecraftFormatting
+[10:33:46] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotationsinecraftFormatting
+[10:33:46] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotationsinecraftFormatting
+[10:33:47] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0inecraftFormatting
+[10:33:47] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.jsoninecraftFormatting
+[10:33:47] [Client thread/ERROR] [mts]: AN ERROR WAS ENCOUNTERED WHEN TRY TO PARSE: unuparts:unuparts_part_unu_bumpersticker_trioinecraftFormatting
+[10:33:47] [Client thread/ERROR] [mts]: java.lang.IllegalStateException: Expected a string but was NULL at line 10 column 39 path $.general.materials[1]inecraftFormatting
+[10:33:47] [Client thread/ERROR] [mts]: AN ERROR WAS ENCOUNTERED WHEN TRY TO PARSE: unuparts:unuparts_part_unu_container_blackthorneinecraftFormatting
+[10:33:47] [Client thread/ERROR] [mts]: com.google.gson.stream.MalformedJsonException: Expected name at line 12 column 3 path $.general.modelNameinecraftFormatting
+[10:33:47] [Client thread/ERROR] [mts]: AN ERROR WAS ENCOUNTERED WHEN TRY TO PARSE: unuparts:unuparts_part_unu_container_blueinecraftFormatting
+[10:33:47] [Client thread/ERROR] [mts]: com.google.gson.stream.MalformedJsonException: Expected name at line 12 column 3 path $.general.modelNameinecraftFormatting
+[10:33:47] [Client thread/ERROR] [mts]: AN ERROR WAS ENCOUNTERED WHEN TRY TO PARSE: unuparts:unuparts_part_unu_container_greeninecraftFormatting
+[10:33:47] [Client thread/ERROR] [mts]: com.google.gson.stream.MalformedJsonException: Expected name at line 12 column 3 path $.general.modelNameinecraftFormatting
+[10:33:47] [Client thread/ERROR] [mts]: AN ERROR WAS ENCOUNTERED WHEN TRY TO PARSE: unuparts:unuparts_part_unu_container_moonspireinecraftFormatting
+[10:33:47] [Client thread/ERROR] [mts]: com.google.gson.stream.MalformedJsonException: Expected name at line 12 column 3 path $.general.modelNameinecraftFormatting
+[10:33:47] [Client thread/ERROR] [mts]: AN ERROR WAS ENCOUNTERED WHEN TRY TO PARSE: unuparts:unuparts_part_unu_container_unuinecraftFormatting
+[10:33:47] [Client thread/ERROR] [mts]: com.google.gson.stream.MalformedJsonException: Expected name at line 12 column 3 path $.general.modelNameinecraftFormatting
+[10:33:47] [Client thread/ERROR] [mts]: AN ERROR WAS ENCOUNTERED WHEN TRY TO PARSE: unuparts:unuparts_decor_unu_container_blackthorneinecraftFormatting
+[10:33:47] [Client thread/ERROR] [mts]: com.google.gson.stream.MalformedJsonException: Expected name at line 10 column 3 path $.general.nullinecraftFormatting
+[10:33:47] [Client thread/ERROR] [mts]: AN ERROR WAS ENCOUNTERED WHEN TRY TO PARSE: unuparts:unuparts_decor_unu_container_blueinecraftFormatting
+[10:33:47] [Client thread/ERROR] [mts]: com.google.gson.stream.MalformedJsonException: Expected name at line 10 column 3 path $.general.nullinecraftFormatting
+[10:33:47] [Client thread/ERROR] [mts]: AN ERROR WAS ENCOUNTERED WHEN TRY TO PARSE: unuparts:unuparts_decor_unu_container_greeninecraftFormatting
+[10:33:47] [Client thread/ERROR] [mts]: com.google.gson.stream.MalformedJsonException: Expected name at line 10 column 3 path $.general.nullinecraftFormatting
+[10:33:47] [Client thread/ERROR] [mts]: AN ERROR WAS ENCOUNTERED WHEN TRY TO PARSE: unuparts:unuparts_decor_unu_container_moonspireinecraftFormatting
+[10:33:47] [Client thread/ERROR] [mts]: com.google.gson.stream.MalformedJsonException: Expected name at line 10 column 3 path $.general.nullinecraftFormatting
+[10:33:47] [Client thread/ERROR] [mts]: AN ERROR WAS ENCOUNTERED WHEN TRY TO PARSE: unuparts:unuparts_decor_unu_container_unuinecraftFormatting
+[10:33:47] [Client thread/ERROR] [mts]: com.google.gson.stream.MalformedJsonException: Expected name at line 10 column 3 path $.general.nullinecraftFormatting
+[10:33:48] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2854inecraftFormatting
+[10:33:48] [Client thread/INFO] [FML]: Applying holder lookupsinecraftFormatting
+[10:33:48] [Client thread/INFO] [FML]: Holder lookups appliedinecraftFormatting
+[10:33:48] [Client thread/INFO] [STDOUT]: [unuparts.MTSPackLoader:registerItems:161]: nullinecraftFormatting
+[10:33:48] [Client thread/INFO] [STDOUT]: [unuparts.MTSPackLoader:registerItems:163]: mcinterface1122.BuilderCreativeTab@7e389cd6inecraftFormatting
+[10:33:48] [Client thread/INFO] [STDOUT]: [unuparts.MTSPackLoader:registerItems:161]: nullinecraftFormatting
+[10:33:48] [Client thread/INFO] [STDOUT]: [unuparts.MTSPackLoader:registerItems:163]: mcinterface1122.BuilderCreativeTab@7e389cd6inecraftFormatting
+[10:33:48] [Client thread/INFO] [STDOUT]: [unuparts.MTSPackLoader:registerItems:161]: nullinecraftFormatting
+[10:33:48] [Client thread/INFO] [STDOUT]: [unuparts.MTSPackLoader:registerItems:163]: mcinterface1122.BuilderCreativeTab@7e389cd6inecraftFormatting
+[10:33:48] [Client thread/INFO] [STDOUT]: [unuparts.MTSPackLoader:registerItems:161]: nullinecraftFormatting
+[10:33:48] [Client thread/INFO] [STDOUT]: [unuparts.MTSPackLoader:registerItems:163]: mcinterface1122.BuilderCreativeTab@7e389cd6inecraftFormatting
+[10:33:48] [Client thread/INFO] [STDOUT]: [unuparts.MTSPackLoader:registerItems:161]: nullinecraftFormatting
+[10:33:48] [Client thread/INFO] [STDOUT]: [unuparts.MTSPackLoader:registerItems:163]: mcinterface1122.BuilderCreativeTab@7e389cd6inecraftFormatting
+[10:33:48] [Client thread/INFO] [STDOUT]: [unuparts.MTSPackLoader:registerItems:161]: nullinecraftFormatting
+[10:33:48] [Client thread/INFO] [STDOUT]: [unuparts.MTSPackLoader:registerItems:163]: mcinterface1122.BuilderCreativeTab@7e389cd6inecraftFormatting
+[10:33:48] [Client thread/INFO] [STDOUT]: [unuparts.MTSPackLoader:registerItems:161]: nullinecraftFormatting
+[10:33:48] [Client thread/INFO] [STDOUT]: [unuparts.MTSPackLoader:registerItems:163]: mcinterface1122.BuilderCreativeTab@7e389cd6inecraftFormatting
+[10:33:48] [Client thread/INFO] [FML]: Applying holder lookupsinecraftFormatting
+[10:33:48] [Client thread/INFO] [FML]: Holder lookups appliedinecraftFormatting
+[10:33:48] [Client thread/INFO] [FML]: Applying holder lookupsinecraftFormatting
+[10:33:48] [Client thread/INFO] [FML]: Holder lookups appliedinecraftFormatting
+[10:33:49] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Turbo's Random Vehicles Pack, FMLFileResourcePack:Turbo's Accessories and Parts Pack, FMLFileResourcePack:Immersive Vehicles (formerly MTS), FMLFileResourcePack:MTS Official Vehicle Pack, FMLFileResourcePack:UNU Parts Pack, Internal:mts_packs, Internal:waywardcraftinecraftFormatting
+[10:33:49] [Client thread/INFO] [FML]: Applying holder lookupsinecraftFormatting
+[10:33:49] [Client thread/INFO] [FML]: Holder lookups appliedinecraftFormatting
+[10:33:49] [Client thread/INFO] [FML]: Injecting itemstacksinecraftFormatting
+[10:33:49] [Client thread/INFO] [FML]: Itemstack injection completeinecraftFormatting
+[10:33:55] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...inecraftFormatting
+[10:33:56] [Thread-4/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenALinecraftFormatting
+[10:33:56] [Thread-4/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)inecraftFormatting
+[10:33:56] [Thread-4/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.inecraftFormatting
+[10:33:56] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine startedinecraftFormatting
+[10:34:10] [Client thread/INFO] [FML]: Max texture size: 16384inecraftFormatting
+[10:34:10] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/fmcbumpkin/fmcbumpkin_blue_item.pnginecraftFormatting
+[10:34:11] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/schmidtd30/schmidtd30_silver_item.pnginecraftFormatting
+[10:34:11] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/burton33metrotour/burton33metrotour_item.pnginecraftFormatting
+[10:34:11] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/schmidtd30/schmidtd30_black_item.pnginecraftFormatting
+[10:34:11] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/cochranmonarch/cochranmonarch_sirevan_item.pnginecraftFormatting
+[10:34:11] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/dojinmunchenlilderpy/dojinmunchenlilderpy_ss_item.pnginecraftFormatting
+[10:34:11] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/hanks49/hanks49_salmon_item.pnginecraftFormatting
+[10:34:12] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/cochrantownmaster/cochrantownmaster_gold_item.pnginecraftFormatting
+[10:34:12] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/hanks35/hanks35_silverblue_item.pnginecraftFormatting
+[10:34:12] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/hanks49/hanks49_freshorange_item.pnginecraftFormatting
+[10:34:12] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/burton99hauler/burton99hauler_green_item.pnginecraftFormatting
+[10:34:12] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/cochrantownmaster/cochrantownmaster_white_item.pnginecraftFormatting
+[10:34:12] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/hanksmodel12/hanksmodel12_item.pnginecraftFormatting
+[10:34:13] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/hanks49/hanks49_earthbrown_item.pnginecraftFormatting
+[10:34:13] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/hanks49/hanks49_smokeblack_item.pnginecraftFormatting
+[10:34:13] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/fmcdixon/fmcdixon_item.pnginecraftFormatting
+[10:34:13] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/hanks35/hanks35_police_item.pnginecraftFormatting
+[10:34:13] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/burton35smarshall/burton35smarshall_item.pnginecraftFormatting
+[10:34:13] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/cochrantownmaster/cochrantownmaster_silver_item.pnginecraftFormatting
+[10:34:13] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/hanks21racer/hanks21racer_item.pnginecraftFormatting
+[10:34:13] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/cochrantownmaster/cochrantownmaster_pink_item.pnginecraftFormatting
+[10:34:13] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/cochrantownmaster/cochrantownmaster_black_item.pnginecraftFormatting
+[10:34:13] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/decimotorvanquisher/decimotorvanquisher_item.pnginecraftFormatting
+[10:34:13] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/hanks49/hanks49_taxicab_item.pnginecraftFormatting
+[10:34:13] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/fmcsprinter/fmcsprinter_item.pnginecraftFormatting
+[10:34:13] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/dojinmunchenjitterbug/dojinmunchenjitterbug_item.pnginecraftFormatting
+[10:34:13] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/burton35sdomestic/burton35sdomestic_standard_item.pnginecraftFormatting
+[10:34:13] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/cochrantownmaster/cochrantownmaster_green_item.pnginecraftFormatting
+[10:34:13] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/hanks49/hanks49_police_item.pnginecraftFormatting
+[10:34:13] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/hanks35/hanks35_silvermaroon_item.pnginecraftFormatting
+[10:34:13] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/hanks49/hanks49_cornflowerblue_item.pnginecraftFormatting
+[10:34:13] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/hanksmodel12truck/hanksmodel12truck_item.pnginecraftFormatting
+[10:34:13] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/burton35sfueler/burton35sfueler_item.pnginecraftFormatting
+[10:34:13] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/schmidtd30/schmidtd30_beige_item.pnginecraftFormatting
+[10:34:14] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/burton35sgrace/burton35sgrace_item.pnginecraftFormatting
+[10:34:14] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/hanks35/hanks35_blue_item.pnginecraftFormatting
+[10:34:14] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/schmidtsilberpfeileins/schmidtsilberpfeileins_item.pnginecraftFormatting
+[10:34:14] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/hanks35/hanks35_taxi_item.pnginecraftFormatting
+[10:34:14] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/cochrantownmaster/cochrantownmaster_purple_item.pnginecraftFormatting
+[10:34:14] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/fmcbumpkin/fmcbumpkin_forest_item.pnginecraftFormatting
+[10:34:14] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/spencersteamracer/spencersteamracer_item.pnginecraftFormatting
+[10:34:14] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/cochranmonarch/cochranmonarch_generic_item.pnginecraftFormatting
+[10:34:14] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/hanks49/hanks49_navyblue_item.pnginecraftFormatting
+[10:34:14] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/hanks49/hanks49_plum_item.pnginecraftFormatting
+[10:34:14] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/fmcbumpkin/fmcbumpkin_dirt_item.pnginecraftFormatting
+[10:34:14] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/cochrantownmaster/cochrantownmaster_red_item.pnginecraftFormatting
+[10:34:14] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/hanks35/hanks35_blacksilver_item.pnginecraftFormatting
+[10:34:14] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/burton99hauler/burton99hauler_orange_item.pnginecraftFormatting
+[10:34:14] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/schmidtd30/schmidtd30_green_item.pnginecraftFormatting
+[10:34:14] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/hanks49/hanks49_seasideblue_item.pnginecraftFormatting
+[10:34:14] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/hanks35/hanks35_pinkpurple_item.pnginecraftFormatting
+[10:34:14] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/hanks49/hanks49_emeraldgreen_item.pnginecraftFormatting
+[10:34:14] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/dojinmunchenlilderpy/dojinmunchenlilderpy_regular_item.pnginecraftFormatting
+[10:34:14] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/hanks49/hanks49_springyellow_item.pnginecraftFormatting
+[10:34:14] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/fmcbumpkin/fmcbumpkin_sunburn_item.pnginecraftFormatting
+[10:34:14] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/cochrantownmaster/cochrantownmaster_blue_item.pnginecraftFormatting
+[10:34:15] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/hanks49/hanks49_firered_item.pnginecraftFormatting
+[10:34:15] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/decimotorconquest/decimotorconquest_item.pnginecraftFormatting
+[10:34:15] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/hanks49/hanks49_silverarrow_item.pnginecraftFormatting
+[10:34:15] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/hanks35/hanks35_green_item.pnginecraftFormatting
+[10:34:15] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/fmcbumpkin/fmcbumpkin_moonshine_item.pnginecraftFormatting
+[10:34:15] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/cochrantownmaster/cochrantownmaster_salmon_item.pnginecraftFormatting
+[10:34:15] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/burton99trailer/burton99trailer_item.pnginecraftFormatting
+[10:34:15] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/spencersteamer/spencersteamer_item.pnginecraftFormatting
+[10:34:15] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/hankshorselesscarriage/hankshorselesscarriage_item.pnginecraftFormatting
+[10:34:15] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/hanks49/hanks49_teagreen_item.pnginecraftFormatting
+[10:34:15] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/terzivelocemk1/terzivelocemk1_item.pnginecraftFormatting
+[10:34:15] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/burton35sdomestic/burton35sdomestic_mattdonalds_item.pnginecraftFormatting
+[10:34:15] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/fmcbumpkin/fmcbumpkin_green_item.pnginecraftFormatting
+[10:34:15] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/burton35sdomestic/burton35sdomestic_pricedecimator_item.pnginecraftFormatting
+[10:34:15] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/hanks49/hanks49_goldenrod_item.pnginecraftFormatting
+[10:34:15] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/hanks49/hanks49_cloudwhite_item.pnginecraftFormatting
+[10:34:15] [Client thread/ERROR] [mts]: ERROR: Could not parse out item JSON or PNG from: textures/cochranjackrabbit/cochranjackrabbit_item.pnginecraftFormatting
+[10:34:16] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 4096x2048 textures-atlasinecraftFormatting
+[10:34:24] [Client thread/ERROR] [FML]: Parsing error loading recipe unuparts:unu_emblem_vanillainecraftFormatting
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 3 path $.
+	at net.minecraft.util.JsonUtils.gsonDeserialize(SourceFile:494) ~[JsonUtils.class:?]
+	at net.minecraft.util.JsonUtils.fromJson(SourceFile:532) ~[JsonUtils.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:720) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) [?:1.8.0_241]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:535) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 3 path $.
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1559) ~[JsonReader.class:?]
+	at com.google.gson.stream.JsonReader.checkLenient(JsonReader.java:1401) ~[JsonReader.class:?]
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1352) ~[JsonReader.class:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:494) ~[JsonReader.class:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:414) ~[JsonReader.class:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:738) ~[TypeAdapters$29.class:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:714) ~[TypeAdapters$29.class:?]
+	at com.google.gson.internal.bind.TypeAdapters$35$1.read(TypeAdapters.java:910) ~[TypeAdapters$35$1.class:?]
+	at net.minecraft.util.JsonUtils.gsonDeserialize(SourceFile:492) ~[JsonUtils.class:?]
+	... 23 more
+[10:34:24] [Client thread/ERROR] [FML]: Parsing error loading recipe unuparts:unu_emblem_ieinecraftFormatting
+com.google.gson.JsonSyntaxException: Unknown item 'immersiveengineering:metal'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:262) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:204) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$14(CraftingHelper.java:481) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) [?:1.8.0_241]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:535) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+[10:34:24] [Client thread/ERROR] [FML]: Parsing error loading recipe unuparts:old wheel updates/unuparts_part_unu_wheel_truck_standardinecraftFormatting
+com.google.gson.JsonSyntaxException: Unknown item 'unuparts:unuparts_part_unu_wheel_5d17t'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:262) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:204) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$15(CraftingHelper.java:531) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) [?:1.8.0_241]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:535) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+[10:34:24] [Client thread/ERROR] [FML]: Parsing error loading recipe unuparts:old wheel updates/unuparts_part_unu_wheel_tractorinecraftFormatting
+com.google.gson.JsonSyntaxException: Unknown item 'unuparts:unuparts_part_unu_wheel_10d28t'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:262) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:204) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$15(CraftingHelper.java:531) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) [?:1.8.0_241]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:535) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+[10:34:24] [Client thread/ERROR] [FML]: Parsing error loading recipe unuparts:old wheel updates/unuparts_part_unu_wheel_standard_wire2inecraftFormatting
+com.google.gson.JsonSyntaxException: Unknown item 'unuparts:unuparts_part_unu_hubcap_8_wire'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:262) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:204) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$15(CraftingHelper.java:531) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) [?:1.8.0_241]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:535) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+[10:34:24] [Client thread/ERROR] [FML]: Parsing error loading recipe unuparts:old wheel updates/unuparts_part_unu_wheel_standard_wireinecraftFormatting
+com.google.gson.JsonSyntaxException: Unknown item 'unuparts:unuparts_part_unu_hubcap_8_wire'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:262) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:204) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$15(CraftingHelper.java:531) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) [?:1.8.0_241]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:535) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+[10:34:24] [Client thread/ERROR] [FML]: Parsing error loading recipe unuparts:old wheel updates/unuparts_part_unu_wheel_standard_vintageinecraftFormatting
+com.google.gson.JsonSyntaxException: Unknown item 'unuparts:unuparts_part_unu_wheel_2d14'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:262) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:204) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$15(CraftingHelper.java:531) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) [?:1.8.0_241]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:535) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+[10:34:24] [Client thread/ERROR] [FML]: Parsing error loading recipe unuparts:old wheel updates/unuparts_part_unu_wheel_standard_plaininecraftFormatting
+com.google.gson.JsonSyntaxException: Unknown item 'unuparts:unuparts_part_unu_wheel_4d14'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:262) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:204) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$15(CraftingHelper.java:531) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) [?:1.8.0_241]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:535) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+[10:34:24] [Client thread/ERROR] [FML]: Parsing error loading recipe unuparts:old wheel updates/unuparts_part_unu_wheel_standard_dish2inecraftFormatting
+com.google.gson.JsonSyntaxException: Unknown item 'unuparts:unuparts_part_unu_hubcap_5'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:262) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:204) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$15(CraftingHelper.java:531) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) [?:1.8.0_241]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:535) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+[10:34:24] [Client thread/ERROR] [FML]: Parsing error loading recipe unuparts:old wheel updates/unuparts_part_unu_wheel_standard_dishinecraftFormatting
+com.google.gson.JsonSyntaxException: Unknown item 'unuparts:unuparts_part_unu_hubcap_5'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:262) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:204) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$15(CraftingHelper.java:531) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) [?:1.8.0_241]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:535) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+[10:34:24] [Client thread/ERROR] [FML]: Parsing error loading recipe unuparts:old wheel updates/unuparts_part_unu_wheel_compact_plaininecraftFormatting
+com.google.gson.JsonSyntaxException: Unknown item 'unuparts:unuparts_part_unu_wheel_3d12'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:262) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:204) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$15(CraftingHelper.java:531) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) [?:1.8.0_241]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:535) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+[10:34:24] [Client thread/ERROR] [FML]: Parsing error loading recipe unuparts:old wheel updates/unuparts_part_unu_wheel_compact_dish2inecraftFormatting
+com.google.gson.JsonSyntaxException: Unknown item 'unuparts:unuparts_part_unu_hubcap_4'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:262) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:204) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$15(CraftingHelper.java:531) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) [?:1.8.0_241]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:535) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+[10:34:24] [Client thread/ERROR] [FML]: Parsing error loading recipe unuparts:old wheel updates/unuparts_part_unu_wheel_compact_dishinecraftFormatting
+com.google.gson.JsonSyntaxException: Unknown item 'unuparts:unuparts_part_unu_hubcap_4'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:262) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:204) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$15(CraftingHelper.java:531) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) [?:1.8.0_241]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:535) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+[10:34:24] [Client thread/ERROR] [FML]: Parsing error loading recipe unuparts:old wheel updates/unuparts_part_unu_wheel_aircraft_smallinecraftFormatting
+com.google.gson.JsonSyntaxException: Unknown item 'unuparts:unuparts_part_unu_wheel_3d8a'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:262) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:204) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$15(CraftingHelper.java:531) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) [?:1.8.0_241]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:535) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+[10:34:24] [Client thread/ERROR] [FML]: Parsing error loading recipe unuparts:old wheel updates/unuparts_part_unu_wheel_aircraft_mediuminecraftFormatting
+com.google.gson.JsonSyntaxException: Unknown item 'unuparts:unuparts_part_unu_wheel_4d12a'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:262) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:204) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$15(CraftingHelper.java:531) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) [?:1.8.0_241]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:535) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+[10:34:24] [Client thread/ERROR] [FML]: Parsing error loading recipe unuparts:old wheel updates/unuparts_part_unu_wheel_aircraft_largeinecraftFormatting
+com.google.gson.JsonSyntaxException: Unknown item 'unuparts:unuparts_part_unu_wheel_5d14a'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:262) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:204) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$15(CraftingHelper.java:531) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) [?:1.8.0_241]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:535) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+[10:34:24] [Client thread/ERROR] [FML]: Parsing error loading recipe unuparts:old wheel updates/unuparts_part_unu_wheel_aircraft_hugeinecraftFormatting
+com.google.gson.JsonSyntaxException: Unknown item 'unuparts:unuparts_part_unu_wheel_10d28a'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:262) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:204) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$15(CraftingHelper.java:531) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) [?:1.8.0_241]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:535) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+[10:34:24] [Client thread/INFO] [FML]: Applying holder lookupsinecraftFormatting
+[10:34:24] [Client thread/INFO] [FML]: Holder lookups appliedinecraftFormatting
+[10:34:25] [Client thread/INFO] [FML]: Injecting itemstacksinecraftFormatting
+[10:34:25] [Client thread/INFO] [FML]: Itemstack injection completeinecraftFormatting
+[10:34:26] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 9 modsinecraftFormatting
+[10:34:26] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:inecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=inecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]: The following texture errors were found.inecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]: ==================================================inecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:   DOMAIN turbosrandomvehiclesinecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]: --------------------------------------------------inecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:   domain turbosrandomvehicles is missing 36 texturesinecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:     domain turbosrandomvehicles has 2 locations:inecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       unknown resourcepack type net.minecraft.client.resources.LegacyV2Adapter : FMLFileResourcePack:Turbo's Random Vehicles PackinecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       unknown resourcepack type net.minecraft.client.resources.LegacyV2Adapter : FMLFileResourcePack:Turbo's Accessories and Parts PackinecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]: -------------------------inecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:     The missing resources for domain turbosrandomvehicles are:inecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/parts/chevron_roof_white.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/parts/shikatsu_decal_stripe.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/vehicles/taurus_white.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/parts/ft_oven.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/vehicles/taurus_red.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/parts/ftsign_miners.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/instruments/instrument_blinker_r.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/vehicles/taurus_gold.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/parts/ftpntgobblr.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/parts/chevron_wheel.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/vehicles/taurus_orange.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/vehicles/taurus_yellow.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/parts/pw_picklewheel.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/parts/ft_sink.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/instruments/instrument_fuel_indicator.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/parts/enginev8turbodiesel.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/parts/ftsign_sb.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/parts/pw_foodcrate_green.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/vehicles/taurus_blue.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/decors/marketplace.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/parts/pw_foodcrate_black.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/instruments/instrument_blinker_l.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/decors/radio.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/parts/ftpntkrunchies.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/parts/chevron_roof_black.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/parts/pw_flag.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/parts/pw_foodcrate_brown.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/parts/ftsign_gobblr.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/parts/pw_foodcrate_red.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/parts/spider_wheel_5.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/parts/ftpntsb.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/parts/ftpntminers.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/parts/pw_foodcrate_yellow.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/parts/ftsign_krunchies.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/parts/pw_foodcrate_blue.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/vehicles/taurus_black.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]: -------------------------inecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:     No other errors exist for domain turbosrandomvehiclesinecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]: ==================================================inecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]: ==================================================inecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:   DOMAIN waywardcraftinecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]: --------------------------------------------------inecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:   domain waywardcraft is missing 73 texturesinecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:     domain waywardcraft has 1 location:inecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       unknown resourcepack type mcinterface1122.InterfaceRender$PackResourcePack : Internal:waywardcraftinecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]: -------------------------inecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:     The missing resources for domain waywardcraft are:inecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/hanks49/hanks49_emeraldgreen_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/cochrantownmaster/cochrantownmaster_pink_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/schmidtd30/schmidtd30_green_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/hanks49/hanks49_teagreen_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/hanks49/hanks49_smokeblack_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/hanks49/hanks49_police_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/cochrantownmaster/cochrantownmaster_red_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/hanks49/hanks49_taxicab_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/hanks35/hanks35_green_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/dojinmunchenlilderpy/dojinmunchenlilderpy_ss_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/burton99hauler/burton99hauler_green_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/hanksmodel12truck/hanksmodel12truck_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/spencersteamer/spencersteamer_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/hanks35/hanks35_silvermaroon_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/cochranmonarch/cochranmonarch_sirevan_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/cochrantownmaster/cochrantownmaster_gold_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/hanks21racer/hanks21racer_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/hanks35/hanks35_blue_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/burton99hauler/burton99hauler_orange_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/hanks35/hanks35_police_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/fmcbumpkin/fmcbumpkin_moonshine_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/cochrantownmaster/cochrantownmaster_black_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/cochrantownmaster/cochrantownmaster_white_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/fmcbumpkin/fmcbumpkin_green_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/dojinmunchenjitterbug/dojinmunchenjitterbug_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/schmidtd30/schmidtd30_black_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/burton35sdomestic/burton35sdomestic_mattdonalds_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/hanksmodel12/hanksmodel12_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/cochrantownmaster/cochrantownmaster_blue_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/schmidtd30/schmidtd30_silver_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/hanks49/hanks49_salmon_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/spencersteamracer/spencersteamracer_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/decimotorconquest/decimotorconquest_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/hanks49/hanks49_silverarrow_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/fmcbumpkin/fmcbumpkin_blue_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/burton99trailer/burton99trailer_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/hanks49/hanks49_firered_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/fmcbumpkin/fmcbumpkin_dirt_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/hanks49/hanks49_navyblue_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/cochrantownmaster/cochrantownmaster_green_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/hanks35/hanks35_blacksilver_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/schmidtd30/schmidtd30_beige_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/hanks49/hanks49_earthbrown_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/hanks49/hanks49_cornflowerblue_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/cochranjackrabbit/cochranjackrabbit_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/hanks49/hanks49_springyellow_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/fmcdixon/fmcdixon_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/hanks35/hanks35_silverblue_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/fmcsprinter/fmcsprinter_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/burton33metrotour/burton33metrotour_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/hanks35/hanks35_pinkpurple_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/burton35sdomestic/burton35sdomestic_standard_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/hanks49/hanks49_freshorange_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/hankshorselesscarriage/hankshorselesscarriage_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/cochrantownmaster/cochrantownmaster_silver_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/cochranmonarch/cochranmonarch_generic_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/decimotorvanquisher/decimotorvanquisher_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/fmcbumpkin/fmcbumpkin_sunburn_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/hanks49/hanks49_plum_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/burton35sdomestic/burton35sdomestic_pricedecimator_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/dojinmunchenlilderpy/dojinmunchenlilderpy_regular_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/hanks49/hanks49_goldenrod_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/fmcbumpkin/fmcbumpkin_forest_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/burton35smarshall/burton35smarshall_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/burton35sfueler/burton35sfueler_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/cochrantownmaster/cochrantownmaster_salmon_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/hanks49/hanks49_cloudwhite_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/burton35sgrace/burton35sgrace_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/hanks49/hanks49_seasideblue_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/cochrantownmaster/cochrantownmaster_purple_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/schmidtsilberpfeileins/schmidtsilberpfeileins_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/hanks35/hanks35_taxi_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/terzivelocemk1/terzivelocemk1_item.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]: -------------------------inecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:     No other errors exist for domain waywardcraftinecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]: ==================================================inecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]: ==================================================inecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:   DOMAIN turbospartsinecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]: --------------------------------------------------inecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:   domain turbosparts is missing 23 texturesinecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:     domain turbosparts has 2 locations:inecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       unknown resourcepack type net.minecraft.client.resources.LegacyV2Adapter : FMLFileResourcePack:Turbo's Random Vehicles PackinecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       unknown resourcepack type net.minecraft.client.resources.LegacyV2Adapter : FMLFileResourcePack:Turbo's Accessories and Parts PackinecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]: -------------------------inecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:     The missing resources for domain turbosparts are:inecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/vehicles/taurus_black.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/vehicles/chevron_white.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/vehicles/taurus_red.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/vehicles/shikatsu_mattegreen.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/parts/pw_flag.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/vehicles/shikatsu_matteblue.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/vehicles/chevron_gold.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/vehicles/chevron_orange.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/vehicles/chevron_red.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/instruments/instrument_fuel_indicator.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/vehicles/taurus_yellow.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/vehicles/shikatsu_mattered.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/vehicles/chevron_black.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/vehicles/shikatsu_matteyellow.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/vehicles/patty_wagon.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/vehicles/shikatsu_matteorange.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/vehicles/chevron_yellow.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/vehicles/foodtruck_base.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/vehicles/taurus_blue.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/vehicles/taurus_white.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/vehicles/chevron_blue.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/vehicles/taurus_gold.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/vehicles/taurus_orange.pnginecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]: -------------------------inecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:     No other errors exist for domain turbospartsinecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]: ==================================================inecraftFormatting
+[10:34:29] [Client thread/ERROR] [FML.TEXTURE_ERRORS]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=inecraftFormatting
+[10:34:32] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session idinecraftFormatting
+[10:34:39] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2inecraftFormatting
+[10:34:39] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypairinecraftFormatting
+[10:34:40] [Server thread/INFO] [FML]: Injecting existing registry data into this server instanceinecraftFormatting
+[10:34:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world gep:pizza_oven2inecraftFormatting
+[10:34:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world fvtm:asphaltinecraftFormatting
+[10:34:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world mts:decorbenchinecraftFormatting
+[10:34:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world mts:gunbenchinecraftFormatting
+[10:34:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world mts:seatbenchinecraftFormatting
+[10:34:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world mts:enginebenchinecraftFormatting
+[10:34:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world gep:smeltery_bodyinecraftFormatting
+[10:34:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world fvtm:container_blockinecraftFormatting
+[10:34:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world mts:instrumentbenchinecraftFormatting
+[10:34:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world fvtm:constructorinecraftFormatting
+[10:34:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world mts:vehiclebenchinecraftFormatting
+[10:34:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world fcl:workbenchinecraftFormatting
+[10:34:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world fvtm:streetpostinecraftFormatting
+[10:34:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world mts:componentbenchinecraftFormatting
+[10:34:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world mts:wheelbenchinecraftFormatting
+[10:34:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world mts:custombenchinecraftFormatting
+[10:34:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world fvtm:railinecraftFormatting
+[10:34:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world gep:pizza_oveninecraftFormatting
+[10:34:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world gep:mailbox5inecraftFormatting
+[10:34:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world fcl:blueprinttableinecraftFormatting
+[10:34:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world gep:smelteryinecraftFormatting
+[10:34:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world gep:crusher_bodyinecraftFormatting
+[10:34:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world mts:propellerbenchinecraftFormatting
+[10:34:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world fvtm:constructor_liftinecraftFormatting
+[10:34:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world fvtm:display_blockinecraftFormatting
+[10:34:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world gep:smeltery_tankinecraftFormatting
+[10:34:41] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world gep:crusherinecraftFormatting
+[10:34:41] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: turbosparts:shikatsu_mattered Expected: 4608 Got: 4550inecraftFormatting
+[10:34:41] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: turbosparts:shikatsu_matteorange Expected: 4611 Got: 4552inecraftFormatting
+[10:34:44] [Server thread/INFO] [FML]: Applying holder lookupsinecraftFormatting
+[10:34:44] [Server thread/INFO] [FML]: Holder lookups appliedinecraftFormatting
+[10:34:45] [Server thread/INFO] [FML]: Loading dimension 0 (Ehh) (net.minecraft.server.integrated.IntegratedServer@14335c9)inecraftFormatting
+[10:34:47] [Server thread/ERROR] [FML]: Parsing error loading built-in advancement unuparts:quality_wheelsinecraftFormatting
+com.google.gson.JsonSyntaxException: Expected item to be an item, was unknown string 'unuparts:unuparts_part_unu_wheel_standard_turbine'
+	at net.minecraft.util.JsonUtils.getItem(SourceFile:124) ~[JsonUtils.class:?]
+	at net.minecraft.util.JsonUtils.getItem(SourceFile:135) ~[JsonUtils.class:?]
+	at net.minecraft.advancements.DisplayInfo.deserializeIcon(DisplayInfo.java:133) ~[DisplayInfo.class:?]
+	at net.minecraft.advancements.DisplayInfo.deserialize(DisplayInfo.java:111) ~[DisplayInfo.class:?]
+	at net.minecraft.advancements.Advancement$Builder.deserialize(SourceFile:202) ~[Advancement$Builder.class:?]
+	at net.minecraft.advancements.AdvancementManager$1.deserialize(AdvancementManager.java:50) ~[AdvancementManager$1.class:?]
+	at net.minecraft.advancements.AdvancementManager$1.deserialize(AdvancementManager.java:46) ~[AdvancementManager$1.class:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
+	at net.minecraft.util.JsonUtils.gsonDeserialize(SourceFile:492) ~[JsonUtils.class:?]
+	at net.minecraft.util.JsonUtils.gsonDeserialize(SourceFile:517) ~[JsonUtils.class:?]
+	at net.minecraft.util.JsonUtils.gsonDeserialize(SourceFile:537) ~[JsonUtils.class:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$loadAdvancements$0(ForgeHooks.java:1381) ~[ForgeHooks.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) [CraftingHelper.class:?]
+	at net.minecraftforge.common.ForgeHooks.loadAdvancements(ForgeHooks.java:1359) [ForgeHooks.class:?]
+	at net.minecraftforge.common.ForgeHooks.loadAdvancements(ForgeHooks.java:1326) [ForgeHooks.class:?]
+	at net.minecraft.advancements.AdvancementManager.reload(AdvancementManager.java:69) [AdvancementManager.class:?]
+	at net.minecraft.advancements.AdvancementManager.<init>(AdvancementManager.java:60) [AdvancementManager.class:?]
+	at net.minecraft.world.WorldServer.init(WorldServer.java:156) [WorldServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:122) [IntegratedServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:156) [IntegratedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_241]
+[10:34:47] [Server thread/ERROR] [FML]: Parsing error loading built-in advancement unuparts:quality_seatsinecraftFormatting
+com.google.gson.JsonSyntaxException: Expected item to be an item, was unknown string 'unuparts:unuparts_part_unu_seat_p2_leather'
+	at net.minecraft.util.JsonUtils.getItem(SourceFile:124) ~[JsonUtils.class:?]
+	at net.minecraft.util.JsonUtils.getItem(SourceFile:135) ~[JsonUtils.class:?]
+	at net.minecraft.advancements.DisplayInfo.deserializeIcon(DisplayInfo.java:133) ~[DisplayInfo.class:?]
+	at net.minecraft.advancements.DisplayInfo.deserialize(DisplayInfo.java:111) ~[DisplayInfo.class:?]
+	at net.minecraft.advancements.Advancement$Builder.deserialize(SourceFile:202) ~[Advancement$Builder.class:?]
+	at net.minecraft.advancements.AdvancementManager$1.deserialize(AdvancementManager.java:50) ~[AdvancementManager$1.class:?]
+	at net.minecraft.advancements.AdvancementManager$1.deserialize(AdvancementManager.java:46) ~[AdvancementManager$1.class:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
+	at net.minecraft.util.JsonUtils.gsonDeserialize(SourceFile:492) ~[JsonUtils.class:?]
+	at net.minecraft.util.JsonUtils.gsonDeserialize(SourceFile:517) ~[JsonUtils.class:?]
+	at net.minecraft.util.JsonUtils.gsonDeserialize(SourceFile:537) ~[JsonUtils.class:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$loadAdvancements$0(ForgeHooks.java:1381) ~[ForgeHooks.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) [CraftingHelper.class:?]
+	at net.minecraftforge.common.ForgeHooks.loadAdvancements(ForgeHooks.java:1359) [ForgeHooks.class:?]
+	at net.minecraftforge.common.ForgeHooks.loadAdvancements(ForgeHooks.java:1326) [ForgeHooks.class:?]
+	at net.minecraft.advancements.AdvancementManager.reload(AdvancementManager.java:69) [AdvancementManager.class:?]
+	at net.minecraft.advancements.AdvancementManager.<init>(AdvancementManager.java:60) [AdvancementManager.class:?]
+	at net.minecraft.world.WorldServer.init(WorldServer.java:156) [WorldServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:122) [IntegratedServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:156) [IntegratedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_241]
+[10:34:47] [Server thread/ERROR] [FML]: Parsing error loading built-in advancement unuparts:quality_enginesinecraftFormatting
+com.google.gson.JsonSyntaxException: Expected item to be an item, was unknown string 'unuparts:unuparts_part_unu_engine_v8'
+	at net.minecraft.util.JsonUtils.getItem(SourceFile:124) ~[JsonUtils.class:?]
+	at net.minecraft.util.JsonUtils.getItem(SourceFile:135) ~[JsonUtils.class:?]
+	at net.minecraft.advancements.DisplayInfo.deserializeIcon(DisplayInfo.java:133) ~[DisplayInfo.class:?]
+	at net.minecraft.advancements.DisplayInfo.deserialize(DisplayInfo.java:111) ~[DisplayInfo.class:?]
+	at net.minecraft.advancements.Advancement$Builder.deserialize(SourceFile:202) ~[Advancement$Builder.class:?]
+	at net.minecraft.advancements.AdvancementManager$1.deserialize(AdvancementManager.java:50) ~[AdvancementManager$1.class:?]
+	at net.minecraft.advancements.AdvancementManager$1.deserialize(AdvancementManager.java:46) ~[AdvancementManager$1.class:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
+	at net.minecraft.util.JsonUtils.gsonDeserialize(SourceFile:492) ~[JsonUtils.class:?]
+	at net.minecraft.util.JsonUtils.gsonDeserialize(SourceFile:517) ~[JsonUtils.class:?]
+	at net.minecraft.util.JsonUtils.gsonDeserialize(SourceFile:537) ~[JsonUtils.class:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$loadAdvancements$0(ForgeHooks.java:1381) ~[ForgeHooks.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) [CraftingHelper.class:?]
+	at net.minecraftforge.common.ForgeHooks.loadAdvancements(ForgeHooks.java:1359) [ForgeHooks.class:?]
+	at net.minecraftforge.common.ForgeHooks.loadAdvancements(ForgeHooks.java:1326) [ForgeHooks.class:?]
+	at net.minecraft.advancements.AdvancementManager.reload(AdvancementManager.java:69) [AdvancementManager.class:?]
+	at net.minecraft.advancements.AdvancementManager.<init>(AdvancementManager.java:60) [AdvancementManager.class:?]
+	at net.minecraft.world.WorldServer.init(WorldServer.java:156) [WorldServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:122) [IntegratedServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:156) [IntegratedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_241]
+[10:34:47] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 521 advancementsinecraftFormatting
+[10:34:48] [Server thread/INFO] [FML]: Loading dimension -1 (Ehh) (net.minecraft.server.integrated.IntegratedServer@14335c9)inecraftFormatting
+[10:34:48] [Server thread/INFO] [FML]: Loading dimension 1 (Ehh) (net.minecraft.server.integrated.IntegratedServer@14335c9)inecraftFormatting
+[10:34:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0inecraftFormatting
+[10:34:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 0%inecraftFormatting
+[10:34:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 6%inecraftFormatting
+[10:34:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 17%inecraftFormatting
+[10:34:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 19%inecraftFormatting
+[10:34:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 24%inecraftFormatting
+[10:34:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 34%inecraftFormatting
+[10:34:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 57%inecraftFormatting
+[10:34:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 80%inecraftFormatting
+[10:34:59] [Server thread/INFO] [FML]: Unloading dimension -1inecraftFormatting
+[10:34:59] [Server thread/INFO] [FML]: Unloading dimension 1inecraftFormatting
+[10:34:59] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 12, from 10inecraftFormatting
+[10:35:04] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2inecraftFormatting
+[10:35:04] [Netty Server IO #1/INFO] [FML]: Client protocol version 2inecraftFormatting
+[10:35:04] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 9 mods : minecraft@1.12.2,turbosrandomvehicles@1.1.0,mtsofficialpack@19.0.0,unuparts@4.0.0,FML@8.0.99.99,forge@14.23.5.2847,mcp@9.42,turbosparts@1.1.0,mts@19.9.0-BETA3inecraftFormatting
+[10:35:04] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection establishedinecraftFormatting
+[10:35:04] [Server thread/INFO] [FML]: [Server thread] Server side modded connection establishedinecraftFormatting
+[10:35:04] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player78[local:E:44f5ab48] logged in with entity id 56 at (2007.1660936712904, 4.0, -687.4773742675909)inecraftFormatting
+[10:35:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player78 joined the gameinecraftFormatting
+[10:35:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player78 has made the advancement [Better Than Duct Tape]inecraftFormatting
+[10:35:08] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 5252ms behind, skipping 105 tick(s)inecraftFormatting
+[10:35:08] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...inecraftFormatting
+[10:35:08] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'Ehh'/overworldinecraftFormatting
+[10:35:09] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player78 has made the advancement [Better Than Duct Tape]inecraftFormatting
+[10:35:09] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 4 advancementsinecraftFormatting
+[10:35:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping serverinecraftFormatting
+[10:35:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving playersinecraftFormatting
+[10:35:16] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Player78 lost connection: Server closedinecraftFormatting
+[10:35:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player78 left the gameinecraftFormatting
+[10:35:17] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged outinecraftFormatting
+[10:35:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worldsinecraftFormatting
+[10:35:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'Ehh'/overworldinecraftFormatting
+[10:35:17] [Server thread/INFO] [FML]: Unloading dimension 0inecraftFormatting
+[10:35:19] [Server thread/INFO] [FML]: Applying holder lookupsinecraftFormatting
+[10:35:19] [Server thread/INFO] [FML]: Holder lookups appliedinecraftFormatting
+[10:35:21] [Client thread/FATAL] [net.minecraft.client.Minecraft]: Reported exception thrown!inecraftFormatting
+net.minecraft.util.ReportedException: Rendering Block Entity
+	at net.minecraft.client.renderer.tileentity.TileEntityRendererDispatcher.render(TileEntityRendererDispatcher.java:163) ~[TileEntityRendererDispatcher.class:?]
+	at net.minecraft.client.renderer.tileentity.TileEntityRendererDispatcher.render(TileEntityRendererDispatcher.java:131) ~[TileEntityRendererDispatcher.class:?]
+	at net.minecraft.client.renderer.RenderGlobal.renderEntities(RenderGlobal.java:705) ~[RenderGlobal.class:?]
+	at net.minecraft.client.renderer.EntityRenderer.renderWorldPass(EntityRenderer.java:1347) ~[EntityRenderer.class:?]
+	at net.minecraft.client.renderer.EntityRenderer.renderWorld(EntityRenderer.java:1259) ~[EntityRenderer.class:?]
+	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1062) ~[EntityRenderer.class:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1119) ~[Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:398) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: java.lang.NullPointerException: ERROR: Attempted to parse the OBJ model at: /assets/turbosrandomvehicles/objmodels/decors/radio.obj but could not find it.  Check the path and try again.
+	at minecrafttransportsimulator.rendering.components.OBJParser.parseOBJModel(OBJParser.java:26) ~[OBJParser.class:?]
+	at minecrafttransportsimulator.rendering.instances.RenderDecor.render(RenderDecor.java:25) ~[RenderDecor.class:?]
+	at mcinterface1122.BuilderTileEntityRender.render(BuilderTileEntityRender.java:77) ~[BuilderTileEntityRender.class:?]
+	at mcinterface1122.BuilderTileEntityRender.render(BuilderTileEntityRender.java:21) ~[BuilderTileEntityRender.class:?]
+	at net.minecraft.client.renderer.tileentity.TileEntityRendererDispatcher.render(TileEntityRendererDispatcher.java:156) ~[TileEntityRendererDispatcher.class:?]
+	... 20 more
+[10:35:21] [Client thread/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:printToSYSOUT:553]: ---- Minecraft Crash Report ----
+// I just don't know what went wrong :(
+
+Time: 11/9/20 10:35 AM
+Description: Rendering Block Entity
+
+java.lang.NullPointerException: ERROR: Attempted to parse the OBJ model at: /assets/turbosrandomvehicles/objmodels/decors/radio.obj but could not find it.  Check the path and try again.
+	at minecrafttransportsimulator.rendering.components.OBJParser.parseOBJModel(OBJParser.java:26)
+	at minecrafttransportsimulator.rendering.instances.RenderDecor.render(RenderDecor.java:25)
+	at mcinterface1122.BuilderTileEntityRender.render(BuilderTileEntityRender.java:77)
+	at mcinterface1122.BuilderTileEntityRender.render(BuilderTileEntityRender.java:21)
+	at net.minecraft.client.renderer.tileentity.TileEntityRendererDispatcher.render(TileEntityRendererDispatcher.java:156)
+	at net.minecraft.client.renderer.tileentity.TileEntityRendererDispatcher.render(TileEntityRendererDispatcher.java:131)
+	at net.minecraft.client.renderer.RenderGlobal.renderEntities(RenderGlobal.java:705)
+	at net.minecraft.client.renderer.EntityRenderer.renderWorldPass(EntityRenderer.java:1347)
+	at net.minecraft.client.renderer.EntityRenderer.renderWorld(EntityRenderer.java:1259)
+	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1062)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1119)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:398)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:25)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at minecrafttransportsimulator.rendering.components.OBJParser.parseOBJModel(OBJParser.java:26)
+	at minecrafttransportsimulator.rendering.instances.RenderDecor.render(RenderDecor.java:25)
+	at mcinterface1122.BuilderTileEntityRender.render(BuilderTileEntityRender.java:77)
+	at mcinterface1122.BuilderTileEntityRender.render(BuilderTileEntityRender.java:21)
+
+-- Block Entity Details --
+Details:
+	Name: mts:buildertileentity // mcinterface1122.BuilderTileEntity
+	Block type: ID #266 (tile.mts:Decor // mcinterface1122.BuilderBlock // mts:decor)
+	Block data value: 3 / 0x3 / 0b0011
+	Block location: World: (2004,4,-689), Chunk: (at 4,0,15 in 125,-44; contains blocks 2000,0,-704 to 2015,255,-689), Region: (3,-2; contains chunks 96,-64 to 127,-33, blocks 1536,0,-1024 to 2047,255,-513)
+	Actual block type: ID #266 (tile.mts:Decor // mcinterface1122.BuilderBlock // mts:decor)
+	Actual block data value: 3 / 0x3 / 0b0011
+Stacktrace:
+	at net.minecraft.client.renderer.tileentity.TileEntityRendererDispatcher.render(TileEntityRendererDispatcher.java:156)
+	at net.minecraft.client.renderer.tileentity.TileEntityRendererDispatcher.render(TileEntityRendererDispatcher.java:131)
+	at net.minecraft.client.renderer.RenderGlobal.renderEntities(RenderGlobal.java:705)
+	at net.minecraft.client.renderer.EntityRenderer.renderWorldPass(EntityRenderer.java:1347)
+	at net.minecraft.client.renderer.EntityRenderer.renderWorld(EntityRenderer.java:1259)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['Player78'/56, l='MpServer', x=2007.17, y=4.00, z=-687.48]]
+	Chunk stats: MultiplayerChunkCache: 625, 625
+	Level seed: 0
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (109,4,1337), Chunk: (at 13,0,9 in 6,83; contains blocks 96,0,1328 to 111,255,1343), Region: (0,2; contains chunks 0,64 to 31,95, blocks 0,0,1024 to 511,255,1535)
+	Level time: 710336 game time, 66129 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 3 total; [EntityHorse['Horse'/227, l='MpServer', x=1975.06, y=4.00, z=-623.90], EntityPlayerSP['Player78'/56, l='MpServer', x=2007.17, y=4.00, z=-687.48], EntityHorse['Horse'/286, l='MpServer', x=2002.61, y=4.00, z=-607.93]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:420)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2741)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:419)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:25)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Mac OS X (x86_64) version 10.14.6
+	Java Version: 1.8.0_241, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 240393424 bytes (229 MB) / 705167360 bytes (672 MB) up to 1908932608 bytes (1820 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2847 9 mods loaded, 9 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State  | ID                   | Version      | Source                                               | Signature |
+	|:------ |:-------------------- |:------------ |:---------------------------------------------------- |:--------- |
+	| LCHIJA | minecraft            | 1.12.2       | minecraft.jar                                        | None      |
+	| LCHIJA | mcp                  | 9.42         | minecraft.jar                                        | None      |
+	| LCHIJA | FML                  | 8.0.99.99    | forgeBin-1.12.2-14.23.5.2847.jar                     | None      |
+	| LCHIJA | forge                | 14.23.5.2847 | forgeBin-1.12.2-14.23.5.2847.jar                     | None      |
+	| LCHIJA | mts                  | 19.9.0-BETA3 | Immersive_Vehicles-1.12.2-19.9.0-BETA3.jar           | None      |
+	| LCHIJA | mtsofficialpack      | 19.0.0       | MTS_Official_Pack_V19.jar                            | None      |
+	| LCHIJA | unuparts             | 4.0.0        | UNU+Parts+Pack+[MTS]+1.12.2-18.5.0-4.0.0-BETA.jar    | None      |
+	| LCHIJA | turbosrandomvehicles | 1.1.0        | Turbo's Random Vehicles and Parts Pack-mc-1.12.2.jar | None      |
+	| LCHIJA | turbosparts          | 1.1.0        | Turbo's Random Vehicles and Parts Pack-mc-1.12.2.jar | None      |
+
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'Intel Inc.' Version: '2.1 INTEL-12.10.17' Renderer: 'Intel HD Graphics 4000 OpenGL Engine'
+	Launched Version: 1.12.2
+	LWJGL: 2.9.2
+	OpenGL: Intel HD Graphics 4000 OpenGL Engine GL version 2.1 INTEL-12.10.17, Intel Inc.
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because ARB_framebuffer_object is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 4x Intel(R) Core(TM) i5-3210M CPU @ 2.50GHzinecraftFormatting
+[10:35:21] [Client thread/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:printToSYSOUT:553]: #@!@# Game crashed! Crash report saved to: #@!@# /Users/menon/Documents/Rishi/MTSStuff/TurbosVehiclesBuild/run/./crash-reports/crash-2020-11-09_10.35.21-client.txtinecraftFormatting

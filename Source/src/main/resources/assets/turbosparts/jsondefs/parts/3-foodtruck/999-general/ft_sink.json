@@ -1,0 +1,12 @@
+{
+    "general" : {
+        "name" : "Foodtruck Sink",
+        "description" : "Add this to the kitchen in the Foodtruck to wash dishes.",
+        "type" : "generic_ft_sink",
+        "materials" : ["minecraft:cauldron:0:1", "minecraft:iron_ingot:0:2"]
+    },
+    "generic" : {
+        "width" : 0.7,
+        "height" : 0.5
+    }
+}

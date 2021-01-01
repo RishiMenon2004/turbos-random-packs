@@ -1,0 +1,44 @@
+{
+  "mts:custombench": {
+    "criteria": {
+      "has_custombench": "2020-07-22 11:41:12 +0530"
+    },
+    "done": true
+  },
+  "mts:componentbench": {
+    "criteria": {
+      "has_componentbench": "2020-07-22 11:41:19 +0530"
+    },
+    "done": true
+  },
+  "mts:propellerbench": {
+    "criteria": {
+      "has_propellerbench": "2020-07-22 11:41:42 +0530"
+    },
+    "done": true
+  },
+  "mts:wrench": {
+    "criteria": {
+      "has_wrench": "2020-07-22 11:40:25 +0530"
+    },
+    "done": true
+  },
+  "unuparts:quality_parts": {
+    "criteria": {
+      "placed_custombench": "2020-07-22 11:41:19 +0530"
+    },
+    "done": true
+  },
+  "unuparts:quality_propellers": {
+    "criteria": {
+      "placed_propellerbench": "2020-07-22 11:41:43 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "plains": "2020-07-22 11:40:25 +0530"
+    },
+    "done": false
+  }
+}

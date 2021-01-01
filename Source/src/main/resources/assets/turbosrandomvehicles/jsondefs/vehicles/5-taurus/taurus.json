@@ -1,0 +1,197 @@
+{
+	"definitions": [
+       	{
+		  "name": "Taurus",
+		  "subName": "_blue",
+		  "extraMaterials": ["minecraft:dye:4:4"]
+        },
+        
+        {
+		  "name": "Taurus",
+		  "subName": "_red",
+		  "extraMaterials": ["minecraft:dye:1:4"]
+        },
+        
+        {
+		  "name": "Taurus",
+		  "subName": "_yellow",
+		  "extraMaterials": ["minecraft:dye:11:4"]
+        },
+        
+        {
+		  "name": "Taurus",
+		  "subName": "_orange",
+		  "extraMaterials": ["minecraft:dye:14:4"]
+        },
+        
+        {
+		  "name": "Taurus",
+		  "subName": "_black",
+		  "extraMaterials": ["minecraft:dye:0:4"]
+        },
+        
+        {
+		  "name": "Taurus",
+		  "subName": "_white",
+		  "extraMaterials": ["minecraft:dye:15:4"]
+        },
+        
+        {
+		  "name": "Taurus",
+		  "subName": "_gold",
+		  "extraMaterials": ["minecraft:dye:11:1", "minecraft:dye:4:2", "minecraft:dye:1:1"]
+        }
+    ],
+	
+	"general": {
+		"description": "Taurus",
+		
+		"type": "car",
+		
+		"openTop": "false",
+		
+		"emptyMass": 1900,
+		
+		"materials": ["minecraft:iron_block:0:5"]
+	},
+	
+	"motorized": {
+		"isBigTruck": false,
+		
+		"isTrailer": false,
+		
+		"isFrontWheelDrive": true,
+		
+		"isRearWheelDrive": true,
+		
+		"hasCruiseControl": true,
+		
+		"fuelCapacity": 65000,
+		
+		"axleRatio": 3.49,
+		
+		"dragCoefficient": 0.725,
+		
+		"hornSound": "mtsofficialpack:horn_car",
+		
+		"instruments": []
+        
+    },
+    
+    "parts": [
+        {
+            "pos": [0.9, 0.01, 0],
+            "rot": [0, 0, 0],
+            "types": ["ground_wheel"],
+            "turnsWithSteer": false,
+            "minValue": 0.5,
+            "maxValue": 1
+        },
+        {
+            "pos": [-0.9, 0.0, 0],
+            "rot": [0, 0, 0],
+            "types": ["ground_wheel"],
+            "turnsWithSteer": false,
+            "minValue": 0.5,
+            "maxValue": 1
+        },
+        {
+            "pos": [0.9, 0.0, 3.85],
+            "rot": [0, 0, 0],
+            "types": ["ground_wheel"],
+            "turnsWithSteer": true,
+            "minValue": 0.5,
+            "maxValue": 1
+        },
+        {
+            "pos": [-0.9, 0.0, 3.85],
+            "rot": [0, 0, 0],
+            "types": ["ground_wheel"],
+            "turnsWithSteer": true,
+            "minValue": 0.5,
+            "maxValue": 1
+        },
+        {
+            "pos": [0, 0.5, 3.5],
+            "rot": [0, 0, 0],
+            "types": ["engine_car"],
+            "minValue": 0.55,
+            "maxValue": 0.65
+        },
+        {
+            "pos": [0, 0.5, 2.5],
+            "rot": [0, 0, 0],
+            "isController": true,
+            "types": ["seat"]
+        }
+    ],
+
+    "collision": [
+        {
+            "pos": [0, 1.75, 0.366574],
+            "width": 1.75,
+            "height": 0.25
+        },
+
+        {
+            "pos": [0, 1.75, 2.11657],
+            "width": 1.75,
+            "height": 0.25
+        },
+
+        {
+            "pos": [0, 1.1, 4.43],
+            "width": 1.75,
+            "height": 0.25
+        }
+    ],
+
+    "doors": [
+        {
+            "name": "door_fl",
+            "closedPos": [1.2, 0.7, 2],
+            "openPos": [0, 0 ,0],
+            "width": 0.5,
+            "height": 0.75
+        },
+        {
+            "name": "door_fr",
+            "closedPos": [-1.2, 0.7, 2],
+            "openPos": [0, 0 ,0],
+            "width": 0.5,
+            "height": 0.75
+        },
+        {
+            "name": "door_bl",
+            "closedPos": [1.2, 0.8, 0.8],
+            "openPos": [0, 0 ,0],
+            "width": 0.5,
+            "height": 0.75
+        },
+        {
+            "name": "door_br",
+            "closedPos": [-1.2, 0.8, 0.8],
+            "openPos": [0, 0 ,0],
+            "width": 0.5,
+            "height": 0.75
+        }
+    ],
+    
+    "rendering": {
+        "hudTexture" : "turbosparts:textures/guis/car_hud.png",
+
+        "panelTexture" : "turbosparts:textures/guis/car_panel.png",
+
+        "panelTextColor" : "#000000",
+
+        "panelLitTextColor" : "#000000",
+        
+        "cameraObjects": [
+            {
+                "pos": [0, 2, 0],
+                "rot": [0, 0, 0]
+            }
+        ]
+    }
+	
+}

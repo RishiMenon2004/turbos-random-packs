@@ -1,0 +1,7 @@
+{
+    "general" : {
+        "name" : "§bKrunchies §cBodyPaint",
+        "description": "Painting kit used to craft the Krunchies variant of the food truck.",
+        "materials" : ["minecraft:bucket:0:1","minecraft:dye:12:4"]
+    }
+}

@@ -1,0 +1,7 @@
+{
+"parent": "turbosparts:item/paint_bucket", 
+    "textures": {
+        "0": "turbosparts:items/items/3-foodtruck/1-paintjobs/bucket_yellow",
+        "1": "turbosparts:items/items/3-foodtruck/1-paintjobs/ftpntminers"
+    }
+}

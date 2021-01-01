@@ -1,0 +1,67 @@
+{
+    "general" : {
+        "name" : "Multi-Utility Cooking Oven",
+        "description" : "Add this to the kitchen in the Foodtruck to cook and bake.",
+        "type" : "furnace",
+        "customType" : "ft_oven",
+        "materials" : ["minecraft:iron_ingot:0:4", "minecraft:redstone:0:5"],
+        "disableMirroring" : true
+    },
+    
+    "rendering": {
+        "rotatableModelObjects" : [
+            {
+                "partName" : "$Oven_Door",
+                "rotationPoint" : [
+                    0,
+                    0.089308,
+                    0.269544
+                ],
+                "rotationAxis" : [
+                    -75,
+                    0,
+                    0
+                ],
+                "rotationVariable" : "EmergencyLight",
+                "rotationClampMin" : 0,
+                "rotationClampMax" : 0
+            }
+        ],
+        
+        "translatableModelObjects" : [
+            {
+                "partName" : "%Oven_Tray_0",
+                "translationAxis" : [
+                    0,
+                    0,
+                    -0.02464
+                ],
+                "translationVariable" : "EmergencyLight",
+                "translationClampMin": 0,
+                "translationClampMax": 0
+            },
+            {
+                "partName" : "%Oven_Tray_1",
+                "translationAxis" : [
+                    0,
+                    0,
+                    -0.12464
+                ],
+                "translationVariable" : "EmergencyLight",
+                "translationClampMin": 0,
+                "translationClampMax": 0
+            },
+            {
+                "partName" : "%Oven_Tray_2",
+                "translationAxis" : [
+                    0,
+                    0,
+                    -0.22464
+                ],
+                "translationVariable" : "EmergencyLight",
+                "translationClampMin": 0,
+                "translationClampMax": 0
+            }
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "general": {
+        "name" : "Wheel",
+        "description": "Vehicle Type: Car\nStyle: Cevron",
+        "type" : "ground_wheel",
+        "materials" : ["minecraft:iron_ingots:0:2", "minecraft:leather:0:2"]
+        
+    },
+    
+    "ground": {
+        "isWheel": true,
+        "canGoFlat": true,
+        "width" : 0.3,
+        "height" : 0.9,
+		"motiveFriction" : 1.25,
+		"lateralFriction" : 1.25
+	},
+    
+    "rendering": {
+        "animatedObjects": [
+            {
+                "objectName": "Tyre",
+                "animations": [
+                    {
+                        "animationType": "visibility",
+                        "variable": "ground_isflat"
+                    }
+                ]
+            }
+        ]
+    }
+}

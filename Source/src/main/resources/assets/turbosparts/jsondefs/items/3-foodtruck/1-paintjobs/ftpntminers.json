@@ -1,0 +1,7 @@
+{
+    "general" : {
+        "name" : "§6Miner's §1BodyPaint",
+        "description": "Painting kit used to craft the Miner's variant of the food truck.",
+        "materials" : ["minecraft:bucket:0:1","minecraft:dye:11:4"]
+    }
+}

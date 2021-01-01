@@ -1,0 +1,7 @@
+{
+    "general" : {
+        "name" : "§8Gobblr §rBodyPaint",
+        "description": "Painting kit used to craft the Gobblr variant of the food truck.",
+        "materials" : ["minecraft:bucket:0:1","minecraft:dye:0:4"]
+    }
+}

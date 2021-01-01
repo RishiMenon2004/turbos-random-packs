@@ -1,0 +1,7 @@
+{
+    "general" : {
+        "name" : "§cSour-Berry §bBodyPaint",
+        "description": "Painting kit used to craft the Sour Berry variant of the food truck.",
+        "materials" : ["minecraft:bucket:0:1","minecraft:dye:1:4"]
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "mts:wrench": {
+    "criteria": {
+      "has_wrench": "2020-09-13 01:19:18 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "plains": "2020-09-13 01:19:19 +0530"
+    },
+    "done": false
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "general": {
+        "name": "Left Blinker",
+        "description": "Left Blinker",
+        "materials": ["minecraft:redstone_dust:0:1", "minecraft:dye:10:1"]
+    },
+    
+    "components": [
+        {
+            "textureXCenter": 64,
+            "textureYCenter": 64,
+            "textureWidth": 128,
+            "textureHeight": 128,
+            "translationVariable": "leftturnlight",
+            "translationFactor": 128
+        }
+    ]
+}
