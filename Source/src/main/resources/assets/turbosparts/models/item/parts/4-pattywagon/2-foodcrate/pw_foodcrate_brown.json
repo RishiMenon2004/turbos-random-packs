@@ -1,6 +1,6 @@
 {
 "parent": "turbosparts:item/foodcrate_item", 
     "textures": {
-        "0": "turbosparts:parts/pw_foodcrate_brown"
+        "0": "turbosparts:parts/4-pattywagon/2-foodcrate/pw_foodcrate_brown"
     }
 }

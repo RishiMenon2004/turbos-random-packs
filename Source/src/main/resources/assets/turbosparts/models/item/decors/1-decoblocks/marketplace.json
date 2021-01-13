@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"ambientocclusion": false,
 	"textures": {
-		"0": "turbosparts:items/parts/marketplace",
-		"1": "turbosparts:items/parts/turbo"
+		"0": "turbosparts:decors/1-decoblocks/marketplace",
+		"1": "turbosparts:decors/1-decoblocks/TurboDefender"
 	},
 	"elements": [
 		{

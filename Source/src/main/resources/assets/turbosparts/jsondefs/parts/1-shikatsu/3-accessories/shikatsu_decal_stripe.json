@@ -10,30 +10,30 @@
         "height" : 1
     },
     "rendering": {
-        "rotatableModelObjects" : [
+        "animatedObjects" : [
             {
-				"partName": "$stripe_hood",
-				"rotationPoint": [0, -0.264754, 1.01017],
-				"rotationAxis": [-60, 0, 0],
-				"rotationVariable": "hood",
-				"rotationClampMin": 0.0,
-				"rotationClampMax": 0.0
-			},
-            {
-				"partName": "$stripe_hood",
-				"rotationPoint": [0, -0.264754, 1.01017],
-				"rotationAxis": [-60, 0, 0],
-				"rotationVariable": "door",
-				"rotationClampMin": 0.0,
-				"rotationClampMax": 60.0
+				"objectName": "$stripe_hood",
+				"animations": [
+					{
+						"centerPoint": [0, -0.264754, 1.01017],
+						"axis": [-60, 0, 0],
+						"variable": "door_hood",
+						"clampMin": 0.0,
+						"clampMax": 0.0
+					}
+				]
 			},
 			{
-				"partName": "$stripe_trunk",
-				"rotationPoint": [0, 0.728611, -1.36769],
-				"rotationAxis": [90, 0, 0],
-				"rotationVariable": "door",
-				"rotationClampMin": 0.0,
-				"rotationClampMax": 0.0
+				"objectName": "$stripe_trunk",
+				"animations": [
+					{
+						"centerPoint": [0, 0.728611, -1.36769],
+						"axis": [90, 0, 0],
+						"variable": "door_trunk",
+						"clampMin": 0.0,
+						"clampMax": 0.0
+					}
+				]
 			}
         ]
     }

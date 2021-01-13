@@ -1,66 +1,164 @@
 {
-    "general" : {
-        "name" : "Multi-Utility Cooking Oven",
-        "description" : "Add this to the kitchen in the Foodtruck to cook and bake.",
-        "type" : "furnace",
-        "customType" : "ft_oven",
-        "materials" : ["minecraft:iron_ingot:0:4", "minecraft:redstone:0:5"],
-        "disableMirroring" : true
+    "general": {
+        "name": "Multi-Utility Oven",
+        "description": "A stove on top, and an oven on the bottom, perfect for any small kitchen, even a foodtruck. To be used as a furnace.",
+        "type": "furnace",
+        "customType": "ft_oven",
+        "materials": ["minecraft:iron_ingot:0:4", "minecraft:redstone:0:5"],
+        "disableMirroring": true
     },
-    
+
+    "doors": [
+        {
+            "name": "oven_door",
+            "closedPos": [0.21928, 0.57173, 0.35393],
+            "openPos": [0.21928, 0.15198, 0.75219],
+            "width": 0.08772,
+            "height": 0.08772
+        },
+        {
+            "name": "oven_door",
+            "closedPos": [0.17543, 0.57173, 0.35393],
+            "openPos": [0.17543, 0.15198, 0.75219],
+            "width": 0.08772,
+            "height": 0.08772
+        },
+        {
+            "name": "oven_door",
+            "closedPos": [0.13157, 0.57173, 0.35393],
+            "openPos": [0.13157, 0.15198, 0.75219],
+            "width": 0.08772,
+            "height": 0.08772
+        },
+        {
+            "name": "oven_door",
+            "closedPos": [0.08771, 0.57173, 0.35393],
+            "openPos": [0.08771, 0.15198, 0.75219],
+            "width": 0.08772,
+            "height": 0.08772
+        },
+        {
+            "name": "oven_door",
+            "closedPos": [0.04386, 0.57173, 0.35393],
+            "openPos": [0.04386, 0.15198, 0.75219],
+            "width": 0.08772,
+            "height": 0.08772
+        },
+        {
+            "name": "oven_door",
+            "closedPos": [-0.0, 0.57173, 0.35393],
+            "openPos": [-0.0, 0.15198, 0.75219],
+            "width": 0.08772,
+            "height": 0.08772
+        },
+        {
+            "name": "oven_door",
+            "closedPos": [-0.04386, 0.57173, 0.35393],
+            "openPos": [-0.04386, 0.15198, 0.75219],
+            "width": 0.08772,
+            "height": 0.08772
+        },
+        {
+            "name": "oven_door",
+            "closedPos": [-0.08771, 0.57173, 0.35393],
+            "openPos": [-0.08771, 0.15198, 0.75219],
+            "width": 0.08772,
+            "height": 0.08772
+        },
+        {
+            "name": "oven_door",
+            "closedPos": [-0.13157, 0.57173, 0.35393],
+            "openPos": [-0.13157, 0.15198, 0.75219],
+            "width": 0.08772,
+            "height": 0.08772
+        },
+        {
+            "name": "oven_door",
+            "closedPos": [-0.17543, 0.57173, 0.35393],
+            "openPos": [-0.17543, 0.15198, 0.75219],
+            "width": 0.08772,
+            "height": 0.08772
+        },
+        {
+            "name": "oven_door",
+            "closedPos": [-0.21929, 0.57173, 0.35393],
+            "openPos": [-0.21929, 0.15198, 0.75219],
+            "width": 0.08772,
+            "height": 0.08772
+        }
+    ],
+
     "rendering": {
-        "rotatableModelObjects" : [
-            {
-                "partName" : "$Oven_Door",
-                "rotationPoint" : [
-                    0,
-                    0.089308,
-                    0.269544
-                ],
-                "rotationAxis" : [
-                    -75,
-                    0,
-                    0
-                ],
-                "rotationVariable" : "EmergencyLight",
-                "rotationClampMin" : 0,
-                "rotationClampMax" : 0
-            }
-        ],
-        
-        "translatableModelObjects" : [
-            {
-                "partName" : "%Oven_Tray_0",
-                "translationAxis" : [
-                    0,
-                    0,
-                    -0.02464
-                ],
-                "translationVariable" : "EmergencyLight",
-                "translationClampMin": 0,
-                "translationClampMax": 0
+        "animatedObjects": [{
+                "objectName": "$Oven_Door",
+                "animations": [{
+                    "animationType": "rotation",
+                    "variable": "oven_door",
+                    "centerPoint": [0.0, 0.089308, 0.269544],
+                    "axis": [75.0, 0.0, 0.0],
+                    "duration": 10,
+                    "reverseDelay": 20
+                }]
             },
             {
-                "partName" : "%Oven_Tray_1",
-                "translationAxis" : [
-                    0,
-                    0,
-                    -0.12464
-                ],
-                "translationVariable" : "EmergencyLight",
-                "translationClampMin": 0,
-                "translationClampMax": 0
+                "objectName": "%Oven_Tray_0",
+                "animations": [{
+                    "animationType": "translation",
+                    "variable": "oven_door",
+                    "axis": [0.0, 0.0, 0.04928],
+                    "duration": 5,
+                    "forwardsDelay": 10
+                }]
             },
             {
-                "partName" : "%Oven_Tray_2",
-                "translationAxis" : [
-                    0,
-                    0,
-                    -0.22464
-                ],
-                "translationVariable" : "EmergencyLight",
-                "translationClampMin": 0,
-                "translationClampMax": 0
+                "objectName": "%Oven_Tray_1",
+                "animations": [{
+                    "animationType": "translation",
+                    "variable": "oven_door",
+                    "axis": [0.0, 0.0, 0.12464],
+                    "duration": 10,
+                    "forwardsDelay": 10
+                }]
+            },
+            {
+                "objectName": "%Oven_Tray_2",
+                "animations": [{
+                    "animationType": "translation",
+                    "variable": "oven_door",
+                    "axis": [0.0, 0.0, 0.22464],
+                    "duration": 20,
+                    "forwardsDelay": 10
+                }]
+            },
+            {
+                "objectName": "Heating_Coil",
+                "animations": [{
+                    "animationType": "visibility",
+                    "variable": "oven_door",
+                    "clampMin": 1,
+                    "clampMax": 1,
+                    "reverseDelay": 30
+                }]
+            },
+            {
+                "objectName": "&GenericLight_FC4F03_FFFFF_010",
+                "animations": [{
+                    "animationType": "visibility",
+                    "variable": "oven_door",
+                    "clampMin": 0,
+                    "clampMax": 0,
+                    "reverseDelay": 30
+                }]
+            },
+            {
+                "objectName": "&GenericLight_FCDB03_FFFFF_010",
+                "animations": [{
+                    "animationType": "visibility",
+                    "variable": "oven_door",
+                    "clampMin": 0,
+                    "clampMax": 0,
+                    "reverseDelay": 30
+                }]
             }
         ]
     }

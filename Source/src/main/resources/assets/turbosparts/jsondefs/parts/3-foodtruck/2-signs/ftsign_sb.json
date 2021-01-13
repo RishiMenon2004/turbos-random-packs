@@ -1,0 +1,14 @@
+{
+    "general" : {
+        "name" : "Foodtruck Sign",
+        "description" : "",
+        "type" : "generic_ftsign",
+        "materials" : ["minecraft:iron_ingot:0:2", "minecraft:redstone_lamp:0:1", "minecraft:dye:6:2"],
+        "disableMirroring" : true
+    },
+    
+    "generic" : {
+        "width" : 1,
+        "height" : 2
+    }
+}

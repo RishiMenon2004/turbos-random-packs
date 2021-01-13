@@ -1,64 +1,64 @@
 {
     "definitions": [
-        
+
         {
-          "subName": "_base",
-          "name": "Foodtruck Base",
-          "extraMaterials": []
+            "subName": "_base",
+            "name": "Foodtruck Base",
+            "extraMaterials": []
         },
         {
-          "subName": "_miners",
-          "name": "Foodtruck - §6Miners",
-          "extraMaterials": ["turbosparts:ftpntminers:-1:1"]
+            "subName": "_miners",
+            "name": "Foodtruck - §6Miners",
+            "extraMaterials": ["turbosparts:ftpntminers:-1:1"]
         },
         {
-          "subName": "_gobblr",
-          "name": "Foodtruck - §8Gobblr",
-          "extraMaterials": ["turbosparts:ftpntgobblr:-1:1"]
+            "subName": "_gobblr",
+            "name": "Foodtruck - §8Gobblr",
+            "extraMaterials": ["turbosparts:ftpntgobblr:-1:1"]
         },
         {
-          "subName": "_krunchies",
-          "name": "Foodtruck - §bKrunchies",
-          "extraMaterials": ["turbosparts:ftpntkrunchies:-1:1"]
+            "subName": "_krunchies",
+            "name": "Foodtruck - §bKrunchies",
+            "extraMaterials": ["turbosparts:ftpntkrunchies:-1:1"]
         },
         {
-          "subName": "_sour_berry",
-          "name": "Foodtruck - §cSour §bBerry",
-          "extraMaterials": ["turbosparts:ftpntsb:-1:1"]
+            "subName": "_sour_berry",
+            "name": "Foodtruck - §cSour §bBerry",
+            "extraMaterials": ["turbosparts:ftpntsb:-1:1"]
         }
-    
+
     ],
-    
+
     "general": {
 
         "description": "This is a generic model of a foodtruck, it has many variants of famous fastfood companies of the minecraft world, like Miner's and Gobblr. It is sure to grab attention at any street and you'll be making bucks in no time.",
-        
+
         "type": "car",
-        
+
         "emptyMass": 9000,
-        
+
         "materials": ["minecraft:iron_ingot:-1:11", "minecraft:iron_bars:-1:10", "minecraft:iron_trapdoor:-1:3", "minecraft:glass_pane:-1:6"]
-        
+
     },
-    
+
     "motorized": {
-        
+
         "isBigTruck": true,
-        
+
         "isRearWheelDrive": true,
-        
+
         "hasCruiseControl": true,
-        
+
         "fuelCapacity": 35000,
-        
+
         "axleRatio": 3.55,
-        
+
         "dragCoefficient": 0.45,
-        
+
         "hornSound": "mtsofficialpack:horn_truck",
-        
+
         "instruments": [
-            
+
             {
                 "pos": [0.838202, 1.22342, 3.88863],
                 "rot": [53.5, 0.0, 0.0],
@@ -67,7 +67,7 @@
                 "hudY": 40,
                 "hudScale": 0.35
             },
-            
+
             {
                 "pos": [0.718787, 1.22342, 3.88863],
                 "rot": [53.5, 0.0, 0.0],
@@ -76,7 +76,7 @@
                 "hudY": 40,
                 "hudScale": 0.45
             },
-            
+
             {
                 "pos": [0.597075, 1.22342, 3.88863],
                 "rot": [53.5, 0.0, 0.0],
@@ -85,217 +85,1654 @@
                 "hudY": 40,
                 "hudScale": 0.35
             }
-            
+
         ]
     },
-    
+
     "parts": [
-        
+
         {
-            "pos": [-0.825,0.08201,4.15],
+            "pos": [-0.825, 0.08201, 4.15],
             "turnsWithSteer": true,
             "types": ["ground_wheel"],
             "minValue": 0.7,
             "maxValue": 0.8
         },
-        
+
         {
-            "pos": [0.825,0.08201,4.15],
+            "pos": [0.825, 0.08201, 4.15],
             "turnsWithSteer": true,
             "types": ["ground_wheel"],
             "minValue": 0.7,
             "maxValue": 0.8
         },
-        
+
         {
-            "pos": [-0.825,0.08201,-0.85],
+            "pos": [-0.825, 0.08201, -0.85],
             "types": ["ground_wheel"],
             "minValue": 0.7,
             "maxValue": 0.8
         },
-        
+
         {
-            "pos": [0.825,0.08201,-0.85],
+            "pos": [0.825, 0.08201, -0.85],
             "types": ["ground_wheel"],
             "minValue": 0.7,
             "maxValue": 0.8
         },
-        
+
         {
-            "pos": [-0.635,0.7,2.7],
-            "rot": [0.0,0.0,0.0],
+            "pos": [-0.635, 0.7, 2.7],
+            "rot": [0.0, 0.0, 0.0],
             "types": ["seat"],
-            "dismountPos": [-1.635,0.7,2.7],
-            "linkedDoor": "door_r"
+            "dismountPos": [-1.635, 0.7, 2.7],
+            "linkedDoors": ["door_r"]
         },
-        
+
         {
-            "pos": [0.635,0.7,2.7],
-            "rot": [0.0,0.0,0.0],
+            "pos": [0.635, 0.7, 2.7],
+            "rot": [0.0, 0.0, 0.0],
             "isController": true,
             "types": ["seat"],
-            "dismountPos": [1.635,0.7,2.7],
-            "linkedDoor": "door_l"
+            "dismountPos": [1.635, 0.7, 2.7],
+            "linkedDoors": ["door_l"]
         },
-        
+
         {
-            "pos": [0.0,0.4,4.6525],
-            "rot": [0, 90, 0],
+            "pos": [0.0, 0.4, 4.6525],
+            "rot": [0, -90, 0],
             "types": ["engine_car"],
             "minValue": 1.0,
             "maxValue": 100.0
         },
-        
+
         {
-            "pos": [-0.70171,0.796975,-0.960216],
+            "pos": [-0.70171, 0.796975, -0.960216],
+            "rot": [0, 90, 0],
             "types": ["generic_ft_sink"],
             "maxValue": 2.0
         },
-        
+
         {
-            "pos": [-0.758032,0.046877,1.80008],
-            "rot": [0.0,-90.0,0.0],
+            "pos": [-0.758032, 0.046877, 1.80008],
+            "rot": [0.0, 90.0, 0.0],
             "types": ["interactable_furnace"],
             "customTypes": ["ft_oven"],
             "maxValue": 2.0
         },
-        
+
         {
-            "pos" : [0, 2.46875, 0.875],
-            "rot" : [0, 0, 0],
-            "types" : ["generic_ftsign"],
-            "minValue" : 0,
-            "maxValue" : 2
+            "pos": [0, 2.46875, 0.875],
+            "types": ["generic_ftsign"],
+            "maxValue": 2
         }
-        
+
     ],
-    
+
     "collision": [
         {
-            "pos":[-0.84375, 2.33993, 5.3024],
-            "width": 2.25, 
+            "pos":[-0.84375, 2.33993, 3.6149],
+            "width": 0.5625, 
             "height": 0.39572
         },
         {
-            "pos":[-0.84375, 2.33993, 3.6149],
-            "width": 2.25, 
+            "pos":[-0.84375, -0.02255, 1.9274],
+            "width": 0.5625, 
+            "height": 0.22994,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.84375, -0.02255, 1.9274],
+            "width": 0.5625, 
+            "height": 0.22994,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 0.44465, 1.368],
+            "width": 0.37439, 
+            "height": 0.70445,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 0.44465, 1.1808],
+            "width": 0.37439, 
+            "height": 0.70445,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 0.44465, 0.99361],
+            "width": 0.37439, 
+            "height": 0.70445,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 0.44465, 1.368],
+            "width": 0.37439, 
+            "height": 0.70445,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 0.44465, 1.1808],
+            "width": 0.37439, 
+            "height": 0.70445,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 0.44465, 0.99361],
+            "width": 0.37439, 
+            "height": 0.70445,
+            "isInterior": true
+        },
+        {
+            "pos":[0.9378, 0.49716, 1.93155],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.9378, 0.49716, 1.74436],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.9378, 0.49716, 1.55716],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.9378, 0.49716, 1.93155],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.9378, 0.49716, 1.74436],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.9378, 0.49716, 1.55716],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.84375, 0.36007, 4.92567],
+            "width": 0.5625, 
+            "height": 0.54345,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 1.70924, 2.11678],
+            "width": 0.37439, 
+            "height": 0.89402,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 1.70924, 1.92958],
+            "width": 0.37439, 
+            "height": 0.89402,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 1.70924, 1.74239],
+            "width": 0.37439, 
+            "height": 0.89402,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 1.70924, 2.11678],
+            "width": 0.37439, 
+            "height": 0.89402,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 1.70924, 1.92958],
+            "width": 0.37439, 
+            "height": 0.89402,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 1.70924, 1.74239],
+            "width": 0.37439, 
+            "height": 0.89402,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.28125, 0.36007, 4.92567],
+            "width": 0.5625, 
+            "height": 0.54345,
+            "isInterior": true
+        },
+        {
+            "pos":[0.28125, 0.36007, 4.92567],
+            "width": 0.5625, 
+            "height": 0.54345,
+            "isInterior": true
+        },
+        {
+            "pos":[0.84375, 0.36007, 4.92567],
+            "width": 0.5625, 
+            "height": 0.54345,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.84375, 0.65273, 4.36317],
+            "width": 0.5625, 
+            "height": 0.53722
+        },
+        {
+            "pos":[-0.28125, 0.50484, 4.36317],
+            "width": 0.5625, 
+            "height": 0.833
+        },
+        {
+            "pos":[0.28125, 0.50484, 4.36317],
+            "width": 0.5625, 
+            "height": 0.833
+        },
+        {
+            "pos":[0.84375, 0.65273, 4.36317],
+            "width": 0.5625, 
+            "height": 0.53722
+        },
+        {
+            "pos":[-0.28125, -0.02255, 1.9274],
+            "width": 0.5625, 
+            "height": 0.22994,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.28125, -0.02255, 1.9274],
+            "width": 0.5625, 
+            "height": 0.22994,
+            "isInterior": true
+        },
+        {
+            "pos":[0.28125, -0.02255, 1.9274],
+            "width": 0.5625, 
+            "height": 0.22994,
+            "isInterior": true
+        },
+        {
+            "pos":[0.28125, -0.02255, 1.9274],
+            "width": 0.5625, 
+            "height": 0.22994,
+            "isInterior": true
+        },
+        {
+            "pos":[0.84375, -0.02255, 1.9274],
+            "width": 0.5625, 
+            "height": 0.22994,
+            "isInterior": true
+        },
+        {
+            "pos":[0.84375, -0.02255, 1.9274],
+            "width": 0.5625, 
+            "height": 0.22994,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.84375, -0.02255, 1.3649],
+            "width": 0.5625, 
+            "height": 0.22994,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.28125, -0.02255, 1.3649],
+            "width": 0.5625, 
+            "height": 0.22994,
+            "isInterior": true
+        },
+        {
+            "pos":[0.28125, -0.02255, 1.3649],
+            "width": 0.5625, 
+            "height": 0.22994,
+            "isInterior": true
+        },
+        {
+            "pos":[0.84375, -0.02255, 1.3649],
+            "width": 0.5625, 
+            "height": 0.22994,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.84375, -0.02255, 0.8024],
+            "width": 0.5625, 
+            "height": 0.22994,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.28125, -0.02255, 0.8024],
+            "width": 0.5625, 
+            "height": 0.22994,
+            "isInterior": true
+        },
+        {
+            "pos":[0.28125, -0.02255, 0.8024],
+            "width": 0.5625, 
+            "height": 0.22994,
+            "isInterior": true
+        },
+        {
+            "pos":[0.84375, -0.02255, 0.8024],
+            "width": 0.5625, 
+            "height": 0.22994,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.84375, -0.02255, 0.2399],
+            "width": 0.5625, 
+            "height": 0.22994,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.28125, -0.02255, 0.2399],
+            "width": 0.5625, 
+            "height": 0.22994,
+            "isInterior": true
+        },
+        {
+            "pos":[0.28125, -0.02255, 0.2399],
+            "width": 0.5625, 
+            "height": 0.22994,
+            "isInterior": true
+        },
+        {
+            "pos":[0.84375, -0.02255, 0.2399],
+            "width": 0.5625, 
+            "height": 0.22994,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.84375, -0.02255, -0.3226],
+            "width": 0.5625, 
+            "height": 0.22994,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.28125, -0.02255, -0.3226],
+            "width": 0.5625, 
+            "height": 0.22994,
+            "isInterior": true
+        },
+        {
+            "pos":[0.28125, -0.02255, -0.3226],
+            "width": 0.5625, 
+            "height": 0.22994,
+            "isInterior": true
+        },
+        {
+            "pos":[0.84375, -0.02255, -0.3226],
+            "width": 0.5625, 
+            "height": 0.22994,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.28125, -0.02255, -0.8851],
+            "width": 0.76298, 
+            "height": 0.22994,
+            "isInterior": true
+        },
+        {
+            "pos":[0.28125, -0.02255, -0.8851],
+            "width": 0.76298, 
+            "height": 0.22994,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.84375, 0.12964, -1.4476],
+            "width": 0.5625, 
+            "height": 0.53432,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.28125, -0.02255, -1.4476],
+            "width": 0.5625, 
+            "height": 0.22994,
+            "isInterior": true
+        },
+        {
+            "pos":[0.28125, -0.02255, -1.4476],
+            "width": 0.5625, 
+            "height": 0.22994,
+            "isInterior": true
+        },
+        {
+            "pos":[0.84375, -0.02255, -1.4476],
+            "width": 0.5625, 
+            "height": 0.22994,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.28125, 2.33993, 3.6149],
+            "width": 0.5625, 
+            "height": 0.39572
+        },
+        {
+            "pos":[0.28125, 2.33993, 3.6149],
+            "width": 0.5625, 
+            "height": 0.39572
+        },
+        {
+            "pos":[0.84375, 2.33993, 3.6149],
+            "width": 0.5625, 
+            "height": 0.39572
+        },
+        {
+            "pos":[-0.84375, 2.33993, 3.0524],
+            "width": 0.5625, 
+            "height": 0.39572
+        },
+        {
+            "pos":[-0.28125, 2.33993, 3.0524],
+            "width": 0.5625, 
+            "height": 0.39572
+        },
+        {
+            "pos":[0.28125, 2.33993, 3.0524],
+            "width": 0.5625, 
+            "height": 0.39572
+        },
+        {
+            "pos":[0.84375, 2.33993, 3.0524],
+            "width": 0.5625, 
+            "height": 0.39572
+        },
+        {
+            "pos":[-0.84375, 2.33993, 2.4899],
+            "width": 0.5625, 
+            "height": 0.39572
+        },
+        {
+            "pos":[-0.28125, 2.33993, 2.4899],
+            "width": 0.5625, 
+            "height": 0.39572
+        },
+        {
+            "pos":[0.28125, 2.33993, 2.4899],
+            "width": 0.5625, 
+            "height": 0.39572
+        },
+        {
+            "pos":[0.84375, 2.33993, 2.4899],
+            "width": 0.5625, 
             "height": 0.39572
         },
         {
             "pos":[-0.84375, 2.33993, 1.9274],
-            "width": 2.25, 
+            "width": 0.5625, 
             "height": 0.39572
         },
         {
-            "pos":[-0.84375, -0.02255, 2.77115],
-            "width": 2.25, 
-            "height": 0.22994,
+            "pos":[-0.28125, 2.33993, 1.9274],
+            "width": 0.5625, 
+            "height": 0.39572
+        },
+        {
+            "pos":[0.28125, 2.33993, 1.9274],
+            "width": 0.5625, 
+            "height": 0.39572
+        },
+        {
+            "pos":[0.84375, 2.33993, 1.9274],
+            "width": 0.5625, 
+            "height": 0.39572
+        },
+        {
+            "pos":[-0.84375, 2.33993, 1.3649],
+            "width": 0.5625, 
+            "height": 0.39572
+        },
+        {
+            "pos":[-0.28125, 2.33993, 1.3649],
+            "width": 0.5625, 
+            "height": 0.39572
+        },
+        {
+            "pos":[0.28125, 2.33993, 1.3649],
+            "width": 0.5625, 
+            "height": 0.39572
+        },
+        {
+            "pos":[0.84375, 2.33993, 1.3649],
+            "width": 0.5625, 
+            "height": 0.39572
+        },
+        {
+            "pos":[-0.84375, 2.33993, 0.8024],
+            "width": 0.5625, 
+            "height": 0.39572
+        },
+        {
+            "pos":[-0.28125, 2.33993, 0.8024],
+            "width": 0.5625, 
+            "height": 0.39572
+        },
+        {
+            "pos":[0.28125, 2.33993, 0.8024],
+            "width": 0.5625, 
+            "height": 0.39572
+        },
+        {
+            "pos":[0.84375, 2.33993, 0.8024],
+            "width": 0.5625, 
+            "height": 0.39572
+        },
+        {
+            "pos":[-0.84375, 2.33993, 0.2399],
+            "width": 0.5625, 
+            "height": 0.39572
+        },
+        {
+            "pos":[-0.28125, 2.33993, 0.2399],
+            "width": 0.5625, 
+            "height": 0.39572
+        },
+        {
+            "pos":[0.28125, 2.33993, 0.2399],
+            "width": 0.5625, 
+            "height": 0.39572
+        },
+        {
+            "pos":[0.84375, 2.33993, 0.2399],
+            "width": 0.5625, 
+            "height": 0.39572
+        },
+        {
+            "pos":[-0.84375, 2.33993, -0.3226],
+            "width": 0.5625, 
+            "height": 0.39572
+        },
+        {
+            "pos":[-0.28125, 2.33993, -0.3226],
+            "width": 0.5625, 
+            "height": 0.39572
+        },
+        {
+            "pos":[0.28125, 2.33993, -0.3226],
+            "width": 0.5625, 
+            "height": 0.39572
+        },
+        {
+            "pos":[0.84375, 2.33993, -0.3226],
+            "width": 0.5625, 
+            "height": 0.39572
+        },
+        {
+            "pos":[-0.84375, 2.33993, -0.8851],
+            "width": 0.5625, 
+            "height": 0.39572
+        },
+        {
+            "pos":[-0.28125, 2.33993, -0.8851],
+            "width": 0.5625, 
+            "height": 0.39572
+        },
+        {
+            "pos":[0.28125, 2.33993, -0.8851],
+            "width": 0.5625, 
+            "height": 0.39572
+        },
+        {
+            "pos":[0.84375, 2.33993, -0.8851],
+            "width": 0.5625, 
+            "height": 0.39572
+        },
+        {
+            "pos":[-0.84375, 2.33993, -1.4476],
+            "width": 0.5625, 
+            "height": 0.39572
+        },
+        {
+            "pos":[-0.28125, 2.33993, -1.4476],
+            "width": 0.5625, 
+            "height": 0.39572
+        },
+        {
+            "pos":[0.28125, 2.33993, -1.4476],
+            "width": 0.5625, 
+            "height": 0.39572
+        },
+        {
+            "pos":[0.84375, 2.33993, -1.4476],
+            "width": 0.5625, 
+            "height": 0.39572
+        },
+        {
+            "pos":[-0.9378, 1.47656, 1.368],
+            "width": 0.37439, 
+            "height": 1.35938,
             "isInterior": true
         },
         {
-            "pos":[-0.84375, -0.02255, 1.08365],
-            "width": 2.25, 
-            "height": 0.22994,
+            "pos":[-0.9378, 1.47656, 1.1808],
+            "width": 0.37439, 
+            "height": 1.35938,
             "isInterior": true
         },
         {
-            "pos":[-0.75061, 0.44465, 2.30398],
-            "width": 0.74878, 
+            "pos":[-0.9378, 1.47656, 0.99361],
+            "width": 0.37439, 
+            "height": 1.35938,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 1.47656, 1.368],
+            "width": 0.37439, 
+            "height": 1.35938,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 1.47656, 1.1808],
+            "width": 0.37439, 
+            "height": 1.35938,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 1.47656, 0.99361],
+            "width": 0.37439, 
+            "height": 1.35938,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 1.47656, 0.61922],
+            "width": 0.37439, 
+            "height": 1.35938,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 1.47656, 0.43202],
+            "width": 0.37439, 
+            "height": 1.35938,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 1.47656, 0.24482],
+            "width": 0.37439, 
+            "height": 1.35938,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 1.47656, 0.61922],
+            "width": 0.37439, 
+            "height": 1.35938,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 1.47656, 0.43202],
+            "width": 0.37439, 
+            "height": 1.35938,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 1.47656, 0.24482],
+            "width": 0.37439, 
+            "height": 1.35938,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 1.47656, -0.12957],
+            "width": 0.37439, 
+            "height": 1.35938,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 1.47656, -0.31676],
+            "width": 0.37439, 
+            "height": 1.35938,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 1.47656, -0.50396],
+            "width": 0.37439, 
+            "height": 1.35938,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 1.47656, -0.12957],
+            "width": 0.37439, 
+            "height": 1.35938,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 1.47656, -0.31676],
+            "width": 0.37439, 
+            "height": 1.35938,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 1.47656, -0.50396],
+            "width": 0.37439, 
+            "height": 1.35938,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 1.70924, -0.87835],
+            "width": 0.37439, 
+            "height": 0.89402,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 1.70924, -1.06554],
+            "width": 0.37439, 
+            "height": 0.89402,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 1.70924, -1.25274],
+            "width": 0.37439, 
+            "height": 0.89402,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 1.70924, -0.87835],
+            "width": 0.37439, 
+            "height": 0.89402,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 1.70924, -1.06554],
+            "width": 0.37439, 
+            "height": 0.89402,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 1.70924, -1.25274],
+            "width": 0.37439, 
+            "height": 0.89402,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 0.44465, 0.61922],
+            "width": 0.37439, 
             "height": 0.70445,
             "isInterior": true
         },
         {
-            "pos":[-0.75061, 0.44465, 1.55519],
-            "width": 0.74878, 
+            "pos":[-0.9378, 0.44465, 0.43202],
+            "width": 0.37439, 
             "height": 0.70445,
             "isInterior": true
         },
         {
-            "pos":[-0.75061, 0.44465, 0.80641],
-            "width": 0.74878, 
+            "pos":[-0.9378, 0.44465, 0.24482],
+            "width": 0.37439, 
             "height": 0.70445,
             "isInterior": true
         },
         {
-            "pos":[-0.75061, 0.44465, 0.05763],
-            "width": 0.74878, 
+            "pos":[-0.9378, 0.44465, 0.61922],
+            "width": 0.37439, 
             "height": 0.70445,
             "isInterior": true
         },
         {
-            "pos":[0.75061, 0.49716, 3.24192],
-            "width": 0.74878, 
+            "pos":[-0.9378, 0.44465, 0.43202],
+            "width": 0.37439, 
+            "height": 0.70445,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 0.44465, 0.24482],
+            "width": 0.37439, 
+            "height": 0.70445,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 0.44465, -0.12957],
+            "width": 0.37439, 
+            "height": 0.70445,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 0.44465, -0.31676],
+            "width": 0.37439, 
+            "height": 0.70445,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 0.44465, -0.50396],
+            "width": 0.37439, 
+            "height": 0.70445,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 0.44465, -0.12957],
+            "width": 0.37439, 
+            "height": 0.70445,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 0.44465, -0.31676],
+            "width": 0.37439, 
+            "height": 0.70445,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 0.44465, -0.50396],
+            "width": 0.37439, 
+            "height": 0.70445,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 0.59684, -0.87835],
+            "width": 0.37439, 
+            "height": 0.40007,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 0.59684, -1.06554],
+            "width": 0.37439, 
+            "height": 0.40007,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 0.59684, -1.25274],
+            "width": 0.37439, 
+            "height": 0.40007,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 0.59684, -0.87835],
+            "width": 0.37439, 
+            "height": 0.40007,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 0.59684, -1.06554],
+            "width": 0.37439, 
+            "height": 0.40007,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 0.59684, -1.25274],
+            "width": 0.37439, 
+            "height": 0.40007,
+            "isInterior": true
+        },
+        {
+            "pos":[0.9378, 0.49716, 1.18277],
+            "width": 0.37439, 
             "height": 0.80948,
             "isInterior": true
         },
         {
-            "pos":[0.75061, 0.49716, 2.49314],
-            "width": 0.74878, 
+            "pos":[0.9378, 0.49716, 0.99558],
+            "width": 0.37439, 
             "height": 0.80948,
             "isInterior": true
         },
         {
-            "pos":[0.75061, 0.49716, 1.74436],
-            "width": 0.74878, 
+            "pos":[0.9378, 0.49716, 0.80838],
+            "width": 0.37439, 
             "height": 0.80948,
             "isInterior": true
         },
         {
-            "pos":[0.75061, 0.49716, 0.99558],
-            "width": 0.74878, 
+            "pos":[0.9378, 0.49716, 1.18277],
+            "width": 0.37439, 
             "height": 0.80948,
             "isInterior": true
         },
         {
-            "pos":[0.75061, 0.49716, 0.24679],
-            "width": 0.74878, 
+            "pos":[0.9378, 0.49716, 0.99558],
+            "width": 0.37439, 
             "height": 0.80948,
             "isInterior": true
         },
         {
-            "pos":[-1.125, 0.50484, 4.92567],
-            "width": 1.6875, 
-            "height": 0.833
-        },
-        {
-            "pos":[-0.5625, 0.50484, 4.92567],
-            "width": 1.6875, 
-            "height": 0.833
-        },
-        {
-            "pos":[-0.75061, 1.47656, 3.42715],
-            "width": 0.74878, 
-            "height": 1.35937,
+            "pos":[0.9378, 0.49716, 0.80838],
+            "width": 0.37439, 
+            "height": 0.80948,
             "isInterior": true
         },
         {
-            "pos":[-0.75061, 1.47656, 2.67837],
-            "width": 0.74878, 
-            "height": 1.35937,
+            "pos":[0.9378, 0.49716, 0.43399],
+            "width": 0.37439, 
+            "height": 0.80948,
             "isInterior": true
         },
         {
-            "pos":[-0.75061, 1.47656, 1.92958],
-            "width": 0.74878, 
-            "height": 1.35937,
+            "pos":[0.9378, 0.49716, 0.24679],
+            "width": 0.37439, 
+            "height": 0.80948,
             "isInterior": true
         },
         {
-            "pos":[-0.75061, 1.47656, 1.1808],
-            "width": 0.74878, 
-            "height": 1.35937,
+            "pos":[0.9378, 0.49716, 0.0596],
+            "width": 0.37439, 
+            "height": 0.80948,
             "isInterior": true
         },
         {
-            "pos":[-0.75061, 1.47656, 0.43202],
-            "width": 0.74878, 
-            "height": 1.35937,
+            "pos":[0.9378, 0.49716, 0.43399],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.9378, 0.49716, 0.24679],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.9378, 0.49716, 0.0596],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.9378, 0.49716, -0.31479],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.9378, 0.49716, -0.50199],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.9378, 0.49716, -0.68918],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.9378, 0.49716, -0.31479],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.9378, 0.49716, -0.50199],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.9378, 0.49716, -0.68918],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.9378, 0.49716, -1.06357],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.9378, 0.49716, -1.25077],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.9378, 0.49716, -1.43796],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.9378, 0.49716, -1.06357],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.9378, 0.49716, -1.25077],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.9378, 0.49716, -1.43796],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 0.27638, 2.11678],
+            "width": 0.37439, 
+            "height": 0.36791,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 0.27638, 1.92958],
+            "width": 0.37439, 
+            "height": 0.36791,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 0.27638, 1.74239],
+            "width": 0.37439, 
+            "height": 0.36791,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 0.27638, 2.11678],
+            "width": 0.37439, 
+            "height": 0.36791,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 0.27638, 1.92958],
+            "width": 0.37439, 
+            "height": 0.36791,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.9378, 0.27638, 1.74239],
+            "width": 0.37439, 
+            "height": 0.36791,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.84375, 0.77656, 4.92567],
+            "width": 0.5625, 
+            "height": 0.28955
+        },
+        {
+            "pos":[-0.28125, 0.77656, 4.92567],
+            "width": 0.5625, 
+            "height": 0.28955
+        },
+        {
+            "pos":[0.28125, 0.77656, 4.92567],
+            "width": 0.5625, 
+            "height": 0.28955
+        },
+        {
+            "pos":[0.84375, 0.77656, 4.92567],
+            "width": 0.5625, 
+            "height": 0.28955
+        },
+        {
+            "pos":[-0.8336, 0.44465, 1.368],
+            "width": 0.37439, 
+            "height": 0.70445,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 0.44465, 1.1808],
+            "width": 0.37439, 
+            "height": 0.70445,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 0.44465, 0.99361],
+            "width": 0.37439, 
+            "height": 0.70445,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 0.44465, 1.368],
+            "width": 0.37439, 
+            "height": 0.70445,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 0.44465, 1.1808],
+            "width": 0.37439, 
+            "height": 0.70445,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 0.44465, 0.99361],
+            "width": 0.37439, 
+            "height": 0.70445,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 1.70924, 2.11678],
+            "width": 0.37439, 
+            "height": 0.89402,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 1.70924, 1.92958],
+            "width": 0.37439, 
+            "height": 0.89402,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 1.70924, 1.74239],
+            "width": 0.37439, 
+            "height": 0.89402,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 1.70924, 2.11678],
+            "width": 0.37439, 
+            "height": 0.89402,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 1.70924, 1.92958],
+            "width": 0.37439, 
+            "height": 0.89402,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 1.70924, 1.74239],
+            "width": 0.37439, 
+            "height": 0.89402,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 1.47656, 1.368],
+            "width": 0.37439, 
+            "height": 1.35938,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 1.47656, 1.1808],
+            "width": 0.37439, 
+            "height": 1.35938,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 1.47656, 0.99361],
+            "width": 0.37439, 
+            "height": 1.35938,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 1.47656, 1.368],
+            "width": 0.37439, 
+            "height": 1.35938,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 1.47656, 1.1808],
+            "width": 0.37439, 
+            "height": 1.35938,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 1.47656, 0.99361],
+            "width": 0.37439, 
+            "height": 1.35938,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 1.47656, 0.61922],
+            "width": 0.37439, 
+            "height": 1.35938,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 1.47656, 0.43202],
+            "width": 0.37439, 
+            "height": 1.35938,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 1.47656, 0.24482],
+            "width": 0.37439, 
+            "height": 1.35938,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 1.47656, 0.61922],
+            "width": 0.37439, 
+            "height": 1.35938,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 1.47656, 0.43202],
+            "width": 0.37439, 
+            "height": 1.35938,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 1.47656, 0.24482],
+            "width": 0.37439, 
+            "height": 1.35938,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 1.47656, -0.12957],
+            "width": 0.37439, 
+            "height": 1.35938,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 1.47656, -0.31676],
+            "width": 0.37439, 
+            "height": 1.35938,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 1.47656, -0.50396],
+            "width": 0.37439, 
+            "height": 1.35938,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 1.47656, -0.12957],
+            "width": 0.37439, 
+            "height": 1.35938,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 1.47656, -0.31676],
+            "width": 0.37439, 
+            "height": 1.35938,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 1.47656, -0.50396],
+            "width": 0.37439, 
+            "height": 1.35938,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 1.70924, -0.87835],
+            "width": 0.37439, 
+            "height": 0.89402,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 1.70924, -1.06554],
+            "width": 0.37439, 
+            "height": 0.89402,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 1.70924, -1.25274],
+            "width": 0.37439, 
+            "height": 0.89402,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 1.70924, -0.87835],
+            "width": 0.37439, 
+            "height": 0.89402,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 1.70924, -1.06554],
+            "width": 0.37439, 
+            "height": 0.89402,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 1.70924, -1.25274],
+            "width": 0.37439, 
+            "height": 0.89402,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 0.44465, 0.61922],
+            "width": 0.37439, 
+            "height": 0.70445,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 0.44465, 0.43202],
+            "width": 0.37439, 
+            "height": 0.70445,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 0.44465, 0.24482],
+            "width": 0.37439, 
+            "height": 0.70445,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 0.44465, 0.61922],
+            "width": 0.37439, 
+            "height": 0.70445,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 0.44465, 0.43202],
+            "width": 0.37439, 
+            "height": 0.70445,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 0.44465, 0.24482],
+            "width": 0.37439, 
+            "height": 0.70445,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 0.44465, -0.12957],
+            "width": 0.37439, 
+            "height": 0.70445,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 0.44465, -0.31676],
+            "width": 0.37439, 
+            "height": 0.70445,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 0.44465, -0.50396],
+            "width": 0.37439, 
+            "height": 0.70445,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 0.44465, -0.12957],
+            "width": 0.37439, 
+            "height": 0.70445,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 0.44465, -0.31676],
+            "width": 0.37439, 
+            "height": 0.70445,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 0.44465, -0.50396],
+            "width": 0.37439, 
+            "height": 0.70445,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 0.59684, -0.87835],
+            "width": 0.37439, 
+            "height": 0.40007,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 0.59684, -1.06554],
+            "width": 0.37439, 
+            "height": 0.40007,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 0.59684, -1.25274],
+            "width": 0.37439, 
+            "height": 0.40007,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 0.59684, -0.87835],
+            "width": 0.37439, 
+            "height": 0.40007,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 0.59684, -1.06554],
+            "width": 0.37439, 
+            "height": 0.40007,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 0.59684, -1.25274],
+            "width": 0.37439, 
+            "height": 0.40007,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 0.27638, 2.11678],
+            "width": 0.37439, 
+            "height": 0.36791,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 0.27638, 1.92958],
+            "width": 0.37439, 
+            "height": 0.36791,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 0.27638, 1.74239],
+            "width": 0.37439, 
+            "height": 0.36791,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 0.27638, 2.11678],
+            "width": 0.37439, 
+            "height": 0.36791,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 0.27638, 1.92958],
+            "width": 0.37439, 
+            "height": 0.36791,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.8336, 0.27638, 1.74239],
+            "width": 0.37439, 
+            "height": 0.36791,
+            "isInterior": true
+        },
+        {
+            "pos":[0.84339, 0.49716, 1.93155],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.84339, 0.49716, 1.74436],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.84339, 0.49716, 1.55716],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.84339, 0.49716, 1.93155],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.84339, 0.49716, 1.74436],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.84339, 0.49716, 1.55716],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.84339, 0.49716, 1.18277],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.84339, 0.49716, 0.99558],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.84339, 0.49716, 0.80838],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.84339, 0.49716, 1.18277],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.84339, 0.49716, 0.99558],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.84339, 0.49716, 0.80838],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.84339, 0.49716, 0.43399],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.84339, 0.49716, 0.24679],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.84339, 0.49716, 0.0596],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.84339, 0.49716, 0.43399],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.84339, 0.49716, 0.24679],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.84339, 0.49716, 0.0596],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.84339, 0.49716, -0.31479],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.84339, 0.49716, -0.50199],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.84339, 0.49716, -0.68918],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.84339, 0.49716, -0.31479],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.84339, 0.49716, -0.50199],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.84339, 0.49716, -0.68918],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.84339, 0.49716, -1.06357],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.84339, 0.49716, -1.25077],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.84339, 0.49716, -1.43796],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.84339, 0.49716, -1.06357],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.84339, 0.49716, -1.25077],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.84339, 0.49716, -1.43796],
+            "width": 0.37439, 
+            "height": 0.80948,
+            "isInterior": true
+        },
+        {
+            "pos":[0.1872, 1.62966, 2.52145],
+            "width": 0.37439, 
+            "height": 1.02482,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.1872, 1.62966, 2.52145],
+            "width": 0.37439, 
+            "height": 1.02482,
+            "isInterior": true
+        },
+        {
+            "pos":[0.1872, 0.60483, 2.52145],
+            "width": 0.37439, 
+            "height": 1.02482,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.1872, 0.60483, 2.52145],
+            "width": 0.37439, 
+            "height": 1.02482,
+            "isInterior": true
+        },
+        {
+            "pos":[0.56159, 1.62966, 2.02145],
+            "width": 0.37439, 
+            "height": 1.02482,
+            "isInterior": true
+        },
+        {
+            "pos":[0.56159, 0.60483, 2.02145],
+            "width": 0.37439, 
+            "height": 1.02482,
             "isInterior": true
         }
     ],
-
+    
     "doors": [
-
         {
             "name": "door_shade",
             "closedPos":[0.80001, 1.0644, 1.95625],
@@ -1159,203 +2596,269 @@
             "height": 0.325,
             "closedByDefault": true,
             "closeOnMovement": true
+        },
+        {
+            "name": "door_l",
+            "closedPos":[1.125, 0.73102, 2.48732],
+            "openPos":[2.33216, 0.73102, 3.20563],
+            "width": 0.28713, 
+            "height": 1.34242,
+            "closeOnMovement": true
+        },
+        {
+            "name": "door_l",
+            "closedPos":[1.125, 0.73102, 2.77445],
+            "openPos":[2.08349, 0.73102, 3.3492],
+            "width": 0.28713, 
+            "height": 1.34242
+        },
+        {
+            "name": "door_l",
+            "closedPos":[1.125, 0.73102, 3.06158],
+            "openPos":[1.83483, 0.73102, 3.49276],
+            "width": 0.28713, 
+            "height": 1.34242
+        },
+        {
+            "name": "door_l",
+            "closedPos":[1.125, 0.73102, 3.34871],
+            "openPos":[1.58617, 0.73102, 3.63633],
+            "width": 0.28713, 
+            "height": 1.34242
+        },
+        {
+            "name": "door_l",
+            "closedPos":[1.125, 0.73102, 3.63584],
+            "openPos":[1.3375, 0.73102, 3.77989],
+            "width": 0.28713, 
+            "height": 1.34242
+        },
+        {
+            "name": "door_r",
+            "closedPos":[-1.125, 0.73102, 2.48732],
+            "openPos":[-2.33216, 0.73102, 3.20563],
+            "width": 0.28713, 
+            "height": 1.34242,
+            "closeOnMovement": true
+        },
+        {
+            "name": "door_r",
+            "closedPos":[-1.125, 0.73102, 2.77445],
+            "openPos":[-2.08349, 0.73102, 3.3492],
+            "width": 0.28713, 
+            "height": 1.34242
+        },
+        {
+            "name": "door_r",
+            "closedPos":[-1.125, 0.73102, 3.06158],
+            "openPos":[-1.83483, 0.73102, 3.49276],
+            "width": 0.28713, 
+            "height": 1.34242
+        },
+        {
+            "name": "door_r",
+            "closedPos":[-1.125, 0.73102, 3.34871],
+            "openPos":[-1.58617, 0.73102, 3.63633],
+            "width": 0.28713, 
+            "height": 1.34242
+        },
+        {
+            "name": "door_r",
+            "closedPos":[-1.125, 0.73102, 3.63584],
+            "openPos":[-1.3375, 0.73102, 3.77989],
+            "width": 0.28713, 
+            "height": 1.34242
+        },
+        {
+            "name": "door_back",
+            "closedPos":[0.27491, 0.66266, -1.66858],
+            "openPos":[-0.50983, 0.66266, -2.45366],
+            "width": 0.28713, 
+            "height": 1.20571,
+            "closeOnMovement": true
+        },
+        {
+            "name": "door_back",
+            "closedPos":[-0.01222, 0.66266, -1.66858],
+            "openPos":[-0.50983, 0.66266, -2.16653],
+            "width": 0.28713, 
+            "height": 1.20571,
+            "closeOnMovement": true
+        },
+        {
+            "name": "door_back",
+            "closedPos":[-0.29935, 0.66266, -1.66858],
+            "openPos":[-0.50983, 0.66266, -1.8794],
+            "width": 0.28713, 
+            "height": 1.20571,
+            "closeOnMovement": true
         }
     ],
-    
+
     "rendering": {
-        
+
         "panelTexture": "turbosparts:textures/guis/foodtruck_panel.png",
-        
+
         "textObjects": [
-            
+
             {
-                "pos": [0.0,0.043885,5.18318],
-                "rot": [0.0,0.0,0.0],
+                "pos": [0.0, 0.043885, 5.18318],
+                "rot": [0.0, 0.0, 0.0],
                 "scale": 0.2,
                 "fieldName": "License Plate",
                 "defaultText": "FT 400024",
                 "maxLength": 8,
                 "color": "#000000"
             },
-            
+
             {
-                "pos": [0.0,0.043885,-1.7922],
-                "rot": [0.0,180.0,0.0],
+                "pos": [0.0, 0.043885, -1.7922],
+                "rot": [0.0, 180.0, 0.0],
                 "scale": 0.2,
                 "fieldName": "License Plate",
                 "defaultText": "FT 400024",
                 "maxLength": 8,
                 "color": "#000000"
             }
-            
+
         ],
-        
+
         "animatedObjects": [
-            
+
             {
                 "objectName": "$Door_L",
-                "animations": [
-                    {
-                        "animationType": "rotation",
-                        "variable": "door",
-                        "centerPoint": [1.1065,0.75,3.8919],
-                        "axis": [0.0,-60.0,0.0],
-                        "duration": 30
-                    }
-                ]
+                "animations": [{
+                    "animationType": "rotation",
+                    "variable": "door_l",
+                    "centerPoint": [1.1065, 0.75, 3.8919],
+                    "axis": [0.0, -60.0, 0.0],
+                    "duration": 30,
+                    "forwardsStartSound": "turbosrandomvehicles:car_door_open",
+                    "reverseEndSound": "turbosrandomvehicles:car_door_close"
+                }]
             },
-            
+
             {
-                "objectName": "$Window_Door_L",
-                "animations": [
-                    {
-                        "animationType": "rotation",
-                        "variable": "door",
-                        "centerPoint": [1.10625,0.75,3.8919],
-                        "axis": [0.0,-60.0,0.0],
-                        "duration": 30
-                    }
-                ]
+				"objectName": "$Window_Door_L",
+				"applyAfter": "$Door_L",
+                "animations": []
             },
-            
+
             {
                 "objectName": "$Door_R",
-                "animations": [
-                    {
-                        "animationType": "rotation",
-                        "variable": "door",
-                        "centerPoint": [-1.10625,0.75,3.8919],
-                        "axis": [0.0,60.0,0.0],
-                        "duration": 30
-                    }
-                ]
+                "animations": [{
+                    "animationType": "rotation",
+                    "variable": "door_r",
+                    "centerPoint": [-1.10625, 0.75, 3.8919],
+                    "axis": [0.0, 60.0, 0.0],
+                    "duration": 30,
+                    "forwardsStartSound": "turbosrandomvehicles:car_door_open",
+                    "reverseEndSound": "turbosrandomvehicles:car_door_close"
+                }]
             },
-            
+
             {
-                "objectName": "$Window_Door_R",
-                "animations": [
-                    {
-                        "animationType": "rotation",
-                        "variable": "door",
-                        "centerPoint": [-1.10625,0.75,3.8919],
-                        "axis": [0.0,60.0,0.0],
-                        "duration": 30
-                    }
-                ]
+				"objectName": "$Window_Door_R",
+				"applyAfter": "$Door_R",
+                "animations": []
             },
-            
+
             {
                 "objectName": "$Gas",
-                "animations": [
-                    {
-                        "animationType": "rotation",
-                        "variable": "throttle",
-                        "centerPoint": [0.404134,0.535195,3.72654],
-                        "axis": [-30.0,0.0,0.0]
-                    }
-                ]
+                "animations": [{
+                    "animationType": "rotation",
+                    "variable": "throttle",
+                    "centerPoint": [0.404134, 0.535195, 3.72654],
+					"axis": [-30.0, 0.0, 0.0],
+					"duration": 5
+                }]
             },
-            
+
             {
                 "objectName": "$Brake",
-                "animations": [
-                    {
-                        "animationType": "rotation",
-                        "variable": "brake",
-                        "centerPoint": [0.680499,0.536636,3.72848],
-                        "axis": [-25.0,0.0,0.0]
-                    }
-                ]
+                "animations": [{
+                    "animationType": "rotation",
+                    "variable": "brake",
+                    "centerPoint": [0.680499, 0.536636, 3.72848],
+                    "axis": [-25.0, 0.0, 0.0],
+					"duration": 5
+                }]
             },
-            
+
             {
                 "objectName": "$Parking_Brake",
-                "animations": [
-                    {
-                        "animationType": "rotation",
-                        "variable": "p_brake",
-                        "centerPoint": [0.0,0.542944,2.47553],
-                        "axis": [-25.0,0.0,0.0]
-                    }
-                ]
+                "animations": [{
+                    "animationType": "rotation",
+                    "variable": "p_brake",
+                    "centerPoint": [0.0, 0.542944, 2.47553],
+                    "axis": [-25.0, 0.0, 0.0],
+					"duration": 10
+                }]
             },
-            
+
             {
                 "objectName": "$Steering_Wheel",
-                "animations": [
-                    {
-                        "animationType": "rotation",
-                        "variable": "rudder",
-                        "centerPoint": [0.72388,0.996085,3.67573],
-                        "axis": [-0.0,-1.0,1.0]
-                    }
-                ]
+                "animations": [{
+                    "animationType": "rotation",
+                    "variable": "rudder",
+                    "centerPoint": [0.72388, 0.996085, 3.67573],
+                    "axis": [-0.0, -1.0, 1.0]
+                }]
             },
-            
+
             {
                 "objectName": "$Door_Back",
-                "animations": [
-                    {
-                        "animationType": "rotation",
-                        "variable": "door",
-                        "centerPoint": [-0.510001,1.0219,-1.66875],
-                        "axis": [0.0,60.0,0.0],
-                        "duration": 30
-                    }
-                ]
+                "animations": [{
+                    "animationType": "rotation",
+                    "variable": "door_back",
+                    "centerPoint": [-0.510001, 1.0219, -1.66875],
+                    "axis": [0.0, 90.0, 0.0],
+                    "duration": 30,
+                    "forwardsStartSound": "turbosrandomvehicles:car_door_open",
+                    "reverseEndSound": "turbosrandomvehicles:car_door_close"
+                }]
             },
-            
+
             {
-                "objectName": "$Window_Door_Back",
-                "animations": [
-                    {
-                        "animationType": "rotation",
-                        "variable": "door",
-                        "centerPoint": [-0.510001,1.0219,-1.66875],
-                        "axis": [0.0,60.0,0.0],
-                        "duration": 30
-                    }
-                ]
+				"objectName": "$Window_Door_Back",
+				"applyAfter": "$Door_Back",
+                "animations": []
             },
-            
+
             {
                 "objectName": "$Display_Tray",
-                "animations": [
-                    {
-                        "animationType": "rotation",
-                        "variable": "door_shade",
-                        "centerPoint": [1.0688,0.90951,0.25782],
-                        "axis": [0.0,0.0,-90.0],
-                        "duration": 30
-                    }
-                ]
+                "animations": [{
+                    "animationType": "rotation",
+                    "variable": "door_shade",
+                    "centerPoint": [1.0688, 0.90951, 0.25782],
+                    "axis": [0.0, 0.0, -90.0],
+                    "duration": 30,
+                    "forwardsDelay": 20
+                }]
             },
-            
+
             {
                 "objectName": "$Service_Shade",
-                "animations": [
-                    {
-                        "animationType": "rotation",
-                        "variable": "door_shade",
-                        "centerPoint": [1.1077,2.141,0.26378],
-                        "axis": [0.0,0.0,90.0],
-                        "duration": 30
-                    }
-                ]
+                "animations": [{
+                    "animationType": "rotation",
+                    "variable": "door_shade",
+                    "centerPoint": [1.1077, 2.141, 0.26378],
+                    "axis": [0.0, 0.0, 90.0],
+                    "duration": 30,
+                    "reverseDelay": 20
+                }]
             },
-            
+
             {
                 "objectName": "$Gearshift",
-                "animations": [
-                    {
-                        "animationType": "rotation",
-                        "variable": "engine_gearshift_1",
-                        "centerPoint": [0.259663,1.07261,3.75929],
-                        "axis": [0.8,0.0,0.0]
-                    }
-                ]
+                "animations": [{
+                    "animationType": "rotation",
+                    "variable": "engine_gearshift_1",
+                    "centerPoint": [0.259663, 1.07261, 3.75929],
+                    "axis": [0.8, 0.0, 0.0]
+                }]
             }
-            
+
         ]
     }
 }

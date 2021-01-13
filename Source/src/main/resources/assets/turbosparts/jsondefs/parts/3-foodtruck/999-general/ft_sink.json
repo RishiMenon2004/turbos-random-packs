@@ -1,12 +1,60 @@
 {
     "general" : {
         "name" : "Foodtruck Sink",
-        "description" : "Add this to the kitchen in the Foodtruck to wash dishes.",
+        "description" : "Great to wash dishes and get water",
         "type" : "generic_ft_sink",
         "materials" : ["minecraft:cauldron:0:1", "minecraft:iron_ingot:0:2"]
     },
     "generic" : {
-        "width" : 0.7,
-        "height" : 0.5
+        "width" : 0.5,
+        "height" : 0.1
+    },
+    "doors": [
+        {
+            "name": "tap_l",
+            "closedPos":[0.1, 0.037983, -0.264769],
+            "openPos":[0.1, 0.037983, -0.264769],
+            "width": 0.08411, 
+            "height": 0.08411
+        },
+        {
+            "name": "tap_r",
+            "closedPos":[-0.1, 0.037983, -0.264769],
+            "openPos":[-0.1, 0.037983, -0.264769],
+            "width": 0.08411, 
+            "height": 0.08411
+        }
+    ],
+    "rendering": {
+        "animatedObjects": [
+            {
+                "objectName": "tap_r",
+                "animations": [
+                    {
+                        "animationType": "rotation",
+                        "variable": "tap_r",
+                        "centerPoint": [0.1, 0.037983, -0.264769],
+                        "axis": [0, 135, 0],
+                        "duration": 10,
+                        "forwardsStartSound": "turbosparts:sink_tap_open",
+                        "reverseEndSound": "turbosparts:sink_tap_close"
+                    }
+                ]
+            },
+            {
+                "objectName": "tap_l",
+                "animations": [
+                    {
+                        "animationType": "rotation",
+                        "variable": "tap_l",
+                        "centerPoint": [-0.1, 0.037983, -0.264769],
+                        "axis": [0, -135, 0],
+                        "duration": 10,
+                        "forwardsStartSound": "turbosparts:sink_tap_open",
+                        "reverseEndSound": "turbosparts:sink_tap_close"
+                    }
+                ]
+            }
+        ]
     }
 }

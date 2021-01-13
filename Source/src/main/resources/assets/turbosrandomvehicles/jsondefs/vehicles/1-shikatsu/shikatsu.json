@@ -40,7 +40,7 @@
         
 		"emptyMass": 950,
         
-		"materials": ["minecraft:iron_ingots:0:5", "minecraft:glass_pane:0:6"]
+		"materials": ["minecraft:iron_ingot:0:5", "minecraft:glass_pane:0:6"]
 	},
 
 	"motorized": {
@@ -99,12 +99,6 @@
                     "centerPoint": [0.03125, 0.0, 0.0],
                     "axis": [0.0, -1, 0.0],
                     "variable": "rudder"
-                },
-                {
-                    "animationType": "rotation",
-                    "centerPoint": [0.0, 0.0, 0.0],
-                    "axis": [0.0, 1, 0.0],
-                    "variable": "rudder"
                 }
             ]
 		},
@@ -120,12 +114,6 @@
                     "animationType": "rotation",
                     "centerPoint": [-0.03125, 0.0, 0.0],
                     "axis": [0.0, -1, 0.0],
-                    "variable": "rudder"
-                },
-                {
-                    "animationType": "rotation",
-                    "centerPoint": [0.0, 0.0, 0.0],
-                    "axis": [0.0, 1, 0.0],
                     "variable": "rudder"
                 }
             ]
@@ -149,14 +137,14 @@
 			"pos": [0.503125, 0.4064, 1.074619],
 			"types": ["seat"],
             "dismountPos": [1.5, 0.4064, 1.074619],
-            "linkedDoor": "door_fl"
+            "linkedDoors": ["door_fl"]
 		},
         //front right seat
 		{
 			"pos": [-0.503125, 0.4064, 1.074619],
 			"types": ["seat"],
             "dismountPos": [-1.5, 0.4064, 1.074619],
-            "linkedDoor": "door_fr",
+            "linkedDoors": ["door_fr"],
 			"isController": true
 		},
         //back left seat
@@ -164,14 +152,14 @@
 			"pos": [0.503125, 0.5064, 0.074619],
 			"types": ["seat"],
             "dismountPos": [1.5, 0.5064, 0.074619],
-            "linkedDoor": "door_bl"
+            "linkedDoors": ["door_bl"]
 		},
         //back right seat
 		{
 			"pos": [-0.503125, 0.5064, 0.074619],
 			"types": ["seat"],
             "dismountPos": [-1.5, 0.5064, 0.074619],
-            "linkedDoor": "door_br"
+            "linkedDoors": ["door_br"]
 		},
         //engine
 		{
@@ -443,7 +431,9 @@
 				        "centerPoint": [0.0, 0.885944, 2.15792],
 				        "axis": [-60, 0.0, 0.0],
 				        "variable": "door_hood",
-				        "duration": 20
+				        "duration": 20,
+                        "forwardsStartSound": "turbosrandomvehicles:car_trunk_open",
+                        "reverseEndSound": "turbosrandomvehicles:car_trunk_close"
                     }
                 ]
 			},
@@ -454,22 +444,19 @@
                     {
                         "animationType": "rotation",
 				        "centerPoint": [0.0, 1.87931, -0.219932],
-				        "axis": [30, 0.0, 0.0],
+				        "axis": [90, 0.0, 0.0],
 				        "variable": "door_trunk",
-				        "duration": 20
+				        "duration": 20,
+                        "forwardsStartSound": "turbosrandomvehicles:car_trunk_open",
+                        "reverseEndSound": "turbosrandomvehicles:car_trunk_close"
                     }
                 ]
 			},
             
 			{
-				"objectName": "$Window_Trunk",
-                "animations" : [{
-                    "animationType": "rotation",
-				    "centerPoint": [0.0, 1.87931, -0.219932],
-				    "axis": [90, 0.0, 0.0],
-				    "variable": "door_trunk",
-				    "duration": 20
-                }]
+                "objectName": "$Window_Trunk",
+                "applyAfter": "$Trunk",
+                "animations": []
 			},
             
 			{
@@ -479,7 +466,9 @@
 				    "centerPoint": [-0.976074, 0.859376, 2.0957],
 				    "axis": [0.0, 60, 0.0],
 				    "variable": "door_fr",
-				    "duration": 20
+				    "duration": 20,
+                    "forwardsStartSound": "turbosrandomvehicles:car_door_open",
+                    "reverseEndSound": "turbosrandomvehicles:car_door_close"
                 }]
 			},
             
@@ -491,7 +480,9 @@
                     "centerPoint": [0.976074, 0.859376, 2.0957],
 				    "axis": [0.0, -60, 0.0],
 				    "variable": "door_fl",
-				    "duration": 20
+				    "duration": 20,
+                    "forwardsStartSound": "turbosrandomvehicles:car_door_open",
+                    "reverseEndSound": "turbosrandomvehicles:car_door_close"
                 }]
 			},
             
@@ -502,7 +493,9 @@
 				    "centerPoint": [-0.970703, 0.857422, 0.902344],
 				    "axis": [0.0, 60, 0.0],
 				    "variable": "door_br",
-				    "duration": 20
+				    "duration": 20,
+                    "forwardsStartSound": "turbosrandomvehicles:car_door_open",
+                    "reverseEndSound": "turbosrandomvehicles:car_door_close"
                 }]
 			},
             
@@ -513,82 +506,104 @@
 				    "centerPoint": [0.970703, 0.857422, 0.902344],
 				    "axis": [0.0, -60, 0.0],
 				    "variable": "door_bl",
-				    "duration": 20
+				    "duration": 20,
+                    "forwardsStartSound": "turbosrandomvehicles:car_door_open",
+                    "reverseEndSound": "turbosrandomvehicles:car_door_close"
                 }]
 			},
             
 			{
-				"objectName": "$Window_Door_FR",
+                "objectName": "$Window_Door_FR",
+                "applyAfter": "$Door_FR",
                 "animations" : [
-                    {
-                        "animationType": "rotation",
-				        "centerPoint": [-0.976074, 0.859376, 2.0957],
-				        "axis": [0.0, 60, 0.0],
-				        "variable": "door_fr",
-				        "duration": 20
-                    },
                     {
                         "animationType": "translation",
                         "variable": "windows",
                         "axis": [0.0, -0.75, 0.0],
-                        "duration": 30
+                        "duration": 30,
+                        "forwardsStartSound": "turbosrandomvehicles:car_window_open_start",
+                        "forwardsEndSound": "turbosrandomvehicles:car_window_open_end",
+                        "reverseStartSound": "turbosrandomvehicles:car_window_close_start",
+                        "reverseEndSound": "turbosrandomvehicles:car_window_close_end"
+                    },
+                    {
+                        "animationType": "visibility",
+                        "variable": "windows",
+                        "forwardsDelay": "30",
+                        "clampMax": 0,
+                        "clampMin": 0
                     }
                 ]
 			},
             
 			{
-				"objectName": "$Window_Door_FL",
+                "objectName": "$Window_Door_FL",
+                "applyAfter": "$Door_FL",
                 "animations" : [
-                    {
-                        "animationType": "rotation",
-				        "centerPoint": [0.976074, 0.859376, 2.0957],
-				        "axis": [0.0, -60, 0.0],
-				        "variable": "door_fl",
-				        "duration": 20
-                    },
                     {
                         "animationType": "translation",
                         "variable": "windows",
                         "axis": [0.0, -0.75, 0.0],
-                        "duration": 30
+                        "duration": 30,
+                        "forwardsStartSound": "turbosrandomvehicles:car_window_open_start",
+                        "forwardsEndSound": "turbosrandomvehicles:car_window_open_end",
+                        "reverseStartSound": "turbosrandomvehicles:car_window_close_start",
+                        "reverseEndSound": "turbosrandomvehicles:car_window_close_end"
+                    },
+                    {
+                        "animationType": "visibility",
+                        "variable": "windows",
+                        "forwardsDelay": "30",
+                        "clampMax": 0,
+                        "clampMin": 0
                     }
                 ]
 			},
             
 			{
-				"objectName": "$Window_Door_BR",
+                "objectName": "$Window_Door_BR",
+                "applyAfter": "$Door_BR",
                 "animations" : [
-                    {
-                        "animationType": "rotation",
-				        "centerPoint": [-0.970703, 0.857422, 0.902344],
-				        "axis": [0.0, 60, 0.0],
-				        "variable": "door_br",
-				        "duration": 20
-                    },
                     {
                         "animationType": "translation",
                         "variable": "windows",
                         "axis": [0.0, -0.75, 0.0],
-                        "duration": 30
+                        "duration": 30,
+                        "forwardsStartSound": "turbosrandomvehicles:car_window_open_start",
+                        "forwardsEndSound": "turbosrandomvehicles:car_window_open_end",
+                        "reverseStartSound": "turbosrandomvehicles:car_window_close_start",
+                        "reverseEndSound": "turbosrandomvehicles:car_window_close_end"
+                    },
+                    {
+                        "animationType": "visibility",
+                        "variable": "windows",
+                        "forwardsDelay": "30",
+                        "clampMax": 0,
+                        "clampMin": 0
                     }
                 ]
 			},
             
 			{
-				"objectName": "$Window_Door_BL",
+                "objectName": "$Window_Door_BL",
+                "applyAfter": "$Door_Bl",
                 "animations" : [
-                    {
-                        "animationType": "rotation",
-				        "centerPoint": [0.970703, 0.857422, 0.902344],
-				        "axis": [0.0, -60, 0.0],
-				        "variable": "door_bl",
-				        "duration": 20
-                    },
                     {
                         "animationType": "translation",
                         "variable": "windows",
                         "axis": [0.0, -0.75, 0.0],
-                        "duration": 30
+                        "duration": 30,
+                        "forwardsStartSound": "turbosrandomvehicles:car_window_open_start",
+                        "forwardsEndSound": "turbosrandomvehicles:car_window_open_end",
+                        "reverseStartSound": "turbosrandomvehicles:car_window_close_start",
+                        "reverseEndSound": "turbosrandomvehicles:car_window_close_end"
+                    },
+                    {
+                        "animationType": "visibility",
+                        "variable": "windows",
+                        "forwardsDelay": "30",
+                        "clampMax": 0,
+                        "clampMin": 0
                     }
                 ]
 			},
@@ -752,10 +767,11 @@
         "cameraObjects": [
             
             {
-                "pos": [0.0, 2.5, -1],
-                "animations": []
+                "pos": [0.0, 2.5, -1]
             }
-        ]
-	}
 
+        ]
+
+    }
+    
 }

@@ -2,8 +2,8 @@
 	"credit": "Turbo Defender",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "turbosparts:decors/radio",
-		"particle": "turbosparts:decors/radio"
+		"0": "turbosparts:decors/2-electronics/radio",
+		"particle": "turbosparts:decors/2-electronics/radio"
 	},
 	"elements": [
 		{

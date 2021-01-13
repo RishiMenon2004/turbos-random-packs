@@ -1,7 +1,7 @@
 # Blender v2.79 (sub 0) OBJ File: 'Patty_Waggon_tex.blend'
 # www.blender.org
 mtllib patty_wagon.mtl
-o &DaytimeRunningLight_B4FFFF_FFFFFF_100
+o &DaytimeRunningLight_B4FFFF_FFFFF_100
 v 0.736530 1.547421 2.226620
 v 0.926049 1.547421 2.226620
 v 0.736530 1.736939 2.226620
@@ -634,7 +634,7 @@ usemtl pattywagon
 s 1
 f 135/279/78 137/280/78 138/281/78 136/282/78
 f 142/283/79 141/284/79 139/285/79 140/286/79
-o &Headlight_B4FFFF_FFFFFF_100
+o &Headlight_B4FFFF_FFFFF_100
 v -0.918389 1.557222 2.214525
 v -0.744191 1.557222 2.214525
 v -0.918389 1.728568 2.245914
