@@ -1,0 +1,11 @@
+{
+    "general" : {
+        "name" : "Parts Workbench",
+        "descriptions" : "Modern looking workbench, has all the essentials. Used to craft parts",
+        "materials" : ["minecraft:wood:-1:5", "minecraft:wool:0:2", "minecraft:dye:11:4", "minecraft:dye:0:4"],
+        "width" : 1,
+        "height" : 1,
+        "depth" : 1,
+        "itemTypes": ["part"]
+    }
+}

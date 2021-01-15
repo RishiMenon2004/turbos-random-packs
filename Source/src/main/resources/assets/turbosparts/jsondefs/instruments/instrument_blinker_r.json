@@ -2,7 +2,7 @@
     "general": {
         "name": "Right Blinker",
         "description": "Right Blinker",
-        "materials": ["minecraft:redstone_dust:0:1", "minecraft:dye:10:1"]
+        "materials": ["oredict:dustRedstone:1", "minecraft:dye:10:1"]
     },
     
     "components": [

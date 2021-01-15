@@ -2,8 +2,8 @@
     "general" : {
         "name" : "Hamburger - Beef Patty",
         "type": "food",
-        "description": "Lay down your pickaxe and have a Miner's Snack\n Effects: \"Strength - 2 minutes\", \"Slowness - 1 minute\"",
-        "materials" : ["minecraft:bread:0:2", "minecraft:grass:0:1", "minecraft:cooked_beef:0:1"]
+        "description": "Lay down your pickaxe and have a Miner's Snack\n Effects:\n    \"Strength - 2 minutes\",\n    \"Slowness - 1 minute\"",
+        "materials" : ["minecraft:bread:0:2", "minecraft:tallgrass:1:1", "minecraft:cooked_beef:0:1"]
     },
     
     "food" : {

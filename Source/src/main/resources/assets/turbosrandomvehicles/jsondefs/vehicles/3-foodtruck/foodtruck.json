@@ -8,7 +8,7 @@
         },
         {
             "subName": "_miners",
-            "name": "Foodtruck - §6Miners",
+            "name": "Foodtruck - §6Miner's",
             "extraMaterials": ["turbosparts:ftpntminers:-1:1"]
         },
         {
@@ -37,7 +37,7 @@
 
         "emptyMass": 9000,
 
-        "materials": ["minecraft:iron_ingot:-1:11", "minecraft:iron_bars:-1:10", "minecraft:iron_trapdoor:-1:3", "minecraft:glass_pane:-1:6"]
+        "materials": ["oredict:ingotIron:11", "minecraft:iron_bars:-1:10" , "oredict:paneGlassColourless:6"]
 
     },
 
@@ -2697,7 +2697,8 @@
 
     "rendering": {
 
-        "panelTexture": "turbosparts:textures/guis/foodtruck_panel.png",
+        "panelTexture": "turbosparts:textures/guis/car_panel.png",
+        "hudTexture": "turbosparts:textures/guis/car_hud.png",
 
         "textObjects": [
 

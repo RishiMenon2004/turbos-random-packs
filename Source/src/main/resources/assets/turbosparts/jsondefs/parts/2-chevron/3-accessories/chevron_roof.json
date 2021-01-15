@@ -2,7 +2,7 @@
     "general": {
         "name": "Chevron Removeable Roof",
         "type": "generic_chevron_roof",
-        "materials": ["minecraft:glass_pane:0:2"],
+        "materials": ["oredict:paneGlassColourless:2"],
         "modelName": "chevron_roof"
     },
 

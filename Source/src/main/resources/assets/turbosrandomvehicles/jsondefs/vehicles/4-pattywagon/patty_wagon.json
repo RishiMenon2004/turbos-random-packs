@@ -17,7 +17,7 @@
         
         "emptyMass": 4000,
         
-        "materials": ["minecraft:glass_pane:-1:1", "minecraft:bread:0:2"]
+        "materials": ["oredict:paneGlassColourless:1", "minecraft:bread:0:2"]
         
     },
     
@@ -38,6 +38,7 @@
         "instruments": [
             {
                 "pos": [0.75,1.9,1.349],
+                "rot": [0, 0, 0],
                 "scale": 0.02,
                 "hudX": 200,
                 "hudY": 40,
@@ -46,6 +47,7 @@
             
             {
                 "pos": [0.9,1.875,1.349],
+                "rot": [0, 0, 0],
                 "scale": 0.015,
                 "hudX": 110,
                 "hudY": 27,
@@ -54,6 +56,7 @@
             
             {
                 "pos": [0.6,1.875,1.349],
+                "rot": [0, 0, 0],
                 "scale": 0.015,
                 "hudX": 290,
                 "hudY": 27,
@@ -62,6 +65,7 @@
             
             {
                 "pos": [0.8125,1.75,1.349],
+                "rot": [0, 0, 0],
                 "scale": 0.015,
                 "hudX": 150,
                 "hudY": 50,
@@ -70,6 +74,7 @@
             
             {
                 "pos": [0.6835,1.75,1.349],
+                "rot": [0, 0, 0],
                 "scale": 0.015,
                 "hudX": 250,
                 "hudY": 50,

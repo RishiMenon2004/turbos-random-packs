@@ -40,7 +40,7 @@
         
 		"emptyMass": 950,
         
-		"materials": ["minecraft:iron_ingot:0:5", "minecraft:glass_pane:0:6"]
+		"materials": ["oredict:ingotIron:5", "oredict:paneGlassColourless:6"]
 	},
 
 	"motorized": {
@@ -767,7 +767,8 @@
         "cameraObjects": [
             
             {
-                "pos": [0.0, 2.5, -1]
+                "pos": [0.0, 2.5, -1],
+                "rot": [0, 0, 0]
             }
 
         ]

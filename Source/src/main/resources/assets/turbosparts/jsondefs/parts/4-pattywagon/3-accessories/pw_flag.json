@@ -3,7 +3,7 @@
         "name" : "Krusty Krab Flag",
         "description" : "The Krusty Krab flag.",
         "type" : "generic_pw_flag",
-        "materials" : ["minecraft:stick:0:1","minecraft:dye:1:1"]
+        "materials" : ["oredict:stickWood:1","minecraft:dye:1:1"]
     },
     "generic" : {
         "width" : 0.5,

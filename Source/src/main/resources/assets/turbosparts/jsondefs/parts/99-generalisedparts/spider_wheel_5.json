@@ -3,7 +3,7 @@
         "name" : "Wheel",
         "description": "Vehicle Type: Car\nStyle: Spider",
         "type" : "ground_wheel",
-        "materials" : ["minecraft:iron_ingot:0:1", "minecraft:leather:0:2"]
+        "materials" : ["oredict:ingotIron:1", "oredict:leather:2"]
         
     },
     

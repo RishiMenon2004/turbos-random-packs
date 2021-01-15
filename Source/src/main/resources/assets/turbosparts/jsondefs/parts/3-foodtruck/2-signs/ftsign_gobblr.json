@@ -1,9 +1,9 @@
 {
     "general" : {
-        "name" : "Foodtruck Sign - Gobblr",
+        "name" : "Foodtruck Sign - §8Gobblr",
         "description" : "",
         "type" : "generic_ftsign",
-        "materials" : ["minecraft:iron_ingot:0:2", "minecraft:redstone_lamp:0:1", "minecraft:dye:0:2"],
+        "materials" : ["oredict:ingotIron:2", "minecraft:redstone_lamp:0:1", "minecraft:dye:0:2"],
         "disableMirroring" : true
     },
     

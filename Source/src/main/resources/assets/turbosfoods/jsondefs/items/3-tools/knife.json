@@ -1,0 +1,7 @@
+{
+    "general": {
+        "name": "Knife - 1 Time Use",
+        "description": "Chop Chop. NOTE: One Time Use For Crafting Other Food Items",
+        "materials": ["oredict:ingotIron:1", "minecraft:slime_ball:0:1"]
+    }
+}

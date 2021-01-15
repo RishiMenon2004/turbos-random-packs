@@ -34,7 +34,7 @@
     "general": {
         "name" : "Food-Container",
         "type" : "interactable_crate_foodcrate",
-        "materials" : ["minecraft:dye:15:1", "minecraft:stick:0:3"]
+        "materials" : ["minecraft:dye:15:1", "oredict:stickWood:3"]
     },
     "interactable" : {
         "interactionType" : "crate",

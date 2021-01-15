@@ -3,7 +3,7 @@
         "name" : "Wheel",
         "description": "Vehicle Type: Car\nStyle: Cevron",
         "type" : "ground_wheel",
-        "materials" : ["minecraft:iron_ingot:0:2", "minecraft:leather:0:2"]
+        "materials" : ["oredict:ingotIron:2", "oredict:leather:2"]
         
     },
     

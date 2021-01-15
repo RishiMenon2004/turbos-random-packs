@@ -4,7 +4,7 @@
         "description": "A stove on top, and an oven on the bottom, perfect for any small kitchen, even a foodtruck. To be used as a furnace.",
         "type": "furnace",
         "customType": "ft_oven",
-        "materials": ["minecraft:iron_ingot:0:4", "minecraft:redstone:0:5"],
+        "materials": ["oredict:ingotIron:4", "oredict:dustRedstone:5"],
         "disableMirroring": true
     },
 

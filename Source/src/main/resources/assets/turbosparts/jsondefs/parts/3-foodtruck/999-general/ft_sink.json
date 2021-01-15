@@ -3,7 +3,7 @@
         "name" : "Foodtruck Sink",
         "description" : "Great to wash dishes and get water",
         "type" : "generic_ft_sink",
-        "materials" : ["minecraft:cauldron:0:1", "minecraft:iron_ingot:0:2"]
+        "materials" : ["minecraft:cauldron:0:1", "oredict:ingotIron:2"]
     },
     "generic" : {
         "width" : 0.5,

@@ -1,0 +1,11 @@
+{
+    "general": {
+        "name": "Auto Burger Assembler",
+        "description": "Who wants to work to get a bite?",
+        "materials": ["oredict:ingotIron:2", "oredict:dustRedstone:4"],
+        "width": "1",
+        "height": "1",
+        "depth": "1",
+        "items": ["turbosfoods:hamburger_bacon", "turbosfoods:hamburger_beef", "turbosfoods:hamburger_chicken", "turbosfoods:hamburger_porkchop"]
+    }
+}
