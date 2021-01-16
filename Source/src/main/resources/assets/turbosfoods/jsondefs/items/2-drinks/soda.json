@@ -1,0 +1,15 @@
+{
+    "general" : {
+        "name" : "Soda",
+        "type": "food",
+        "description": "Soda Water, or just boring carbonated water.\n Effects:\n    \"None\"",
+        "materials" : ["minecraft:potion:1:1", "mts:turbosfoods.carbonator:0:1"]
+    },
+    
+    "food" : {
+        "isDrink": true,
+        "timeToEat": 40,
+        "hungerAmount": "0",
+        "saturationAmount": "0"
+    }
+}

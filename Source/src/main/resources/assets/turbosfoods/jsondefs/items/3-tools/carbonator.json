@@ -1,0 +1,7 @@
+{
+    "general": {
+        "name": "Carbonator - 1 Time Use",
+        "description": "BUBBLES! NOTE: One Time Use For Crafting Other Food Items",
+        "materials": ["oredict:ingotIron:1", "oredict:dustRedstone:1"]
+    }
+}

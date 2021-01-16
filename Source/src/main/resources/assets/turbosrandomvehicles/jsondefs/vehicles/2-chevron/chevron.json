@@ -79,7 +79,7 @@
         
         "dragCoefficient": 0.443,
         
-		"hornSound": "mtsofficialpack:horn_car",
+		"hornSound": "turbosparts:chevron_horn",
         
 		"instruments": [
             {
@@ -168,7 +168,7 @@
 	"parts": [
         
         {
-			"pos": [1.2, 0.0, 3.30081],
+			"pos": [1.16, 0.0, 3.30081],
 			"types": ["ground_wheel"],
 			"minValue": 0.7,
 			"maxValue": 0.9,
@@ -176,7 +176,7 @@
             "animations": [
                 {
                     "animationType": "rotation",
-                    "centerPoint": [-0.08275, 0.0, 0.0],
+                    "centerPoint": [-0.20274, 0.0, 0.0],
                     "axis": [0.0, -1, 0.0],
                     "variable": "rudder"
                 }
@@ -184,7 +184,7 @@
 		},
         
 		{
-			"pos": [-1.2, 0.0, 3.30081],
+			"pos": [-1.16, 0.0, 3.30081],
 			"types": ["ground_wheel"],
 			"minValue": 0.7,
 			"maxValue": 0.9,
@@ -192,7 +192,7 @@
             "animations": [
                 {
                     "animationType": "rotation",
-                    "centerPoint": [0.08275, 0.0, 0.0],
+                    "centerPoint": [0.20274, 0.0, 0.0],
                     "axis": [0.0, -1, 0.0],
                     "variable": "rudder"
                 }
@@ -200,14 +200,14 @@
 		},
         
 		{
-			"pos": [1.2, 0.0, 0],
+			"pos": [1.16, 0.0, 0],
 			"types": ["ground_wheel"],
 			"minValue": 0.7,
 			"maxValue": 0.9
 		},
         
 		{
-			"pos": [-1.2, 0.0, 0],
+			"pos": [-1.16, 0.0, 0],
 			"types": ["ground_wheel"],
 			"minValue": 0.7,
 			"maxValue": 0.9

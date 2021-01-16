@@ -1,0 +1,22 @@
+{
+    "general" : {
+        "name" : "Apple Soda",
+        "type": "food",
+        "description": "Carbonated Apple Juice. MMMMMM FIZZY.\n Effects:\n    \"Haste - 2 Minutes\"",
+        "materials" : ["minecraft:apple:0:1", "mts:turbosfoods.soda:0:1"]
+    },
+    
+    "food" : {
+        "isDrink": true,
+        "timeToEat": 40,
+        "hungerAmount": "0",
+        "saturationAmount": "0",
+        "effects": [
+            {
+                "name": "haste",
+                "duration": "2400",
+                "amplifier": "0"
+            }
+        ]
+    }
+}

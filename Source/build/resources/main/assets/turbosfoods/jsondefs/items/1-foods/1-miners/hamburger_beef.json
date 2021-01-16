@@ -3,7 +3,7 @@
         "name" : "Hamburger - Beef Patty",
         "type": "food",
         "description": "Lay down your pickaxe and have a Miner's Snack\n Effects:\n    \"Strength - 2 minutes\",\n    \"Slowness - 1 minute\"",
-        "materials" : ["minecraft:bread:0:2", "minecraft:tallgrass:1:1", "minecraft:cooked_beef:0:1"]
+        "materials" : ["minecraft:bread:0:1", "minecraft:cooked_beef:0:1", "minecraft:tallgrass:1:1", "minecraft:bread:0:1"]
     },
     
     "food" : {
