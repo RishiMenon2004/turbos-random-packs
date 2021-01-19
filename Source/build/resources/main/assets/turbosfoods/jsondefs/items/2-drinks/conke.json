@@ -8,7 +8,7 @@
     
     "food" : {
         "isDrink": true,
-        "timeToEat": 40,
+        "timeToEat": 30,
         "hungerAmount": "0",
         "saturationAmount": "0",
         "effects": [

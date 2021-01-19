@@ -1,0 +1,18 @@
+{
+    "definitions": [
+        {
+            "subName": "_lightgrey",
+            "name": "BrandSign Middle UNU - Light Grey",
+            "extraMaterials": []
+        }
+    ],
+
+    "general": {
+        "name" : "BrandSign Middle UNU",
+        "descriptions" : "Sign blocks to put in front of vehicle dealerships",
+        "materials" : ["oredict:ingotIron:2"],
+        "width" : 1,
+        "height" : 1,
+        "depth" : 1
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "general" : {
+        "name" : "Grape Juice",
+        "type": "food",
+        "description": "Healthy, if you don't have diabetes.\n Effects:\n    \"Jump Boost - 4 Minutes\"",
+        "materials" : ["minecraft:chorus_fruit:0:4", "minecraft:sugar:0:1", "minecraft:glass_bottle:0:1"]
+    },
+    
+    "food" : {
+        "isDrink": true,
+        "timeToEat": 30,
+        "hungerAmount": "0",
+        "saturationAmount": "0",
+        "effects": [
+            {
+                "name": "jump_boost",
+                "duration": "4800",
+                "amplifier": "1"
+            }
+        ]
+    }
+}
