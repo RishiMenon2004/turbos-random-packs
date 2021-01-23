@@ -8,6 +8,11 @@
         "disableMirroring": true
     },
 
+    "generic": {
+        "width": 0.5,
+        "height": 2.25
+    },
+
     "doors": [
         {
             "name": "oven_door",
@@ -97,7 +102,9 @@
                     "centerPoint": [0.0, 0.089308, 0.269544],
                     "axis": [75.0, 0.0, 0.0],
                     "duration": 10,
-                    "reverseDelay": 20
+                    "reverseDelay": 20,
+                    "forwardsStartSound": "turbosparts:oven_open",
+                    "reverseEndSound": "turbosparts:oven_close"
                 }]
             },
             {

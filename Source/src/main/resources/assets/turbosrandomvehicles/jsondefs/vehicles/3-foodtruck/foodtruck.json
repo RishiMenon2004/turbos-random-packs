@@ -2834,7 +2834,9 @@
                     "centerPoint": [1.0688, 0.90951, 0.25782],
                     "axis": [0.0, 0.0, -90.0],
                     "duration": 30,
-                    "forwardsDelay": 20
+                    "forwardsDelay": 20,
+                    "forwardsStartSound": "turbosrandomvehicles:car_trunk_open",
+                    "reverseEndSound": "turbosrandomvehicles:car_trunk_close"
                 }]
             },
 
@@ -2846,7 +2848,9 @@
                     "centerPoint": [1.1077, 2.141, 0.26378],
                     "axis": [0.0, 0.0, 90.0],
                     "duration": 30,
-                    "reverseDelay": 20
+                    "reverseDelay": 20,
+                    "forwardsStartSound": "turbosrandomvehicles:car_trunk_open",
+                    "reverseEndSound": "turbosrandomvehicles:car_trunk_close"
                 }]
             },
 

@@ -1,0 +1,23 @@
+{
+    "definitions": [
+        {
+            "subName": "_conke",
+            "name":"Soda Fountain - Conke",
+            "extraMaterials": ["oredict:dyeRed:2"]
+        },
+        {
+            "subName": "_bepis",
+            "name":"Soda Fountain - Bepis",
+            "extraMaterials": ["oredict:dyeCyan:1", "oredict:dyeOrange:1"]
+        }
+    ],
+    "general": {
+        "name": "Soda Fountain",
+        "description": "SODAAAAAA!!!! PSSSSHHHHHH!!!!",
+        "materials": ["oredict:ingotIron:1", "oredict:dustRedstone:2", "minecraft:stick:0:4"],
+        "width": "1",
+        "height": "1",
+        "depth": "1",
+        "items": ["turbosfoods:conke", "turbosfoods:bepis", "turbosfoods:apple_soda", "turbosfoods:grape_soda", "turbosfoods:soda"]
+    }
+}

@@ -307,8 +307,7 @@
         
         {
             "pos": [0.0, 0.205371, 0.037568],
-            "types": ["crate"],
-            "customTypes": ["luggage"],
+            "types": ["interactable_luggage"],
             "minValue": 1,
             "maxValue": 1,
             "linkedDoors": ["door_trunk"]
@@ -316,8 +315,7 @@
         
         {
             "pos": [0.45, 0.205371, 0.037568],
-            "types": ["crate"],
-            "customTypes": ["luggage"],
+            "types": ["interactable_luggage"],
             "minValue": 1,
             "maxValue": 1,
             "linkedDoors": ["door_trunk"]
@@ -325,8 +323,7 @@
         
         {
             "pos": [-0.45, 0.205371, 0.037568],
-            "types": ["crate"],
-            "customTypes": ["luggage"],
+            "types": ["interactable_luggage"],
             "minValue": 1,
             "maxValue": 1,
             "linkedDoors": ["door_trunk"]

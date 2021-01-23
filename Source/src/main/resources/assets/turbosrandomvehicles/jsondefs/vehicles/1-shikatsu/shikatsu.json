@@ -206,143 +206,1514 @@
 
 	"collision": [
         {
-			//roof
-			"pos": [0.0, 1.8, 0.8],
-			"width": 2.125,
-			"height": 0.1      
-		}
-	],
+            "pos":[0.0, 0.663, 2.94866],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.0, 0.413, 2.94866],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[0.0, 0.163, 2.94866],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[0.25, 0.663, 2.94866],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.25, 0.413, 2.94866],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[0.25, 0.163, 2.94866],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[0.5, 0.663, 2.94866],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.5, 0.413, 2.94866],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[0.5, 0.163, 2.94866],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[0.75, 0.663, 2.94866],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.75, 0.413, 2.94866],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[0.75, 0.163, 2.94866],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.25, 0.663, 2.94866],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[-0.25, 0.413, 2.94866],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.25, 0.163, 2.94866],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.5, 0.663, 2.94866],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[-0.5, 0.413, 2.94866],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.5, 0.163, 2.94866],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.75, 0.663, 2.94866],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[-0.75, 0.413, 2.94866],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.75, 0.163, 2.94866],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[0.875, 0.663, 2.94866],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.875, 0.413, 2.94866],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[0.875, 0.163, 2.94866],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.875, 0.663, 2.94866],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[-0.875, 0.413, 2.94866],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.875, 0.163, 2.94866],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[0.875, 0.663, 2.69866],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.875, 0.413, 2.69866],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.875, 0.663, 2.69866],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[-0.875, 0.413, 2.69866],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[0.875, 0.663, 2.44866],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.875, 0.413, 2.44866],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.875, 0.663, 2.44866],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[-0.875, 0.413, 2.44866],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[1.0, 0.663, 2.19866],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[1.0, 0.413, 2.19866],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[-1.0, 0.663, 2.19866],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[-1.0, 0.413, 2.19866],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[0.0, 1.788, 1.82366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.25, 1.788, 1.82366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.5, 1.788, 1.82366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.75, 1.788, 1.82366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[-0.25, 1.788, 1.82366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[-0.5, 1.788, 1.82366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[-0.75, 1.788, 1.82366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.0, 1.788, 1.57366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.25, 1.788, 1.57366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.5, 1.788, 1.57366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.75, 1.788, 1.57366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[-0.25, 1.788, 1.57366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[-0.5, 1.788, 1.57366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[-0.75, 1.788, 1.57366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.0, 1.788, 1.32366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.25, 1.788, 1.32366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.5, 1.788, 1.32366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.75, 1.788, 1.32366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[-0.25, 1.788, 1.32366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[-0.5, 1.788, 1.32366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[-0.75, 1.788, 1.32366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.0, 1.913, 1.07366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.25, 1.913, 1.07366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.5, 1.913, 1.07366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.75, 1.913, 1.07366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[-0.25, 1.913, 1.07366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[-0.5, 1.913, 1.07366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[-0.75, 1.913, 1.07366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.0, 1.913, 0.82366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.25, 1.913, 0.82366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.5, 1.913, 0.82366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.75, 1.913, 0.82366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[-0.25, 1.913, 0.82366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[-0.5, 1.913, 0.82366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[-0.75, 1.913, 0.82366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.0, 1.913, 0.57366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.25, 1.913, 0.57366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.5, 1.913, 0.57366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.75, 1.913, 0.57366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[-0.25, 1.913, 0.57366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[-0.5, 1.913, 0.57366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[-0.75, 1.913, 0.57366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.0, 1.913, 0.32366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.25, 1.913, 0.32366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.5, 1.913, 0.32366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.75, 1.913, 0.32366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[-0.25, 1.913, 0.32366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[-0.5, 1.913, 0.32366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[-0.75, 1.913, 0.32366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.0, 1.913, 0.07366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.25, 1.913, 0.07366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.5, 1.913, 0.07366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.75, 1.913, 0.07366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[-0.25, 1.913, 0.07366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[-0.5, 1.913, 0.07366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[-0.75, 1.913, 0.07366],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.0, 1.913, -0.17634],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.25, 1.913, -0.17634],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.5, 1.913, -0.17634],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[0.75, 1.913, -0.17634],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[-0.25, 1.913, -0.17634],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[-0.5, 1.913, -0.17634],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[-0.75, 1.913, -0.17634],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[1.0, 0.663, -0.30134],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[1.0, 0.413, -0.30134],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[-1.0, 0.663, -0.30134],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[-1.0, 0.413, -0.30134],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[1.0, 0.663, -0.55134],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[1.0, 0.413, -0.55134],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[-1.0, 0.663, -0.55134],
+            "width": 0.25, 
+            "height": 0.25
+        },
+        {
+            "pos":[-1.0, 0.413, -0.55134],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[1.0, 0.163, -0.55134],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[-1.0, 0.163, -0.55134],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.75, 0.288, -0.67634],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.75, 0.163, -0.67634],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.5, 0.288, -0.67634],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.5, 0.163, -0.67634],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.25, 0.288, -0.67634],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[-0.25, 0.163, -0.67634],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[0.0, 0.288, -0.67634],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[0.0, 0.163, -0.67634],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[0.25, 0.288, -0.67634],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[0.25, 0.163, -0.67634],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[0.5, 0.288, -0.67634],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[0.5, 0.163, -0.67634],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[0.75, 0.288, -0.67634],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        },
+        {
+            "pos":[0.75, 0.163, -0.67634],
+            "width": 0.25, 
+            "height": 0.25,
+            "isInterior": true
+        }
+    ],
     
     "doors": [
-    	//front left door
         {
-            "name": "door_fl",
-            "closedPos": [1.03284, 0.570446, 1.23153],
-            "openPos": [1.75285, 0.570446, 1.71278],
-            "width": 0.5,
-            "height": 0.7
+            "name": "door_trunk",
+            "closedPos":[-0.75, 0.538, -0.67634],
+            "openPos":[-0.75, 2.33572, -1.56124],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true
         },
         {
-            "name": "door_fl",
-            "closedPos": [1.03284, 0.570446, 1.73153],
-            "openPos": [1.31984, 0.570446, 1.96278],
-            "width": 0.5,
-            "height": 0.7
-        },
-        //front right door
-        {
-            "name": "door_fr",
-            "closedPos": [-1.03284, 0.570446, 1.23153],
-            "openPos": [-1.75285, 0.570446, 1.71278],
-            "width": 0.5,
-            "height": 0.7
+            "name": "door_trunk",
+            "closedPos":[-0.5, 0.538, -0.67634],
+            "openPos":[-0.5, 2.33572, -1.56124],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true
         },
         {
-            "name": "door_fr",
-            "closedPos": [-1.03284, 0.570446, 1.73153],
-            "openPos": [-1.31984, 0.570446, 1.96278],
-            "width": 0.5,
-            "height": 0.7
-        },
-        //rear left door
-        {
-            "name": "door_bl",
-            "closedPos": [1.03284, 0.823029, 0.116833],
-            "openPos": [1.68204, 0.823029, 0.563401],
-            "width": 0.5,
-            "height": 0.7
+            "name": "door_trunk",
+            "closedPos":[-0.25, 0.538, -0.67634],
+            "openPos":[-0.25, 2.33572, -1.56124],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true
         },
         {
-            "name": "door_bl",
-            "closedPos": [1.03284, 0.723029, 0.616833],
-            "openPos": [1.24903, 0.723029, 0.813402],
-            "width": 0.5,
-            "height": 0.7
-        },
-        //rear right door
-        {
-            "name": "door_br",
-            "closedPos": [-1.03284, 0.823029, 0.116833],
-            "openPos": [-1.68204, 0.823029, 0.563401],
-            "width": 0.5,
-            "height": 0.7
+            "name": "door_trunk",
+            "closedPos":[0.0, 0.538, -0.67634],
+            "openPos":[0.0, 2.33572, -1.56124],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true
         },
         {
-            "name": "door_br",
-            "closedPos": [-1.03284, 0.723029, 0.616833],
-            "openPos": [-1.24903, 0.723029, 0.813402],
-            "width": 0.5,
-            "height": 0.7
+            "name": "door_trunk",
+            "closedPos":[0.25, 0.538, -0.67634],
+            "openPos":[0.25, 2.33572, -1.56124],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true
         },
-        //hood/bonnet
+        {
+            "name": "door_trunk",
+            "closedPos":[0.5, 0.538, -0.67634],
+            "openPos":[0.5, 2.33572, -1.56124],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true
+        },
+        {
+            "name": "door_trunk",
+            "closedPos":[0.75, 0.538, -0.67634],
+            "openPos":[0.75, 2.33572, -1.56124],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true
+        },
+        {
+            "name": "door_trunk",
+            "closedPos":[-0.75, 0.788, -0.67634],
+            "openPos":[-0.75, 2.33572, -1.31124],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true
+        },
+        {
+            "name": "door_trunk",
+            "closedPos":[-0.5, 0.788, -0.67634],
+            "openPos":[-0.5, 2.33572, -1.31124],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true
+        },
+        {
+            "name": "door_trunk",
+            "closedPos":[-0.25, 0.788, -0.67634],
+            "openPos":[-0.25, 2.33572, -1.31124],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true
+        },
+        {
+            "name": "door_trunk",
+            "closedPos":[0.0, 0.788, -0.67634],
+            "openPos":[0.0, 2.33572, -1.31124],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true
+        },
+        {
+            "name": "door_trunk",
+            "closedPos":[0.25, 0.788, -0.67634],
+            "openPos":[0.25, 2.33572, -1.31124],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true
+        },
+        {
+            "name": "door_trunk",
+            "closedPos":[0.5, 0.788, -0.67634],
+            "openPos":[0.5, 2.33572, -1.31124],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true
+        },
+        {
+            "name": "door_trunk",
+            "closedPos":[0.75, 0.788, -0.67634],
+            "openPos":[0.75, 2.33572, -1.31124],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true
+        },
         {
             "name": "door_hood",
-            "closedPos": [0.5, 0.85, 2.6],
-            "openPos": [0.5, 1.25082, 2.41009],
-            "width": 1,
-            "height": 0.2
+            "closedPos":[-0.625, 0.663, 2.69866],
+            "openPos":[-0.625, 1.24276, 2.62136],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true
         },
         {
             "name": "door_hood",
-            "closedPos": [-0.5, 0.85, 2.6],
-            "openPos": [-0.5, 1.25082, 2.41009],
-            "width": 1,
-            "height": 0.2
+            "closedPos":[-0.375, 0.663, 2.69866],
+            "openPos":[-0.375, 1.24276, 2.62136],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true
         },
-        //trunk/boot
         {
-      "name": "door_trunk",
-      "closedPos": [0.75,0.7,-0.625],
-      "openPos": [0.75,2.44045,-1.44378],
-      "width": 0.25,
-      "height": 0.5
-    },
-    {
-      "name": "door_trunk",
-      "closedPos": [0.5,0.7,-0.625],
-      "openPos": [0.5,2.44045,-1.44378],
-      "width": 0.25,
-      "height": 0.5
-    },
-    {
-      "name": "door_trunk",
-      "closedPos": [0.25,0.7,-0.625],
-      "openPos": [0.25,2.44045,-1.44378],
-      "width": 0.25,
-      "height": 0.5
-    },
-    {
-      "name": "door_trunk",
-      "closedPos": [0.0,0.7,-0.625],
-      "openPos": [0.0,2.44045,-1.44378],
-      "width": 0.25,
-      "height": 0.5
-    },
-    {
-      "name": "door_trunk",
-      "closedPos": [-0.25,0.7,-0.625],
-      "openPos": [-0.25,2.44045,-1.44378],
-      "width": 0.25,
-      "height": 0.5
-    },
-    {
-      "name": "door_trunk",
-      "closedPos": [-0.5,0.7,-0.625],
-      "openPos": [-0.5,2.44045,-1.44378],
-      "width": 0.25,
-      "height": 0.5
-    },
-    {
-      "name": "door_trunk",
-      "closedPos": [-0.75,0.7,-0.625],
-      "openPos": [-0.75,2.44045,-1.44378],
-      "width": 0.25,
-      "height": 0.5
-    }/* ,
+            "name": "door_hood",
+            "closedPos":[-0.125, 0.663, 2.69866],
+            "openPos":[-0.125, 1.24276, 2.62136],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true
+        },
         {
-        	"name": "radio_dial_a",
-        	"closedPos": [""]
-        } */
+            "name": "door_hood",
+            "closedPos":[0.125, 0.663, 2.69866],
+            "openPos":[0.125, 1.24276, 2.62136],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true
+        },
+        {
+            "name": "door_hood",
+            "closedPos":[0.375, 0.663, 2.69866],
+            "openPos":[0.375, 1.24276, 2.62136],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true
+        },
+        {
+            "name": "door_hood",
+            "closedPos":[0.625, 0.663, 2.69866],
+            "openPos":[0.625, 1.24276, 2.62136],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true
+        },
+        {
+            "name": "door_hood",
+            "closedPos":[-0.625, 0.788, 2.44866],
+            "openPos":[-0.625, 1.08876, 2.38811],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true
+        },
+        {
+            "name": "door_hood",
+            "closedPos":[-0.375, 0.788, 2.44866],
+            "openPos":[-0.375, 1.08876, 2.38811],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true
+        },
+        {
+            "name": "door_hood",
+            "closedPos":[-0.125, 0.788, 2.44866],
+            "openPos":[-0.125, 1.08876, 2.38811],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true
+        },
+        {
+            "name": "door_hood",
+            "closedPos":[0.125, 0.788, 2.44866],
+            "openPos":[0.125, 1.08876, 2.38811],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true
+        },
+        {
+            "name": "door_hood",
+            "closedPos":[0.375, 0.788, 2.44866],
+            "openPos":[0.375, 1.08876, 2.38811],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true
+        },
+        {
+            "name": "door_hood",
+            "closedPos":[0.625, 0.788, 2.44866],
+            "openPos":[0.625, 1.08876, 2.38811],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true
+        },
+        {
+            "name": "door_hood",
+            "closedPos":[-0.625, 0.788, 2.19866],
+            "openPos":[-0.625, 0.87225, 2.26311],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true
+        },
+        {
+            "name": "door_hood",
+            "closedPos":[-0.375, 0.788, 2.19866],
+            "openPos":[-0.375, 0.87225, 2.26311],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true
+        },
+        {
+            "name": "door_hood",
+            "closedPos":[-0.125, 0.788, 2.19866],
+            "openPos":[-0.125, 0.87225, 2.26311],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true
+        },
+        {
+            "name": "door_hood",
+            "closedPos":[0.125, 0.788, 2.19866],
+            "openPos":[0.125, 0.87225, 2.26311],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true
+        },
+        {
+            "name": "door_hood",
+            "closedPos":[0.375, 0.788, 2.19866],
+            "openPos":[0.375, 0.87225, 2.26311],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true
+        },
+        {
+            "name": "door_hood",
+            "closedPos":[0.625, 0.788, 2.19866],
+            "openPos":[0.625, 0.87225, 2.26311],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true
+        },
+        {
+            "name": "door_fl",
+            "closedPos":[1.0, 0.413, 1.82366],
+            "openPos":[1.22363, 0.413, 1.9804],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_fl",
+            "closedPos":[1.0, 0.663, 1.82366],
+            "openPos":[1.22363, 0.663, 1.9804],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_fl",
+            "closedPos":[1.0, 0.913, 1.82366],
+            "openPos":[1.22363, 0.913, 1.9804],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_fl",
+            "closedPos":[1.0, 0.163, 1.82366],
+            "openPos":[1.22363, 0.163, 1.9804],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_fl",
+            "closedPos":[1.0, 0.413, 1.57366],
+            "openPos":[1.44014, 0.413, 1.8554],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_fl",
+            "closedPos":[1.0, 0.663, 1.57366],
+            "openPos":[1.44014, 0.663, 1.8554],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_fl",
+            "closedPos":[1.0, 0.913, 1.57366],
+            "openPos":[1.44014, 0.913, 1.8554],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_fl",
+            "closedPos":[1.0, 0.163, 1.57366],
+            "openPos":[1.44014, 0.163, 1.8554],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_fl",
+            "closedPos":[1.0, 0.413, 1.32366],
+            "openPos":[1.65665, 0.413, 1.7304],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_fl",
+            "closedPos":[1.0, 0.663, 1.32366],
+            "openPos":[1.65665, 0.663, 1.7304],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_fl",
+            "closedPos":[1.0, 0.913, 1.32366],
+            "openPos":[1.65665, 0.913, 1.7304],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_fl",
+            "closedPos":[1.0, 0.163, 1.32366],
+            "openPos":[1.65665, 0.163, 1.7304],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_fl",
+            "closedPos":[1.0, 0.413, 1.07366],
+            "openPos":[1.87315, 0.413, 1.6054],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_fl",
+            "closedPos":[1.0, 0.663, 1.07366],
+            "openPos":[1.87315, 0.663, 1.6054],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_fl",
+            "closedPos":[1.0, 0.913, 1.07366],
+            "openPos":[1.87315, 0.913, 1.6054],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_fl",
+            "closedPos":[1.0, 0.163, 1.07366],
+            "openPos":[1.87315, 0.163, 1.6054],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_fr",
+            "closedPos":[-1.0, 0.413, 1.82366],
+            "openPos":[-1.22363, 0.413, 1.9804],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_fr",
+            "closedPos":[-1.0, 0.663, 1.82366],
+            "openPos":[-1.22363, 0.663, 1.9804],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_fr",
+            "closedPos":[-1.0, 0.913, 1.82366],
+            "openPos":[-1.22363, 0.913, 1.9804],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_fr",
+            "closedPos":[-1.0, 0.163, 1.82366],
+            "openPos":[-1.22363, 0.163, 1.9804],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_fr",
+            "closedPos":[-1.0, 0.413, 1.57366],
+            "openPos":[-1.44014, 0.413, 1.8554],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_fr",
+            "closedPos":[-1.0, 0.663, 1.57366],
+            "openPos":[-1.44014, 0.663, 1.8554],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_fr",
+            "closedPos":[-1.0, 0.913, 1.57366],
+            "openPos":[-1.44014, 0.913, 1.8554],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_fr",
+            "closedPos":[-1.0, 0.163, 1.57366],
+            "openPos":[-1.44014, 0.163, 1.8554],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_fr",
+            "closedPos":[-1.0, 0.413, 1.32366],
+            "openPos":[-1.65665, 0.413, 1.7304],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_fr",
+            "closedPos":[-1.0, 0.663, 1.32366],
+            "openPos":[-1.65665, 0.663, 1.7304],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_fr",
+            "closedPos":[-1.0, 0.913, 1.32366],
+            "openPos":[-1.65665, 0.913, 1.7304],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_fr",
+            "closedPos":[-1.0, 0.163, 1.32366],
+            "openPos":[-1.65665, 0.163, 1.7304],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_fr",
+            "closedPos":[-1.0, 0.413, 1.07366],
+            "openPos":[-1.87315, 0.413, 1.6054],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_fr",
+            "closedPos":[-1.0, 0.663, 1.07366],
+            "openPos":[-1.87315, 0.663, 1.6054],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_fr",
+            "closedPos":[-1.0, 0.913, 1.07366],
+            "openPos":[-1.87315, 0.913, 1.6054],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_fr",
+            "closedPos":[-1.0, 0.163, 1.07366],
+            "openPos":[-1.87315, 0.163, 1.6054],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_br",
+            "closedPos":[-1.0, 0.538, 0.69866],
+            "openPos":[-1.16444, 0.538, 0.82122],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_br",
+            "closedPos":[-1.0, 0.788, 0.69866],
+            "openPos":[-1.16444, 0.788, 0.82122],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_br",
+            "closedPos":[-1.0, 1.038, 0.69866],
+            "openPos":[-1.16444, 1.038, 0.82122],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_br",
+            "closedPos":[-1.0, 0.288, 0.69866],
+            "openPos":[-1.16444, 0.288, 0.82122],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_br",
+            "closedPos":[-1.0, 0.538, 0.44866],
+            "openPos":[-1.38094, 0.538, 0.69622],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_br",
+            "closedPos":[-1.0, 0.788, 0.44866],
+            "openPos":[-1.38094, 0.788, 0.69622],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_br",
+            "closedPos":[-1.0, 1.038, 0.44866],
+            "openPos":[-1.38094, 1.038, 0.69622],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_br",
+            "closedPos":[-1.0, 0.288, 0.44866],
+            "openPos":[-1.38094, 0.288, 0.69622],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_br",
+            "closedPos":[-1.0, 0.538, 0.19866],
+            "openPos":[-1.59745, 0.538, 0.57122],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_br",
+            "closedPos":[-1.0, 0.788, 0.19866],
+            "openPos":[-1.59745, 0.788, 0.57122],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_br",
+            "closedPos":[-1.0, 1.038, 0.19866],
+            "openPos":[-1.59745, 1.038, 0.57122],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_br",
+            "closedPos":[-1.0, 0.288, 0.19866],
+            "openPos":[-1.59745, 0.288, 0.57122],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_br",
+            "closedPos":[-1.0, 0.538, -0.05134],
+            "openPos":[-1.81396, 0.538, 0.44622],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_br",
+            "closedPos":[-1.0, 0.788, -0.05134],
+            "openPos":[-1.81396, 0.788, 0.44622],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_br",
+            "closedPos":[-1.0, 1.038, -0.05134],
+            "openPos":[-1.81396, 1.038, 0.44622],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_br",
+            "closedPos":[-1.0, 0.288, -0.05134],
+            "openPos":[-1.81396, 0.288, 0.44622],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_bl",
+            "closedPos":[1.0, 0.538, 0.69866],
+            "openPos":[1.22363, 0.538, 0.8554],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_bl",
+            "closedPos":[1.0, 0.788, 0.69866],
+            "openPos":[1.22363, 0.788, 0.8554],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_bl",
+            "closedPos":[1.0, 1.038, 0.69866],
+            "openPos":[1.22363, 1.038, 0.8554],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_bl",
+            "closedPos":[1.0, 0.288, 0.69866],
+            "openPos":[1.22363, 0.288, 0.8554],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_bl",
+            "closedPos":[1.0, 0.538, 0.44866],
+            "openPos":[1.44014, 0.538, 0.7304],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_bl",
+            "closedPos":[1.0, 0.788, 0.44866],
+            "openPos":[1.44014, 0.788, 0.7304],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_bl",
+            "closedPos":[1.0, 1.038, 0.44866],
+            "openPos":[1.44014, 1.038, 0.7304],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_bl",
+            "closedPos":[1.0, 0.288, 0.44866],
+            "openPos":[1.44014, 0.288, 0.7304],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_bl",
+            "closedPos":[1.0, 0.538, 0.19866],
+            "openPos":[1.65665, 0.538, 0.6054],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_bl",
+            "closedPos":[1.0, 0.788, 0.19866],
+            "openPos":[1.65665, 0.788, 0.6054],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_bl",
+            "closedPos":[1.0, 1.038, 0.19866],
+            "openPos":[1.65665, 1.038, 0.6054],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_bl",
+            "closedPos":[1.0, 0.288, 0.19866],
+            "openPos":[1.65665, 0.288, 0.6054],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_bl",
+            "closedPos":[1.0, 0.538, -0.05134],
+            "openPos":[1.87315, 0.538, 0.4804],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_bl",
+            "closedPos":[1.0, 0.788, -0.05134],
+            "openPos":[1.87315, 0.788, 0.4804],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_bl",
+            "closedPos":[1.0, 1.038, -0.05134],
+            "openPos":[1.87315, 1.038, 0.4804],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        },
+        {
+            "name": "door_bl",
+            "closedPos":[1.0, 0.288, -0.05134],
+            "openPos":[1.87315, 0.288, 0.4804],
+            "width": 0.25, 
+            "height": 0.25,
+            "closeOnMovement": true,
+            "activateOnSeated": true
+        }
     ],
 
 	"rendering": {
