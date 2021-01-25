@@ -1,4 +1,27 @@
 {
+    "definitions": [
+        {
+            "subName": "_orange",
+            "name": "Auto Burger Assembler - Orange",
+            "extraMaterials": ["oredict:dyeOrange:2"]
+        },
+        {
+            "subName": "_blue",
+            "name": "Auto Burger Assembler - Blue",
+            "extraMaterials": ["oredict:dyeBlue:2"]
+        },
+        {
+            "subName": "_purple",
+            "name": "Auto Burger Assembler - Purple",
+            "extraMaterials": ["oredict:dyeOrange:2"]
+        },
+        {
+            "subName": "_white",
+            "name": "Auto Burger Assembler - White",
+            "extraMaterials": ["minecraft:dyeWhite:2"]
+        }
+    ],
+    
     "general": {
         "name": "Auto Burger Assembler",
         "description": "Who wants to work to get a bite?",

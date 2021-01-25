@@ -11,9 +11,9 @@ apply plugin: 'net.minecraftforge.gradle.forge'
 //Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
 
 
-version = "mc-1.12.2"
+version = "2.0.0 (MTS-IV V19+)"
 group = "com.turbodefender.turbosrandomvehicles" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "Turbo's Random Vehicles and Parts Pack"
+archivesBaseName = "Turbo's Random Packs"
 
 sourceCompatibility = targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 compileJava {

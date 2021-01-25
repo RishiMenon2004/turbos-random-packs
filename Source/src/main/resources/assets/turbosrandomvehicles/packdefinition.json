@@ -1,5 +1,6 @@
 {
 	"packID" : "turbosrandomvehicles",
 	"packName" : "Turbo's Random Vehicles Pack",
-	"fileStructure" : 1
+	"fileStructure" : 1,
+	"dependents": ["unuparts"]
 }

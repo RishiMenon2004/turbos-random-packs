@@ -1,5 +1,8 @@
-# Turbo's Random Vehicles Pack for Minecraft Transport Simulator/Immersive Vehicles
+# Turbo's Random Packs for [Minecraft Transport Simulator/Immersive Vehicles](https://www.curseforge.com/minecraft/mc-mods/minecraft-transport-simulator/)
 
-### Welcome to my repository of TRVP for MTS/IV. Right now V1.2.0 has been released. The other "parts pack" has been released [here](https://www.curseforge.com/minecraft/mc-mods/turbos-parts-pack).
+### Welcome to TRPs for [MTS/IV](https://www.curseforge.com/minecraft/mc-mods/minecraft-transport-simulator/). The latest version is `2.0.0`. This pack contains 3 individual packs:
+* #### TRVP - Turbo's Random Vehicles Pack
+* #### TAPP - Turbo's Accessories and Parts Pack
+* #### TFP - Turbo's Foods Pack
 
-### Now compatible with v18.5 of MTS/IV!!
+### Now compatible with v19.13 of [MTS/IV](https://www.curseforge.com/minecraft/mc-mods/minecraft-transport-simulator/)!!
