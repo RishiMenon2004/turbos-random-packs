@@ -17,7 +17,7 @@
         
         "emptyMass": 4000,
         
-        "materials": ["oredict:paneGlassColourless:1", "minecraft:bread:0:2"]
+        "materials": ["oredict:paneGlassColorless:1", "minecraft:bread:0:2"]
         
     },
     

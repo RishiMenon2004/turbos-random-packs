@@ -64,7 +64,7 @@
         
 		"emptyMass": 3541,
         
-		"materials": ["oredict:blockIron:5", "oredict:ingotIron:10", "oredict:paneGlassColourless:4", "minecraft:wool:8:5"]
+		"materials": ["oredict:blockIron:5", "oredict:ingotIron:10", "oredict:paneGlassColorless:4", "minecraft:wool:8:5"]
 	},
 
 	"motorized": {

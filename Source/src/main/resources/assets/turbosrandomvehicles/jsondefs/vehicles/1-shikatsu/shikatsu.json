@@ -40,7 +40,7 @@
         
 		"emptyMass": 950,
         
-		"materials": ["oredict:ingotIron:5", "oredict:paneGlassColourless:6"]
+		"materials": ["oredict:ingotIron:5", "oredict:paneGlassColorless:6"]
 	},
 
 	"motorized": {
