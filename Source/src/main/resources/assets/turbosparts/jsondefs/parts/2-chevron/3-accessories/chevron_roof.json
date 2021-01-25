@@ -2,7 +2,7 @@
     "general": {
         "name": "Chevron Removeable Roof",
         "type": "generic_chevron_roof",
-        "materials": ["oredict:paneGlassColourless:2"],
+        "materials": ["oredict:paneGlassColorless:2"],
         "modelName": "chevron_roof"
     },
 

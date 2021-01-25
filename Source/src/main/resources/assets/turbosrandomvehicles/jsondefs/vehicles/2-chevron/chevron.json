@@ -280,29 +280,25 @@
         {
             "pos": [0.661361, 0.054449, -1.1581],
             "rot": [-24, 0 ,0],
-            "types": ["generic"],
-            "customTypes": ["bumpersticker"]
+            "types": ["generic_bumpersticker"]
         },
         
         {
             "pos": [-0.661361, 0.054449, -1.1581],
             "rot": [-24, 0 ,0],
-            "types": ["generic"],
-            "customTypes": ["bumpersticker"]
+            "types": ["generic_bumpersticker"]
         },
         
         {
             "pos": [0.661361, -0.130097, -1.07593],
             "rot": [-24, 0 ,0],
-            "types": ["generic"],
-            "customTypes": ["bumpersticker"]
+            "types": ["generic_bumpersticker"]
         },
         
         {
             "pos": [-0.661361, -0.130097, -1.07593],
             "rot": [-24, 0 ,0],
-            "types": ["generic"],
-            "customTypes": ["bumpersticker"]
+            "types": ["generic_bumpersticker"]
         },
         
         {
@@ -1357,6 +1353,8 @@
     "doors": [
         {
             "name": "door_fl",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[1.0, 0.59585, 1.87554],
             "openPos":[1.269, 0.59585, 1.80021],
             "width": 0.25, 
@@ -1364,6 +1362,8 @@
         },
         {
             "name": "door_fl",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[1.125, 0.34585, 1.87554],
             "openPos":[1.3315, 0.34585, 1.90846],
             "width": 0.25, 
@@ -1371,6 +1371,8 @@
         },
         {
             "name": "door_fl",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[1.125, 0.09585, 1.87554],
             "openPos":[1.3315, 0.09585, 1.90846],
             "width": 0.25, 
@@ -1378,6 +1380,8 @@
         },
         {
             "name": "door_fl",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[1.125, -0.15415, 1.87554],
             "openPos":[1.3315, -0.15415, 1.90846],
             "width": 0.25, 
@@ -1385,6 +1389,8 @@
         },
         {
             "name": "door_fl",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[1.0, 0.59585, 1.62554],
             "openPos":[1.48551, 0.59585, 1.67521],
             "width": 0.25, 
@@ -1392,6 +1398,8 @@
         },
         {
             "name": "door_fl",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[1.125, 0.34585, 1.62554],
             "openPos":[1.54801, 0.34585, 1.78346],
             "width": 0.25, 
@@ -1399,6 +1407,8 @@
         },
         {
             "name": "door_fl",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[1.125, 0.09585, 1.62554],
             "openPos":[1.54801, 0.09585, 1.78346],
             "width": 0.25, 
@@ -1406,6 +1416,8 @@
         },
         {
             "name": "door_fl",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[1.125, -0.15415, 1.62554],
             "openPos":[1.54801, -0.15415, 1.78346],
             "width": 0.25, 
@@ -1413,6 +1425,8 @@
         },
         {
             "name": "door_fl",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[1.0, 0.59585, 1.37554],
             "openPos":[1.70202, 0.59585, 1.55021],
             "width": 0.25, 
@@ -1420,6 +1434,8 @@
         },
         {
             "name": "door_fl",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[1.125, 0.34585, 1.37554],
             "openPos":[1.76452, 0.34585, 1.65846],
             "width": 0.25, 
@@ -1427,6 +1443,8 @@
         },
         {
             "name": "door_fl",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[1.125, 0.09585, 1.37554],
             "openPos":[1.76452, 0.09585, 1.65846],
             "width": 0.25, 
@@ -1434,6 +1452,8 @@
         },
         {
             "name": "door_fl",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[1.125, -0.15415, 1.37554],
             "openPos":[1.76452, -0.15415, 1.65846],
             "width": 0.25, 
@@ -1441,6 +1461,8 @@
         },
         {
             "name": "door_fl",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[1.0, 0.59585, 1.12554],
             "openPos":[1.91852, 0.59585, 1.42521],
             "width": 0.25, 
@@ -1448,6 +1470,8 @@
         },
         {
             "name": "door_fl",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[1.125, 0.34585, 1.12554],
             "openPos":[1.98102, 0.34585, 1.53346],
             "width": 0.25, 
@@ -1455,6 +1479,8 @@
         },
         {
             "name": "door_fl",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[1.125, 0.09585, 1.12554],
             "openPos":[1.98102, 0.09585, 1.53346],
             "width": 0.25, 
@@ -1462,6 +1488,8 @@
         },
         {
             "name": "door_fl",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[1.125, -0.15415, 1.12554],
             "openPos":[1.98102, -0.15415, 1.53346],
             "width": 0.25, 
@@ -1469,6 +1497,8 @@
         },
         {
             "name": "door_fl",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[1.0, 0.59585, 0.87554],
             "openPos":[2.13503, 0.59585, 1.30021],
             "width": 0.25, 
@@ -1476,6 +1506,8 @@
         },
         {
             "name": "door_fl",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[1.125, 0.34585, 0.87554],
             "openPos":[2.19753, 0.34585, 1.40846],
             "width": 0.25, 
@@ -1483,6 +1515,8 @@
         },
         {
             "name": "door_fl",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[1.125, 0.09585, 0.87554],
             "openPos":[2.19753, 0.09585, 1.40846],
             "width": 0.25, 
@@ -1490,6 +1524,8 @@
         },
         {
             "name": "door_fl",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[1.125, -0.15415, 0.87554],
             "openPos":[2.19753, -0.15415, 1.40846],
             "width": 0.25, 
@@ -1497,6 +1533,8 @@
         },
         {
             "name": "door_fl",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[1.0, 0.59585, 0.62554],
             "openPos":[2.35154, 0.59585, 1.17521],
             "width": 0.25, 
@@ -1504,6 +1542,8 @@
         },
         {
             "name": "door_fl",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[1.125, 0.34585, 0.62554],
             "openPos":[2.41404, 0.34585, 1.28346],
             "width": 0.25, 
@@ -1511,6 +1551,8 @@
         },
         {
             "name": "door_fl",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[1.125, 0.09585, 0.62554],
             "openPos":[2.41404, 0.09585, 1.28346],
             "width": 0.25, 
@@ -1518,6 +1560,8 @@
         },
         {
             "name": "door_fl",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[1.125, -0.15415, 0.62554],
             "openPos":[2.41404, -0.15415, 1.28346],
             "width": 0.25, 
@@ -1525,6 +1569,8 @@
         },
         {
             "name": "door_fr",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[-1.0, 0.59585, 1.87554],
             "openPos":[-1.269, 0.59585, 1.80021],
             "width": 0.25, 
@@ -1532,6 +1578,8 @@
         },
         {
             "name": "door_fr",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[-1.125, 0.34585, 1.87554],
             "openPos":[-1.3315, 0.34585, 1.90846],
             "width": 0.25, 
@@ -1539,6 +1587,8 @@
         },
         {
             "name": "door_fr",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[-1.125, 0.09585, 1.87554],
             "openPos":[-1.3315, 0.09585, 1.90846],
             "width": 0.25, 
@@ -1546,6 +1596,8 @@
         },
         {
             "name": "door_fr",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[-1.125, -0.15415, 1.87554],
             "openPos":[-1.3315, -0.15415, 1.90846],
             "width": 0.25, 
@@ -1553,6 +1605,8 @@
         },
         {
             "name": "door_fr",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[-1.0, 0.59585, 1.62554],
             "openPos":[-1.48551, 0.59585, 1.67521],
             "width": 0.25, 
@@ -1560,6 +1614,8 @@
         },
         {
             "name": "door_fr",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[-1.125, 0.34585, 1.62554],
             "openPos":[-1.54801, 0.34585, 1.78346],
             "width": 0.25, 
@@ -1567,6 +1623,8 @@
         },
         {
             "name": "door_fr",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[-1.125, 0.09585, 1.62554],
             "openPos":[-1.54801, 0.09585, 1.78346],
             "width": 0.25, 
@@ -1574,6 +1632,8 @@
         },
         {
             "name": "door_fr",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[-1.125, -0.15415, 1.62554],
             "openPos":[-1.54801, -0.15415, 1.78346],
             "width": 0.25, 
@@ -1581,6 +1641,8 @@
         },
         {
             "name": "door_fr",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[-1.0, 0.59585, 1.37554],
             "openPos":[-1.70202, 0.59585, 1.55021],
             "width": 0.25, 
@@ -1588,6 +1650,8 @@
         },
         {
             "name": "door_fr",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[-1.125, 0.34585, 1.37554],
             "openPos":[-1.76452, 0.34585, 1.65846],
             "width": 0.25, 
@@ -1595,6 +1659,8 @@
         },
         {
             "name": "door_fr",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[-1.125, 0.09585, 1.37554],
             "openPos":[-1.76452, 0.09585, 1.65846],
             "width": 0.25, 
@@ -1602,6 +1668,8 @@
         },
         {
             "name": "door_fr",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[-1.125, -0.15415, 1.37554],
             "openPos":[-1.76452, -0.15415, 1.65846],
             "width": 0.25, 
@@ -1609,6 +1677,8 @@
         },
         {
             "name": "door_fr",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[-1.0, 0.59585, 1.12554],
             "openPos":[-1.91852, 0.59585, 1.42521],
             "width": 0.25, 
@@ -1616,6 +1686,8 @@
         },
         {
             "name": "door_fr",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[-1.125, 0.34585, 1.12554],
             "openPos":[-1.98102, 0.34585, 1.53346],
             "width": 0.25, 
@@ -1623,6 +1695,8 @@
         },
         {
             "name": "door_fr",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[-1.125, 0.09585, 1.12554],
             "openPos":[-1.98102, 0.09585, 1.53346],
             "width": 0.25, 
@@ -1630,6 +1704,8 @@
         },
         {
             "name": "door_fr",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[-1.125, -0.15415, 1.12554],
             "openPos":[-1.98102, -0.15415, 1.53346],
             "width": 0.25, 
@@ -1637,6 +1713,8 @@
         },
         {
             "name": "door_fr",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[-1.0, 0.59585, 0.87554],
             "openPos":[-2.13503, 0.59585, 1.30021],
             "width": 0.25, 
@@ -1644,6 +1722,8 @@
         },
         {
             "name": "door_fr",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[-1.125, 0.34585, 0.87554],
             "openPos":[-2.19753, 0.34585, 1.40846],
             "width": 0.25, 
@@ -1651,6 +1731,8 @@
         },
         {
             "name": "door_fr",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[-1.125, 0.09585, 0.87554],
             "openPos":[-2.19753, 0.09585, 1.40846],
             "width": 0.25, 
@@ -1658,6 +1740,8 @@
         },
         {
             "name": "door_fr",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[-1.125, -0.15415, 0.87554],
             "openPos":[-2.19753, -0.15415, 1.40846],
             "width": 0.25, 
@@ -1665,6 +1749,8 @@
         },
         {
             "name": "door_fr",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[-1.0, 0.59585, 0.62554],
             "openPos":[-2.35154, 0.59585, 1.17521],
             "width": 0.25, 
@@ -1672,6 +1758,8 @@
         },
         {
             "name": "door_fr",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[-1.125, 0.34585, 0.62554],
             "openPos":[-2.41404, 0.34585, 1.28346],
             "width": 0.25, 
@@ -1679,6 +1767,8 @@
         },
         {
             "name": "door_fr",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[-1.125, 0.09585, 0.62554],
             "openPos":[-2.41404, 0.09585, 1.28346],
             "width": 0.25, 
@@ -1686,6 +1776,8 @@
         },
         {
             "name": "door_fr",
+            "activateOnSeated": true,
+            "closeOnMovement": true,
             "closedPos":[-1.125, -0.15415, 0.62554],
             "openPos":[-2.41404, -0.15415, 1.28346],
             "width": 0.25, 
