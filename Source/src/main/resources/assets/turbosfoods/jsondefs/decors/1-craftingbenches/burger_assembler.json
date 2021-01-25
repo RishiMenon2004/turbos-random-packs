@@ -18,7 +18,7 @@
         {
             "subName": "_white",
             "name": "Auto Burger Assembler - White",
-            "extraMaterials": ["minecraft:dyeWhite:2"]
+            "extraMaterials": ["oredict:dyeWhite:2"]
         }
     ],
     
