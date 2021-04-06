@@ -179,6 +179,13 @@
                     "centerPoint": [-0.20274, 0.0, 0.0],
                     "axis": [0.0, -1, 0.0],
                     "variable": "rudder"
+                },
+                {
+                    "animationType": "translation",
+                    "variable": "turn_indicator",
+                    "axis": [0, -0.000325, 0],
+                    "clampMin": -0.075,
+                    "clampMax": 0.075
                 }
             ]
 		},
@@ -195,6 +202,13 @@
                     "centerPoint": [0.20274, 0.0, 0.0],
                     "axis": [0.0, -1, 0.0],
                     "variable": "rudder"
+                },
+                {
+                    "animationType": "translation",
+                    "variable": "turn_indicator",
+                    "axis": [0, 0.000325, 0],
+                    "clampMin": -0.075,
+                    "clampMax": 0.075
                 }
             ]
 		},
@@ -203,14 +217,32 @@
 			"pos": [1.16, 0.0, 0],
 			"types": ["ground_wheel"],
 			"minValue": 0.7,
-			"maxValue": 0.9
+            "maxValue": 0.9,
+            "animations": [
+                {
+                    "animationType": "translation",
+                    "variable": "turn_indicator",
+                    "axis": [0, -0.000325, 0],
+                    "clampMin": -0.075,
+                    "clampMax": 0.075
+                }
+            ]
 		},
         
 		{
 			"pos": [-1.16, 0.0, 0],
 			"types": ["ground_wheel"],
 			"minValue": 0.7,
-			"maxValue": 0.9
+            "maxValue": 0.9,
+            "animations": [
+                {
+                    "animationType": "translation",
+                    "variable": "turn_indicator",
+                    "axis": [0, 0.000325, 0],
+                    "clampMin": -0.075,
+                    "clampMax": 0.075
+                }
+            ]
 		},
         
 		{
