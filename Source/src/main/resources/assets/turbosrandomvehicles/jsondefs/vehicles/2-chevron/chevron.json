@@ -52,6 +52,12 @@
             "name": "Chevron - §6Random's §rRacing §cWrap",
             "subName": "_trvp_racing",
             "extraMaterials": ["turbosparts:wrap_trvp_racing:-1:1"]
+        },
+
+        {
+            "name": "Chevron - §3§lMAI §r§fRacing §3Wrap",
+            "subName": "_mai_racing",
+            "extraMaterials": ["turbosparts:wrap_mai:-1:1"]
         }
     ],
 

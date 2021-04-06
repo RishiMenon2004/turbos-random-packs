@@ -1,0 +1,25 @@
+{
+    "definitions": [
+        {
+            "name": "Chevron Wrap - §6G§ful§6f",
+            "subName": "_gulf",
+            "extraMaterials": []
+        },
+        {
+            "name": "Chevron Wrap - §6G§ful§6f",
+            "subName": "_trvp_racing",
+            "extraMaterials": []
+        },
+        {
+            "name": "Chevron Wrap - §6G§ful§6f",
+            "subName": "_mai",
+            "extraMaterials": []
+        }
+    ],
+
+    "general": {
+        "name": "Chevron Wrap",
+        "description": "Wraps are used to craft a specific variant of a vehicle.",
+        "materials": ["minecraft:dirt:0:1"]
+    }
+}
