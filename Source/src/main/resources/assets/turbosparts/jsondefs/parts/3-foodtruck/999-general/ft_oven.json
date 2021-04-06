@@ -2,10 +2,14 @@
     "general": {
         "name": "Multi-Utility Oven",
         "description": "A stove on top, and an oven on the bottom, perfect for any small kitchen, even a foodtruck. To be used as a furnace.",
-        "type": "furnace",
+        "type": "interactable_furnace",
         "customType": "ft_oven",
         "materials": ["oredict:ingotIron:4", "oredict:dustRedstone:5"],
         "disableMirroring": true
+    },
+
+    "interactable": {
+        "interactableType": "furnace"
     },
 
     "generic": {
